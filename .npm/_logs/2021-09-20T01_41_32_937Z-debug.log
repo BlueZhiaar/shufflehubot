@@ -1,0 +1,1396 @@
+0 info it worked if it ends with ok
+1 verbose cli [
+1 verbose cli   '/usr/local/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   'hubot',
+1 verbose cli   'hubot-scripts',
+1 verbose cli   'hubot-diagnostics',
+1 verbose cli   'hubot-help',
+1 verbose cli   'hubot-heroku-keepalive',
+1 verbose cli   'hubot-google-images',
+1 verbose cli   'hubot-google-translate',
+1 verbose cli   'hubot-pugme',
+1 verbose cli   'hubot-maps',
+1 verbose cli   'hubot-redis-brain',
+1 verbose cli   'hubot-rules',
+1 verbose cli   'hubot-shipit',
+1 verbose cli   'hubot-slack',
+1 verbose cli   '--save'
+1 verbose cli ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose config Skipping project config: /home/shufflehubot/.npmrc. (matches userconfig)
+5 verbose npm-session 9cac14d7bb17a10d
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 http fetch GET 200 https://registry.npmjs.org/hubot-diagnostics 49ms (from cache)
+9 http fetch GET 200 https://registry.npmjs.org/hubot 53ms (from cache)
+10 http fetch GET 200 https://registry.npmjs.org/hubot-help 51ms (from cache)
+11 http fetch GET 200 https://registry.npmjs.org/hubot-scripts 53ms (from cache)
+12 http fetch GET 200 https://registry.npmjs.org/hubot-heroku-keepalive 52ms (from cache)
+13 http fetch GET 200 https://registry.npmjs.org/hubot-google-images 51ms (from cache)
+14 http fetch GET 200 https://registry.npmjs.org/hubot-pugme 49ms (from cache)
+15 http fetch GET 200 https://registry.npmjs.org/hubot-google-translate 50ms (from cache)
+16 http fetch GET 200 https://registry.npmjs.org/hubot-maps 55ms (from cache)
+17 silly pacote tag manifest for hubot-diagnostics@latest fetched in 61ms
+18 silly pacote tag manifest for hubot-help@latest fetched in 63ms
+19 silly pacote tag manifest for hubot@latest fetched in 69ms
+20 silly pacote tag manifest for hubot-scripts@latest fetched in 65ms
+21 silly pacote tag manifest for hubot-heroku-keepalive@latest fetched in 63ms
+22 silly pacote tag manifest for hubot-google-images@latest fetched in 62ms
+23 silly pacote tag manifest for hubot-pugme@latest fetched in 60ms
+24 silly pacote tag manifest for hubot-google-translate@latest fetched in 63ms
+25 silly pacote tag manifest for hubot-maps@latest fetched in 63ms
+26 http fetch GET 200 https://registry.npmjs.org/hubot-rules 12ms (from cache)
+27 http fetch GET 200 https://registry.npmjs.org/hubot-shipit 11ms (from cache)
+28 http fetch GET 200 https://registry.npmjs.org/hubot-slack 11ms (from cache)
+29 silly pacote tag manifest for hubot-rules@latest fetched in 18ms
+30 silly pacote tag manifest for hubot-shipit@latest fetched in 15ms
+31 silly pacote tag manifest for hubot-slack@latest fetched in 16ms
+32 http fetch GET 304 https://registry.npmjs.org/hubot-redis-brain 184ms (from cache)
+33 silly pacote tag manifest for hubot-redis-brain@latest fetched in 189ms
+34 timing stage:loadCurrentTree Completed in 766ms
+35 silly install loadIdealTree
+36 silly install cloneCurrentTreeToIdealTree
+37 timing stage:loadIdealTree:cloneCurrentTree Completed in 2ms
+38 silly install loadShrinkwrap
+39 timing stage:loadIdealTree:loadShrinkwrap Completed in 37ms
+40 silly install loadAllDepsIntoIdealTree
+41 silly resolveWithNewModule hubot-diagnostics@1.0.0 checking installable status
+42 silly removeObsoleteDep removing hubot-diagnostics@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+43 silly resolveWithNewModule hubot-help@1.0.1 checking installable status
+44 silly removeObsoleteDep removing hubot-help@1.0.1 from the tree as its been replaced by a newer version or is no longer required
+45 silly resolveWithNewModule hubot@3.3.2 checking installable status
+46 silly resolveWithNewModule hubot-scripts@2.17.2 checking installable status
+47 silly removeObsoleteDep removing hubot-scripts@2.17.2 from the tree as its been replaced by a newer version or is no longer required
+48 silly removeObsoleteDep removing redis@0.8.4 from the tree as its been replaced by a newer version or is no longer required
+49 silly resolveWithNewModule hubot-heroku-keepalive@1.0.3 checking installable status
+50 silly removeObsoleteDep removing hubot-heroku-keepalive@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+51 silly resolveWithNewModule hubot-google-images@0.2.7 checking installable status
+52 silly removeObsoleteDep removing hubot-google-images@0.2.7 from the tree as its been replaced by a newer version or is no longer required
+53 silly resolveWithNewModule hubot-pugme@0.1.1 checking installable status
+54 silly removeObsoleteDep removing hubot-pugme@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+55 silly resolveWithNewModule hubot-google-translate@0.2.1 checking installable status
+56 silly removeObsoleteDep removing hubot-google-translate@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+57 silly resolveWithNewModule hubot-maps@0.0.3 checking installable status
+58 silly removeObsoleteDep removing hubot-maps@0.0.3 from the tree as its been replaced by a newer version or is no longer required
+59 silly resolveWithNewModule hubot-rules@1.0.0 checking installable status
+60 silly removeObsoleteDep removing hubot-rules@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+61 silly resolveWithNewModule hubot-shipit@0.2.1 checking installable status
+62 silly removeObsoleteDep removing hubot-shipit@0.2.1 from the tree as its been replaced by a newer version or is no longer required
+63 silly resolveWithNewModule hubot-slack@4.9.0 checking installable status
+64 silly removeObsoleteDep removing hubot-slack@4.9.0 from the tree as its been replaced by a newer version or is no longer required
+65 silly removeObsoleteDep removing @slack/client@3.16.1-sec.2 from the tree as its been replaced by a newer version or is no longer required
+66 silly removeObsoleteDep removing async@1.5.2 from the tree as its been replaced by a newer version or is no longer required
+67 silly removeObsoleteDep removing bluebird@3.7.2 from the tree as its been replaced by a newer version or is no longer required
+68 silly removeObsoleteDep removing eventemitter3@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+69 silly removeObsoleteDep removing https-proxy-agent@2.2.4 from the tree as its been replaced by a newer version or is no longer required
+70 silly removeObsoleteDep removing agent-base@4.3.0 from the tree as its been replaced by a newer version or is no longer required
+71 silly removeObsoleteDep removing es6-promisify@5.0.0 from the tree as its been replaced by a newer version or is no longer required
+72 silly removeObsoleteDep removing es6-promise@4.2.8 from the tree as its been replaced by a newer version or is no longer required
+73 silly removeObsoleteDep removing debug@3.2.7 from the tree as its been replaced by a newer version or is no longer required
+74 silly removeObsoleteDep removing ms@2.1.3 from the tree as its been replaced by a newer version or is no longer required
+75 silly removeObsoleteDep removing inherits@2.0.4 from the tree as its been replaced by a newer version or is no longer required
+76 silly removeObsoleteDep removing lodash@4.17.21 from the tree as its been replaced by a newer version or is no longer required
+77 silly removeObsoleteDep removing pkginfo@0.4.1 from the tree as its been replaced by a newer version or is no longer required
+78 silly removeObsoleteDep removing request@2.88.2 from the tree as its been replaced by a newer version or is no longer required
+79 silly removeObsoleteDep removing aws-sign2@0.7.0 from the tree as its been replaced by a newer version or is no longer required
+80 silly removeObsoleteDep removing aws4@1.11.0 from the tree as its been replaced by a newer version or is no longer required
+81 silly removeObsoleteDep removing caseless@0.12.0 from the tree as its been replaced by a newer version or is no longer required
+82 silly removeObsoleteDep removing combined-stream@1.0.8 from the tree as its been replaced by a newer version or is no longer required
+83 silly removeObsoleteDep removing delayed-stream@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+84 silly removeObsoleteDep removing extend@3.0.2 from the tree as its been replaced by a newer version or is no longer required
+85 silly removeObsoleteDep removing forever-agent@0.6.1 from the tree as its been replaced by a newer version or is no longer required
+86 silly removeObsoleteDep removing form-data@2.3.3 from the tree as its been replaced by a newer version or is no longer required
+87 silly removeObsoleteDep removing asynckit@0.4.0 from the tree as its been replaced by a newer version or is no longer required
+88 silly removeObsoleteDep removing mime-types@2.1.32 from the tree as its been replaced by a newer version or is no longer required
+89 silly removeObsoleteDep removing mime-db@1.49.0 from the tree as its been replaced by a newer version or is no longer required
+90 silly removeObsoleteDep removing har-validator@5.1.5 from the tree as its been replaced by a newer version or is no longer required
+91 silly removeObsoleteDep removing ajv@6.12.6 from the tree as its been replaced by a newer version or is no longer required
+92 silly removeObsoleteDep removing fast-deep-equal@3.1.3 from the tree as its been replaced by a newer version or is no longer required
+93 silly removeObsoleteDep removing fast-json-stable-stringify@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+94 silly removeObsoleteDep removing json-schema-traverse@0.4.1 from the tree as its been replaced by a newer version or is no longer required
+95 silly removeObsoleteDep removing uri-js@4.4.1 from the tree as its been replaced by a newer version or is no longer required
+96 silly removeObsoleteDep removing punycode@2.1.1 from the tree as its been replaced by a newer version or is no longer required
+97 silly removeObsoleteDep removing har-schema@2.0.0 from the tree as its been replaced by a newer version or is no longer required
+98 silly removeObsoleteDep removing http-signature@1.2.0 from the tree as its been replaced by a newer version or is no longer required
+99 silly removeObsoleteDep removing assert-plus@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+100 silly removeObsoleteDep removing jsprim@1.4.1 from the tree as its been replaced by a newer version or is no longer required
+101 silly removeObsoleteDep removing extsprintf@1.3.0 from the tree as its been replaced by a newer version or is no longer required
+102 silly removeObsoleteDep removing json-schema@0.2.3 from the tree as its been replaced by a newer version or is no longer required
+103 silly removeObsoleteDep removing verror@1.10.0 from the tree as its been replaced by a newer version or is no longer required
+104 silly removeObsoleteDep removing core-util-is@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+105 silly removeObsoleteDep removing sshpk@1.16.1 from the tree as its been replaced by a newer version or is no longer required
+106 silly removeObsoleteDep removing asn1@0.2.4 from the tree as its been replaced by a newer version or is no longer required
+107 silly removeObsoleteDep removing safer-buffer@2.1.2 from the tree as its been replaced by a newer version or is no longer required
+108 silly removeObsoleteDep removing dashdash@1.14.1 from the tree as its been replaced by a newer version or is no longer required
+109 silly removeObsoleteDep removing getpass@0.1.7 from the tree as its been replaced by a newer version or is no longer required
+110 silly removeObsoleteDep removing jsbn@0.1.1 from the tree as its been replaced by a newer version or is no longer required
+111 silly removeObsoleteDep removing tweetnacl@0.14.5 from the tree as its been replaced by a newer version or is no longer required
+112 silly removeObsoleteDep removing ecc-jsbn@0.1.2 from the tree as its been replaced by a newer version or is no longer required
+113 silly removeObsoleteDep removing bcrypt-pbkdf@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+114 silly removeObsoleteDep removing is-typedarray@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+115 silly removeObsoleteDep removing isstream@0.1.2 from the tree as its been replaced by a newer version or is no longer required
+116 silly removeObsoleteDep removing json-stringify-safe@5.0.1 from the tree as its been replaced by a newer version or is no longer required
+117 silly removeObsoleteDep removing oauth-sign@0.9.0 from the tree as its been replaced by a newer version or is no longer required
+118 silly removeObsoleteDep removing performance-now@2.1.0 from the tree as its been replaced by a newer version or is no longer required
+119 silly removeObsoleteDep removing qs@6.5.2 from the tree as its been replaced by a newer version or is no longer required
+120 silly removeObsoleteDep removing safe-buffer@5.2.1 from the tree as its been replaced by a newer version or is no longer required
+121 silly removeObsoleteDep removing tough-cookie@2.5.0 from the tree as its been replaced by a newer version or is no longer required
+122 silly removeObsoleteDep removing psl@1.8.0 from the tree as its been replaced by a newer version or is no longer required
+123 silly removeObsoleteDep removing tunnel-agent@0.6.0 from the tree as its been replaced by a newer version or is no longer required
+124 silly removeObsoleteDep removing uuid@3.4.0 from the tree as its been replaced by a newer version or is no longer required
+125 silly removeObsoleteDep removing retry@0.9.0 from the tree as its been replaced by a newer version or is no longer required
+126 silly removeObsoleteDep removing url-join@0.0.1 from the tree as its been replaced by a newer version or is no longer required
+127 silly removeObsoleteDep removing winston@2.4.5 from the tree as its been replaced by a newer version or is no longer required
+128 silly removeObsoleteDep removing async@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+129 silly removeObsoleteDep removing colors@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+130 silly removeObsoleteDep removing cycle@1.0.3 from the tree as its been replaced by a newer version or is no longer required
+131 silly removeObsoleteDep removing eyes@0.1.8 from the tree as its been replaced by a newer version or is no longer required
+132 silly removeObsoleteDep removing stack-trace@0.0.10 from the tree as its been replaced by a newer version or is no longer required
+133 silly removeObsoleteDep removing ws@1.1.5 from the tree as its been replaced by a newer version or is no longer required
+134 silly removeObsoleteDep removing options@0.0.6 from the tree as its been replaced by a newer version or is no longer required
+135 silly removeObsoleteDep removing ultron@1.0.2 from the tree as its been replaced by a newer version or is no longer required
+136 silly resolveWithNewModule hubot-redis-brain@1.0.0 checking installable status
+137 silly removeObsoleteDep removing hubot-redis-brain@1.0.0 from the tree as its been replaced by a newer version or is no longer required
+138 silly removeObsoleteDep removing redis@2.8.0 from the tree as its been replaced by a newer version or is no longer required
+139 silly removeObsoleteDep removing double-ended-queue@2.1.0-0 from the tree as its been replaced by a newer version or is no longer required
+140 silly removeObsoleteDep removing redis-commands@1.7.0 from the tree as its been replaced by a newer version or is no longer required
+141 silly removeObsoleteDep removing redis-parser@2.6.0 from the tree as its been replaced by a newer version or is no longer required
+142 http fetch GET 200 https://registry.npmjs.org/coffeescript 21ms (from cache)
+143 http fetch GET 200 https://registry.npmjs.org/async 23ms (from cache)
+144 http fetch GET 200 https://registry.npmjs.org/cline 24ms (from cache)
+145 http fetch GET 200 https://registry.npmjs.org/chalk 24ms (from cache)
+146 http fetch GET 200 https://registry.npmjs.org/express 26ms (from cache)
+147 http fetch GET 200 https://registry.npmjs.org/connect-multiparty 30ms (from cache)
+148 http fetch GET 200 https://registry.npmjs.org/optparse 31ms (from cache)
+149 http fetch GET 200 https://registry.npmjs.org/scoped-http-client 32ms (from cache)
+150 silly pacote version manifest for coffeescript@1.6.3 fetched in 35ms
+151 silly resolveWithNewModule coffeescript@1.6.3 checking installable status
+152 silly pacote range manifest for async@>=0.1.0 <1.0.0 fetched in 37ms
+153 silly resolveWithNewModule async@0.9.2 checking installable status
+154 silly pacote range manifest for cline@^0.8.2 fetched in 37ms
+155 silly resolveWithNewModule cline@0.8.2 checking installable status
+156 silly pacote range manifest for chalk@^1.0.0 fetched in 37ms
+157 silly resolveWithNewModule chalk@1.1.3 checking installable status
+158 silly pacote range manifest for express@^4.16.3 fetched in 37ms
+159 silly resolveWithNewModule express@4.17.1 checking installable status
+160 silly pacote range manifest for connect-multiparty@^2.1.1 fetched in 38ms
+161 silly resolveWithNewModule connect-multiparty@2.2.0 checking installable status
+162 silly pacote version manifest for optparse@1.0.4 fetched in 39ms
+163 silly resolveWithNewModule optparse@1.0.4 checking installable status
+164 silly pacote version manifest for scoped-http-client@0.11.0 fetched in 39ms
+165 silly resolveWithNewModule scoped-http-client@0.11.0 checking installable status
+166 http fetch GET 304 https://registry.npmjs.org/log 652ms (from cache)
+167 silly pacote version manifest for log@1.4.0 fetched in 656ms
+168 silly resolveWithNewModule log@1.4.0 checking installable status
+169 http fetch GET 200 https://registry.npmjs.org/qs 13ms (from cache)
+170 silly pacote range manifest for qs@~6.5.2 fetched in 18ms
+171 silly resolveWithNewModule qs@6.5.2 checking installable status
+172 http fetch GET 304 https://registry.npmjs.org/inherits 79ms (from cache)
+173 silly pacote version manifest for inherits@2.0.4 fetched in 83ms
+174 silly resolveWithNewModule inherits@2.0.4 checking installable status
+175 http fetch GET 200 https://registry.npmjs.org/safe-buffer 12ms (from cache)
+176 silly pacote version manifest for safe-buffer@5.2.1 fetched in 15ms
+177 silly resolveWithNewModule safe-buffer@5.2.1 checking installable status
+178 http fetch GET 304 https://registry.npmjs.org/mime-types 78ms (from cache)
+179 silly pacote range manifest for mime-types@~2.1.24 fetched in 82ms
+180 silly resolveWithNewModule mime-types@2.1.32 checking installable status
+181 http fetch GET 200 https://registry.npmjs.org/mime-db 12ms (from cache)
+182 silly pacote version manifest for mime-db@1.49.0 fetched in 16ms
+183 silly resolveWithNewModule mime-db@1.49.0 checking installable status
+184 silly pacote version manifest for qs@6.7.0 fetched in 6ms
+185 silly resolveWithNewModule qs@6.7.0 checking installable status
+186 silly pacote version manifest for safe-buffer@5.1.2 fetched in 7ms
+187 silly resolveWithNewModule safe-buffer@5.1.2 checking installable status
+188 http fetch GET 200 https://registry.npmjs.org/utils-merge 15ms (from cache)
+189 silly pacote version manifest for utils-merge@1.0.1 fetched in 19ms
+190 silly resolveWithNewModule utils-merge@1.0.1 checking installable status
+191 http fetch GET 304 https://registry.npmjs.org/vary 90ms (from cache)
+192 silly pacote range manifest for vary@~1.1.2 fetched in 94ms
+193 silly resolveWithNewModule vary@1.1.2 checking installable status
+194 http fetch GET 304 https://registry.npmjs.org/safer-buffer 99ms (from cache)
+195 silly pacote range manifest for safer-buffer@>= 2.1.2 < 3 fetched in 103ms
+196 silly resolveWithNewModule safer-buffer@2.1.2 checking installable status
+197 http fetch GET 200 https://registry.npmjs.org/redis 11ms (from cache)
+198 silly pacote range manifest for redis@^2.7.1 fetched in 17ms
+199 silly resolveWithNewModule redis@2.8.0 checking installable status
+200 http fetch GET 200 https://registry.npmjs.org/redis-commands 14ms (from cache)
+201 http fetch GET 200 https://registry.npmjs.org/double-ended-queue 14ms (from cache)
+202 silly pacote range manifest for redis-commands@^1.2.0 fetched in 18ms
+203 silly resolveWithNewModule redis-commands@1.7.0 checking installable status
+204 silly pacote range manifest for double-ended-queue@^2.1.0-0 fetched in 18ms
+205 silly resolveWithNewModule double-ended-queue@2.1.0-0 checking installable status
+206 http fetch GET 304 https://registry.npmjs.org/redis-parser 79ms (from cache)
+207 silly pacote range manifest for redis-parser@^2.6.0 fetched in 83ms
+208 silly resolveWithNewModule redis-parser@2.6.0 checking installable status
+209 silly pacote version manifest for redis@0.8.4 fetched in 4ms
+210 silly resolveWithNewModule redis@0.8.4 checking installable status
+211 http fetch GET 200 https://registry.npmjs.org/lodash 13ms (from cache)
+212 http fetch GET 200 https://registry.npmjs.org/@slack%2fclient 14ms (from cache)
+213 silly pacote range manifest for lodash@^4.17.10 fetched in 17ms
+214 silly resolveWithNewModule lodash@4.17.21 checking installable status
+215 silly pacote version manifest for @slack/client@3.16.1-sec.2 fetched in 18ms
+216 silly resolveWithNewModule @slack/client@3.16.1-sec.2 checking installable status
+217 http fetch GET 304 https://registry.npmjs.org/bluebird 81ms (from cache)
+218 silly pacote range manifest for bluebird@^3.5.1 fetched in 87ms
+219 silly resolveWithNewModule bluebird@3.7.2 checking installable status
+220 silly pacote range manifest for async@^1.5.0 fetched in 19ms
+221 silly resolveWithNewModule async@1.5.2 checking installable status
+222 http fetch GET 200 https://registry.npmjs.org/eventemitter3 21ms (from cache)
+223 http fetch GET 200 https://registry.npmjs.org/https-proxy-agent 21ms (from cache)
+224 http fetch GET 200 https://registry.npmjs.org/pkginfo 21ms (from cache)
+225 http fetch GET 200 https://registry.npmjs.org/winston 21ms (from cache)
+226 http fetch GET 200 https://registry.npmjs.org/request 22ms (from cache)
+227 http fetch GET 200 https://registry.npmjs.org/url-join 24ms (from cache)
+228 silly pacote range manifest for eventemitter3@^1.1.1 fetched in 29ms
+229 silly resolveWithNewModule eventemitter3@1.2.0 checking installable status
+230 silly pacote range manifest for https-proxy-agent@^2.2.0 fetched in 28ms
+231 silly resolveWithNewModule https-proxy-agent@2.2.4 checking installable status
+232 silly pacote range manifest for pkginfo@^0.4.0 fetched in 31ms
+233 silly resolveWithNewModule pkginfo@0.4.1 checking installable status
+234 silly pacote range manifest for winston@^2.1.1 fetched in 30ms
+235 silly resolveWithNewModule winston@2.4.5 checking installable status
+236 silly pacote range manifest for request@^2.85.0 fetched in 32ms
+237 warn deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+238 silly resolveWithNewModule request@2.88.2 checking installable status
+239 silly pacote version manifest for url-join@0.0.1 fetched in 33ms
+240 silly resolveWithNewModule url-join@0.0.1 checking installable status
+241 http fetch GET 304 https://registry.npmjs.org/retry 94ms (from cache)
+242 silly pacote range manifest for retry@^0.9.0 fetched in 98ms
+243 silly resolveWithNewModule retry@0.9.0 checking installable status
+244 http fetch GET 304 https://registry.npmjs.org/ws 148ms (from cache)
+245 silly pacote range manifest for ws@^1.0.1 fetched in 154ms
+246 silly resolveWithNewModule ws@1.1.5 checking installable status
+247 http fetch GET 304 https://registry.npmjs.org/agent-base 70ms (from cache)
+248 http fetch GET 304 https://registry.npmjs.org/debug 70ms (from cache)
+249 silly pacote range manifest for agent-base@^4.3.0 fetched in 74ms
+250 silly resolveWithNewModule agent-base@4.3.0 checking installable status
+251 silly pacote range manifest for debug@^3.1.0 fetched in 74ms
+252 silly resolveWithNewModule debug@3.2.7 checking installable status
+253 http fetch GET 200 https://registry.npmjs.org/es6-promisify 12ms (from cache)
+254 silly pacote range manifest for es6-promisify@^5.0.0 fetched in 17ms
+255 silly resolveWithNewModule es6-promisify@5.0.0 checking installable status
+256 http fetch GET 304 https://registry.npmjs.org/es6-promise 72ms (from cache)
+257 silly pacote range manifest for es6-promise@^4.0.3 fetched in 76ms
+258 silly resolveWithNewModule es6-promise@4.2.8 checking installable status
+259 http fetch GET 200 https://registry.npmjs.org/ms 12ms (from cache)
+260 silly pacote range manifest for ms@^2.1.1 fetched in 16ms
+261 silly resolveWithNewModule ms@2.1.3 checking installable status
+262 http fetch GET 200 https://registry.npmjs.org/http-signature 28ms (from cache)
+263 silly pacote range manifest for http-signature@~1.2.0 fetched in 33ms
+264 silly resolveWithNewModule http-signature@1.2.0 checking installable status
+265 http fetch GET 304 https://registry.npmjs.org/aws-sign2 84ms (from cache)
+266 http fetch GET 304 https://registry.npmjs.org/aws4 85ms (from cache)
+267 silly pacote range manifest for aws4@^1.8.0 fetched in 89ms
+268 silly resolveWithNewModule aws4@1.11.0 checking installable status
+269 silly pacote range manifest for aws-sign2@~0.7.0 fetched in 91ms
+270 silly resolveWithNewModule aws-sign2@0.7.0 checking installable status
+271 http fetch GET 200 https://registry.npmjs.org/json-stringify-safe 13ms (from cache)
+272 silly pacote range manifest for json-stringify-safe@~5.0.1 fetched in 19ms
+273 silly resolveWithNewModule json-stringify-safe@5.0.1 checking installable status
+274 http fetch GET 304 https://registry.npmjs.org/forever-agent 165ms (from cache)
+275 http fetch GET 304 https://registry.npmjs.org/caseless 166ms (from cache)
+276 http fetch GET 304 https://registry.npmjs.org/har-validator 167ms (from cache)
+277 http fetch GET 304 https://registry.npmjs.org/form-data 169ms (from cache)
+278 http fetch GET 304 https://registry.npmjs.org/is-typedarray 172ms (from cache)
+279 http fetch GET 304 https://registry.npmjs.org/combined-stream 173ms (from cache)
+280 silly pacote range manifest for forever-agent@~0.6.1 fetched in 173ms
+281 silly resolveWithNewModule forever-agent@0.6.1 checking installable status
+282 silly pacote range manifest for caseless@~0.12.0 fetched in 175ms
+283 silly resolveWithNewModule caseless@0.12.0 checking installable status
+284 http fetch GET 304 https://registry.npmjs.org/extend 176ms (from cache)
+285 silly pacote range manifest for har-validator@~5.1.3 fetched in 177ms
+286 warn deprecated har-validator@5.1.5: this library is no longer supported
+287 silly resolveWithNewModule har-validator@5.1.5 checking installable status
+288 silly pacote range manifest for form-data@~2.3.2 fetched in 180ms
+289 silly resolveWithNewModule form-data@2.3.3 checking installable status
+290 silly pacote range manifest for is-typedarray@~1.0.0 fetched in 181ms
+291 silly resolveWithNewModule is-typedarray@1.0.0 checking installable status
+292 silly pacote range manifest for combined-stream@~1.0.6 fetched in 183ms
+293 silly resolveWithNewModule combined-stream@1.0.8 checking installable status
+294 silly pacote range manifest for extend@~3.0.2 fetched in 184ms
+295 silly resolveWithNewModule extend@3.0.2 checking installable status
+296 http fetch GET 200 https://registry.npmjs.org/tough-cookie 18ms (from cache)
+297 http fetch GET 200 https://registry.npmjs.org/uuid 16ms (from cache)
+298 http fetch GET 304 https://registry.npmjs.org/oauth-sign 106ms (from cache)
+299 http fetch GET 304 https://registry.npmjs.org/isstream 163ms (from cache)
+300 silly pacote range manifest for tough-cookie@~2.5.0 fetched in 24ms
+301 silly resolveWithNewModule tough-cookie@2.5.0 checking installable status
+302 silly pacote range manifest for uuid@^3.3.2 fetched in 21ms
+303 warn deprecated uuid@3.4.0: Please upgrade  to version 7 or higher.  Older versions may use Math.random() in certain circumstances, which is known to be problematic.  See https://v8.dev/blog/math-random for details.
+304 silly resolveWithNewModule uuid@3.4.0 checking installable status
+305 silly pacote range manifest for oauth-sign@~0.9.0 fetched in 111ms
+306 silly resolveWithNewModule oauth-sign@0.9.0 checking installable status
+307 silly pacote range manifest for isstream@~0.1.2 fetched in 168ms
+308 silly resolveWithNewModule isstream@0.1.2 checking installable status
+309 http fetch GET 304 https://registry.npmjs.org/performance-now 95ms (from cache)
+310 silly pacote range manifest for performance-now@^2.1.0 fetched in 99ms
+311 silly resolveWithNewModule performance-now@2.1.0 checking installable status
+312 http fetch GET 304 https://registry.npmjs.org/tunnel-agent 82ms (from cache)
+313 silly pacote range manifest for tunnel-agent@^0.6.0 fetched in 86ms
+314 silly resolveWithNewModule tunnel-agent@0.6.0 checking installable status
+315 http fetch GET 200 https://registry.npmjs.org/delayed-stream 11ms (from cache)
+316 silly pacote range manifest for delayed-stream@~1.0.0 fetched in 15ms
+317 silly resolveWithNewModule delayed-stream@1.0.0 checking installable status
+318 http fetch GET 304 https://registry.npmjs.org/asynckit 76ms (from cache)
+319 silly pacote range manifest for asynckit@^0.4.0 fetched in 80ms
+320 silly resolveWithNewModule asynckit@0.4.0 checking installable status
+321 http fetch GET 200 https://registry.npmjs.org/har-schema 11ms (from cache)
+322 http fetch GET 200 https://registry.npmjs.org/ajv 13ms (from cache)
+323 silly pacote range manifest for har-schema@^2.0.0 fetched in 19ms
+324 silly resolveWithNewModule har-schema@2.0.0 checking installable status
+325 silly pacote range manifest for ajv@^6.12.3 fetched in 21ms
+326 silly resolveWithNewModule ajv@6.12.6 checking installable status
+327 http fetch GET 200 https://registry.npmjs.org/fast-json-stable-stringify 15ms (from cache)
+328 http fetch GET 200 https://registry.npmjs.org/json-schema-traverse 14ms (from cache)
+329 silly pacote range manifest for fast-json-stable-stringify@^2.0.0 fetched in 19ms
+330 silly resolveWithNewModule fast-json-stable-stringify@2.1.0 checking installable status
+331 silly pacote range manifest for json-schema-traverse@^0.4.1 fetched in 19ms
+332 silly resolveWithNewModule json-schema-traverse@0.4.1 checking installable status
+333 http fetch GET 304 https://registry.npmjs.org/uri-js 77ms (from cache)
+334 silly pacote range manifest for uri-js@^4.2.2 fetched in 81ms
+335 silly resolveWithNewModule uri-js@4.4.1 checking installable status
+336 http fetch GET 304 https://registry.npmjs.org/fast-deep-equal 649ms (from cache)
+337 silly pacote range manifest for fast-deep-equal@^3.1.1 fetched in 653ms
+338 silly resolveWithNewModule fast-deep-equal@3.1.3 checking installable status
+339 http fetch GET 304 https://registry.npmjs.org/punycode 99ms (from cache)
+340 silly pacote range manifest for punycode@^2.1.0 fetched in 104ms
+341 silly resolveWithNewModule punycode@2.1.1 checking installable status
+342 http fetch GET 304 https://registry.npmjs.org/jsprim 75ms (from cache)
+343 http fetch GET 304 https://registry.npmjs.org/assert-plus 76ms (from cache)
+344 silly pacote range manifest for jsprim@^1.2.2 fetched in 78ms
+345 silly resolveWithNewModule jsprim@1.4.1 checking installable status
+346 silly pacote range manifest for assert-plus@^1.0.0 fetched in 80ms
+347 silly resolveWithNewModule assert-plus@1.0.0 checking installable status
+348 http fetch GET 304 https://registry.npmjs.org/sshpk 85ms (from cache)
+349 silly pacote range manifest for sshpk@^1.7.0 fetched in 89ms
+350 silly resolveWithNewModule sshpk@1.16.1 checking installable status
+351 http fetch GET 200 https://registry.npmjs.org/verror 15ms (from cache)
+352 http fetch GET 200 https://registry.npmjs.org/extsprintf 15ms (from cache)
+353 http fetch GET 200 https://registry.npmjs.org/json-schema 15ms (from cache)
+354 silly pacote version manifest for extsprintf@1.3.0 fetched in 19ms
+355 silly resolveWithNewModule extsprintf@1.3.0 checking installable status
+356 silly pacote version manifest for json-schema@0.2.3 fetched in 19ms
+357 silly resolveWithNewModule json-schema@0.2.3 checking installable status
+358 silly pacote version manifest for verror@1.10.0 fetched in 20ms
+359 silly resolveWithNewModule verror@1.10.0 checking installable status
+360 http fetch GET 200 https://registry.npmjs.org/core-util-is 11ms (from cache)
+361 silly pacote version manifest for core-util-is@1.0.2 fetched in 15ms
+362 silly resolveWithNewModule core-util-is@1.0.2 checking installable status
+363 http fetch GET 200 https://registry.npmjs.org/asn1 19ms (from cache)
+364 http fetch GET 200 https://registry.npmjs.org/jsbn 18ms (from cache)
+365 http fetch GET 200 https://registry.npmjs.org/dashdash 18ms (from cache)
+366 http fetch GET 200 https://registry.npmjs.org/tweetnacl 22ms (from cache)
+367 silly pacote range manifest for asn1@~0.2.3 fetched in 23ms
+368 silly resolveWithNewModule asn1@0.2.4 checking installable status
+369 silly pacote range manifest for dashdash@^1.12.0 fetched in 25ms
+370 silly resolveWithNewModule dashdash@1.14.1 checking installable status
+371 silly pacote range manifest for jsbn@~0.1.0 fetched in 24ms
+372 silly resolveWithNewModule jsbn@0.1.1 checking installable status
+373 silly pacote range manifest for tweetnacl@~0.14.0 fetched in 25ms
+374 silly resolveWithNewModule tweetnacl@0.14.5 checking installable status
+375 http fetch GET 304 https://registry.npmjs.org/getpass 76ms (from cache)
+376 http fetch GET 304 https://registry.npmjs.org/ecc-jsbn 76ms (from cache)
+377 silly pacote range manifest for ecc-jsbn@~0.1.1 fetched in 79ms
+378 silly resolveWithNewModule ecc-jsbn@0.1.2 checking installable status
+379 silly pacote range manifest for getpass@^0.1.1 fetched in 81ms
+380 silly resolveWithNewModule getpass@0.1.7 checking installable status
+381 http fetch GET 304 https://registry.npmjs.org/bcrypt-pbkdf 640ms (from cache)
+382 silly pacote range manifest for bcrypt-pbkdf@^1.0.0 fetched in 644ms
+383 silly resolveWithNewModule bcrypt-pbkdf@1.0.2 checking installable status
+384 http fetch GET 200 https://registry.npmjs.org/psl 10ms (from cache)
+385 silly pacote range manifest for psl@^1.1.28 fetched in 14ms
+386 silly resolveWithNewModule psl@1.8.0 checking installable status
+387 silly pacote range manifest for async@~1.0.0 fetched in 12ms
+388 silly resolveWithNewModule async@1.0.0 checking installable status
+389 http fetch GET 200 https://registry.npmjs.org/cycle 13ms (from cache)
+390 http fetch GET 200 https://registry.npmjs.org/colors 15ms (from cache)
+391 silly pacote range manifest for cycle@1.0.x fetched in 16ms
+392 silly resolveWithNewModule cycle@1.0.3 checking installable status
+393 silly pacote range manifest for colors@1.0.x fetched in 18ms
+394 silly resolveWithNewModule colors@1.0.3 checking installable status
+395 http fetch GET 304 https://registry.npmjs.org/stack-trace 75ms (from cache)
+396 http fetch GET 304 https://registry.npmjs.org/eyes 76ms (from cache)
+397 silly pacote range manifest for stack-trace@0.0.x fetched in 79ms
+398 silly resolveWithNewModule stack-trace@0.0.10 checking installable status
+399 silly pacote range manifest for eyes@0.1.x fetched in 80ms
+400 silly resolveWithNewModule eyes@0.1.8 checking installable status
+401 http fetch GET 200 https://registry.npmjs.org/options 11ms (from cache)
+402 http fetch GET 200 https://registry.npmjs.org/ultron 12ms (from cache)
+403 silly pacote range manifest for ultron@1.0.x fetched in 15ms
+404 silly resolveWithNewModule ultron@1.0.2 checking installable status
+405 silly pacote range manifest for options@>=0.0.5 fetched in 15ms
+406 silly resolveWithNewModule options@0.0.6 checking installable status
+407 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 3725ms
+408 timing stage:loadIdealTree Completed in 3800ms
+409 silly currentTree shufflehubot@0.0.0
+409 silly currentTree ├── accepts@1.3.7
+409 silly currentTree ├── agent-base@4.3.0
+409 silly currentTree ├── ajv@6.12.6
+409 silly currentTree ├── ansi-regex@2.1.1
+409 silly currentTree ├── ansi-styles@2.2.1
+409 silly currentTree ├── array-flatten@1.1.1
+409 silly currentTree ├── asn1@0.2.4
+409 silly currentTree ├── assert-plus@1.0.0
+409 silly currentTree ├── asynckit@0.4.0
+409 silly currentTree ├── aws-sign2@0.7.0
+409 silly currentTree ├── aws4@1.11.0
+409 silly currentTree ├── bcrypt-pbkdf@1.0.2
+409 silly currentTree ├── bluebird@3.7.2
+409 silly currentTree ├─┬ body-parser@1.19.0
+409 silly currentTree │ ├── http-errors@1.7.2
+409 silly currentTree │ ├── inherits@2.0.3
+409 silly currentTree │ └── qs@6.7.0
+409 silly currentTree ├── bytes@3.1.0
+409 silly currentTree ├── caseless@0.12.0
+409 silly currentTree ├── colors@1.0.3
+409 silly currentTree ├── combined-stream@1.0.8
+409 silly currentTree ├─┬ content-disposition@0.5.3
+409 silly currentTree │ └── safe-buffer@5.1.2
+409 silly currentTree ├── content-type@1.0.4
+409 silly currentTree ├── cookie-signature@1.0.6
+409 silly currentTree ├── cookie@0.4.0
+409 silly currentTree ├── core-util-is@1.0.2
+409 silly currentTree ├── cycle@1.0.3
+409 silly currentTree ├── dashdash@1.14.1
+409 silly currentTree ├── debug@2.6.9
+409 silly currentTree ├── delayed-stream@1.0.0
+409 silly currentTree ├── depd@1.1.2
+409 silly currentTree ├── destroy@1.0.4
+409 silly currentTree ├── double-ended-queue@2.1.0-0
+409 silly currentTree ├── ecc-jsbn@0.1.2
+409 silly currentTree ├── ee-first@1.1.1
+409 silly currentTree ├── encodeurl@1.0.2
+409 silly currentTree ├── es6-promise@4.2.8
+409 silly currentTree ├── es6-promisify@5.0.0
+409 silly currentTree ├── escape-html@1.0.3
+409 silly currentTree ├── escape-string-regexp@1.0.5
+409 silly currentTree ├── etag@1.8.1
+409 silly currentTree ├── eventemitter3@1.2.0
+409 silly currentTree ├── extend@3.0.2
+409 silly currentTree ├── extsprintf@1.3.0
+409 silly currentTree ├── eyes@0.1.8
+409 silly currentTree ├── fast-deep-equal@3.1.3
+409 silly currentTree ├── fast-json-stable-stringify@2.1.0
+409 silly currentTree ├── finalhandler@1.1.2
+409 silly currentTree ├── forever-agent@0.6.1
+409 silly currentTree ├── form-data@2.3.3
+409 silly currentTree ├── forwarded@0.2.0
+409 silly currentTree ├── fresh@0.5.2
+409 silly currentTree ├── getpass@0.1.7
+409 silly currentTree ├── har-schema@2.0.0
+409 silly currentTree ├── har-validator@5.1.5
+409 silly currentTree ├── has-ansi@2.0.0
+409 silly currentTree ├── http-errors@1.7.3
+409 silly currentTree ├── http-signature@1.2.0
+409 silly currentTree ├─┬ https-proxy-agent@2.2.4
+409 silly currentTree │ ├── debug@3.2.7
+409 silly currentTree │ └── ms@2.1.3
+409 silly currentTree ├── hubot-diagnostics@1.0.0
+409 silly currentTree ├── hubot-google-images@0.2.7
+409 silly currentTree ├── hubot-google-translate@0.2.1
+409 silly currentTree ├── hubot-help@1.0.1
+409 silly currentTree ├── hubot-heroku-keepalive@1.0.3
+409 silly currentTree ├── hubot-maps@0.0.3
+409 silly currentTree ├── hubot-pugme@0.1.1
+409 silly currentTree ├── hubot-redis-brain@1.0.0
+409 silly currentTree ├── hubot-rules@1.0.0
+409 silly currentTree ├─┬ hubot-scripts@2.17.2
+409 silly currentTree │ └── redis@0.8.4
+409 silly currentTree ├── hubot-shipit@0.2.1
+409 silly currentTree ├─┬ hubot-slack@4.9.0
+409 silly currentTree │ ├── @slack/client@3.16.1-sec.2
+409 silly currentTree │ └── async@1.5.2
+409 silly currentTree ├── iconv-lite@0.4.24
+409 silly currentTree ├── inherits@2.0.4
+409 silly currentTree ├── ipaddr.js@1.9.1
+409 silly currentTree ├── is-typedarray@1.0.0
+409 silly currentTree ├── isstream@0.1.2
+409 silly currentTree ├── jsbn@0.1.1
+409 silly currentTree ├── json-schema-traverse@0.4.1
+409 silly currentTree ├── json-schema@0.2.3
+409 silly currentTree ├── json-stringify-safe@5.0.1
+409 silly currentTree ├── jsprim@1.4.1
+409 silly currentTree ├── lodash@4.17.21
+409 silly currentTree ├── media-typer@0.3.0
+409 silly currentTree ├── merge-descriptors@1.0.1
+409 silly currentTree ├── methods@1.1.2
+409 silly currentTree ├── mime-db@1.49.0
+409 silly currentTree ├── mime-types@2.1.32
+409 silly currentTree ├── mime@1.6.0
+409 silly currentTree ├── ms@2.0.0
+409 silly currentTree ├─┬ multiparty@4.2.2
+409 silly currentTree │ ├── http-errors@1.8.0
+409 silly currentTree │ └── setprototypeof@1.2.0
+409 silly currentTree ├── negotiator@0.6.2
+409 silly currentTree ├── oauth-sign@0.9.0
+409 silly currentTree ├── on-finished@2.3.0
+409 silly currentTree ├── options@0.0.6
+409 silly currentTree ├── parseurl@1.3.3
+409 silly currentTree ├── path-to-regexp@0.1.7
+409 silly currentTree ├── performance-now@2.1.0
+409 silly currentTree ├── pkginfo@0.4.1
+409 silly currentTree ├── proxy-addr@2.0.7
+409 silly currentTree ├── psl@1.8.0
+409 silly currentTree ├── punycode@2.1.1
+409 silly currentTree ├── qs@6.5.2
+409 silly currentTree ├── random-bytes@1.0.0
+409 silly currentTree ├── range-parser@1.2.1
+409 silly currentTree ├─┬ raw-body@2.4.0
+409 silly currentTree │ ├── http-errors@1.7.2
+409 silly currentTree │ └── inherits@2.0.3
+409 silly currentTree ├── redis-commands@1.7.0
+409 silly currentTree ├── redis-parser@2.6.0
+409 silly currentTree ├── redis@2.8.0
+409 silly currentTree ├── request@2.88.2
+409 silly currentTree ├── retry@0.9.0
+409 silly currentTree ├── safe-buffer@5.2.1
+409 silly currentTree ├── safer-buffer@2.1.2
+409 silly currentTree ├─┬ send@0.17.1
+409 silly currentTree │ └── ms@2.1.1
+409 silly currentTree ├── serve-static@1.14.1
+409 silly currentTree ├── setprototypeof@1.1.1
+409 silly currentTree ├── sshpk@1.16.1
+409 silly currentTree ├── stack-trace@0.0.10
+409 silly currentTree ├── statuses@1.5.0
+409 silly currentTree ├── strip-ansi@3.0.1
+409 silly currentTree ├── supports-color@2.0.0
+409 silly currentTree ├── toidentifier@1.0.0
+409 silly currentTree ├── tough-cookie@2.5.0
+409 silly currentTree ├── tunnel-agent@0.6.0
+409 silly currentTree ├── tweetnacl@0.14.5
+409 silly currentTree ├── type-is@1.6.18
+409 silly currentTree ├── uid-safe@2.1.5
+409 silly currentTree ├── ultron@1.0.2
+409 silly currentTree ├── unpipe@1.0.0
+409 silly currentTree ├── uri-js@4.4.1
+409 silly currentTree ├── url-join@0.0.1
+409 silly currentTree ├── uuid@3.4.0
+409 silly currentTree ├── verror@1.10.0
+409 silly currentTree ├─┬ winston@2.4.5
+409 silly currentTree │ └── async@1.0.0
+409 silly currentTree └── ws@1.1.5
+410 silly idealTree shufflehubot@0.0.0
+410 silly idealTree ├─┬ @slack/client@3.16.1-sec.2
+410 silly idealTree │ └── async@1.5.2
+410 silly idealTree ├── accepts@1.3.7
+410 silly idealTree ├── agent-base@4.3.0
+410 silly idealTree ├── ajv@6.12.6
+410 silly idealTree ├── ansi-regex@2.1.1
+410 silly idealTree ├── ansi-styles@2.2.1
+410 silly idealTree ├── array-flatten@1.1.1
+410 silly idealTree ├── asn1@0.2.4
+410 silly idealTree ├── assert-plus@1.0.0
+410 silly idealTree ├── async@0.9.2
+410 silly idealTree ├── asynckit@0.4.0
+410 silly idealTree ├── aws-sign2@0.7.0
+410 silly idealTree ├── aws4@1.11.0
+410 silly idealTree ├── bcrypt-pbkdf@1.0.2
+410 silly idealTree ├── bluebird@3.7.2
+410 silly idealTree ├─┬ body-parser@1.19.0
+410 silly idealTree │ ├── http-errors@1.7.2
+410 silly idealTree │ ├── inherits@2.0.3
+410 silly idealTree │ └── qs@6.7.0
+410 silly idealTree ├── bytes@3.1.0
+410 silly idealTree ├── caseless@0.12.0
+410 silly idealTree ├── chalk@1.1.3
+410 silly idealTree ├── cline@0.8.2
+410 silly idealTree ├── coffeescript@1.6.3
+410 silly idealTree ├── colors@1.0.3
+410 silly idealTree ├── combined-stream@1.0.8
+410 silly idealTree ├── connect-multiparty@2.2.0
+410 silly idealTree ├─┬ content-disposition@0.5.3
+410 silly idealTree │ └── safe-buffer@5.1.2
+410 silly idealTree ├── content-type@1.0.4
+410 silly idealTree ├── cookie-signature@1.0.6
+410 silly idealTree ├── cookie@0.4.0
+410 silly idealTree ├── core-util-is@1.0.2
+410 silly idealTree ├── cycle@1.0.3
+410 silly idealTree ├── dashdash@1.14.1
+410 silly idealTree ├── debug@2.6.9
+410 silly idealTree ├── delayed-stream@1.0.0
+410 silly idealTree ├── depd@1.1.2
+410 silly idealTree ├── destroy@1.0.4
+410 silly idealTree ├── double-ended-queue@2.1.0-0
+410 silly idealTree ├── ecc-jsbn@0.1.2
+410 silly idealTree ├── ee-first@1.1.1
+410 silly idealTree ├── encodeurl@1.0.2
+410 silly idealTree ├── es6-promise@4.2.8
+410 silly idealTree ├── es6-promisify@5.0.0
+410 silly idealTree ├── escape-html@1.0.3
+410 silly idealTree ├── escape-string-regexp@1.0.5
+410 silly idealTree ├── etag@1.8.1
+410 silly idealTree ├── eventemitter3@1.2.0
+410 silly idealTree ├─┬ express@4.17.1
+410 silly idealTree │ ├── qs@6.7.0
+410 silly idealTree │ └── safe-buffer@5.1.2
+410 silly idealTree ├── extend@3.0.2
+410 silly idealTree ├── extsprintf@1.3.0
+410 silly idealTree ├── eyes@0.1.8
+410 silly idealTree ├── fast-deep-equal@3.1.3
+410 silly idealTree ├── fast-json-stable-stringify@2.1.0
+410 silly idealTree ├── finalhandler@1.1.2
+410 silly idealTree ├── forever-agent@0.6.1
+410 silly idealTree ├── form-data@2.3.3
+410 silly idealTree ├── forwarded@0.2.0
+410 silly idealTree ├── fresh@0.5.2
+410 silly idealTree ├── getpass@0.1.7
+410 silly idealTree ├── har-schema@2.0.0
+410 silly idealTree ├── har-validator@5.1.5
+410 silly idealTree ├── has-ansi@2.0.0
+410 silly idealTree ├── http-errors@1.7.3
+410 silly idealTree ├── http-signature@1.2.0
+410 silly idealTree ├─┬ https-proxy-agent@2.2.4
+410 silly idealTree │ ├── debug@3.2.7
+410 silly idealTree │ └── ms@2.1.3
+410 silly idealTree ├── hubot-diagnostics@1.0.0
+410 silly idealTree ├── hubot-google-images@0.2.7
+410 silly idealTree ├── hubot-google-translate@0.2.1
+410 silly idealTree ├── hubot-help@1.0.1
+410 silly idealTree ├── hubot-heroku-keepalive@1.0.3
+410 silly idealTree ├── hubot-maps@0.0.3
+410 silly idealTree ├── hubot-pugme@0.1.1
+410 silly idealTree ├── hubot-redis-brain@1.0.0
+410 silly idealTree ├── hubot-rules@1.0.0
+410 silly idealTree ├─┬ hubot-scripts@2.17.2
+410 silly idealTree │ └── redis@0.8.4
+410 silly idealTree ├── hubot-shipit@0.2.1
+410 silly idealTree ├── hubot-slack@4.9.0
+410 silly idealTree ├── hubot@3.3.2
+410 silly idealTree ├── iconv-lite@0.4.24
+410 silly idealTree ├── inherits@2.0.4
+410 silly idealTree ├── ipaddr.js@1.9.1
+410 silly idealTree ├── is-typedarray@1.0.0
+410 silly idealTree ├── isstream@0.1.2
+410 silly idealTree ├── jsbn@0.1.1
+410 silly idealTree ├── json-schema-traverse@0.4.1
+410 silly idealTree ├── json-schema@0.2.3
+410 silly idealTree ├── json-stringify-safe@5.0.1
+410 silly idealTree ├── jsprim@1.4.1
+410 silly idealTree ├── lodash@4.17.21
+410 silly idealTree ├── log@1.4.0
+410 silly idealTree ├── media-typer@0.3.0
+410 silly idealTree ├── merge-descriptors@1.0.1
+410 silly idealTree ├── methods@1.1.2
+410 silly idealTree ├── mime-db@1.49.0
+410 silly idealTree ├── mime-types@2.1.32
+410 silly idealTree ├── mime@1.6.0
+410 silly idealTree ├── ms@2.0.0
+410 silly idealTree ├─┬ multiparty@4.2.2
+410 silly idealTree │ ├── http-errors@1.8.0
+410 silly idealTree │ └── setprototypeof@1.2.0
+410 silly idealTree ├── negotiator@0.6.2
+410 silly idealTree ├── oauth-sign@0.9.0
+410 silly idealTree ├── on-finished@2.3.0
+410 silly idealTree ├── options@0.0.6
+410 silly idealTree ├── optparse@1.0.4
+410 silly idealTree ├── parseurl@1.3.3
+410 silly idealTree ├── path-to-regexp@0.1.7
+410 silly idealTree ├── performance-now@2.1.0
+410 silly idealTree ├── pkginfo@0.4.1
+410 silly idealTree ├── proxy-addr@2.0.7
+410 silly idealTree ├── psl@1.8.0
+410 silly idealTree ├── punycode@2.1.1
+410 silly idealTree ├── qs@6.5.2
+410 silly idealTree ├── random-bytes@1.0.0
+410 silly idealTree ├── range-parser@1.2.1
+410 silly idealTree ├─┬ raw-body@2.4.0
+410 silly idealTree │ ├── http-errors@1.7.2
+410 silly idealTree │ └── inherits@2.0.3
+410 silly idealTree ├── redis-commands@1.7.0
+410 silly idealTree ├── redis-parser@2.6.0
+410 silly idealTree ├── redis@2.8.0
+410 silly idealTree ├── request@2.88.2
+410 silly idealTree ├── retry@0.9.0
+410 silly idealTree ├── safe-buffer@5.2.1
+410 silly idealTree ├── safer-buffer@2.1.2
+410 silly idealTree ├── scoped-http-client@0.11.0
+410 silly idealTree ├─┬ send@0.17.1
+410 silly idealTree │ └── ms@2.1.1
+410 silly idealTree ├── serve-static@1.14.1
+410 silly idealTree ├── setprototypeof@1.1.1
+410 silly idealTree ├── sshpk@1.16.1
+410 silly idealTree ├── stack-trace@0.0.10
+410 silly idealTree ├── statuses@1.5.0
+410 silly idealTree ├── strip-ansi@3.0.1
+410 silly idealTree ├── supports-color@2.0.0
+410 silly idealTree ├── toidentifier@1.0.0
+410 silly idealTree ├── tough-cookie@2.5.0
+410 silly idealTree ├── tunnel-agent@0.6.0
+410 silly idealTree ├── tweetnacl@0.14.5
+410 silly idealTree ├── type-is@1.6.18
+410 silly idealTree ├── uid-safe@2.1.5
+410 silly idealTree ├── ultron@1.0.2
+410 silly idealTree ├── unpipe@1.0.0
+410 silly idealTree ├── uri-js@4.4.1
+410 silly idealTree ├── url-join@0.0.1
+410 silly idealTree ├── utils-merge@1.0.1
+410 silly idealTree ├── uuid@3.4.0
+410 silly idealTree ├── vary@1.1.2
+410 silly idealTree ├── verror@1.10.0
+410 silly idealTree ├─┬ winston@2.4.5
+410 silly idealTree │ └── async@1.0.0
+410 silly idealTree └── ws@1.1.5
+411 silly install generateActionsToTake
+412 timing stage:generateActionsToTake Completed in 80ms
+413 silly diffTrees action count 28
+414 silly diffTrees move async@1.5.2
+415 silly diffTrees add qs@6.7.0
+416 silly diffTrees add safe-buffer@5.1.2
+417 silly diffTrees add utils-merge@1.0.1
+418 silly diffTrees add vary@1.1.2
+419 silly diffTrees move @slack/client@3.16.1-sec.2
+420 silly diffTrees add async@0.9.2
+421 silly diffTrees add chalk@1.1.3
+422 silly diffTrees add cline@0.8.2
+423 silly diffTrees add coffeescript@1.6.3
+424 silly diffTrees add connect-multiparty@2.2.0
+425 silly diffTrees add express@4.17.1
+426 silly diffTrees update hubot-diagnostics@1.0.0
+427 silly diffTrees update hubot-google-images@0.2.7
+428 silly diffTrees update hubot-google-translate@0.2.1
+429 silly diffTrees update hubot-help@1.0.1
+430 silly diffTrees update hubot-heroku-keepalive@1.0.3
+431 silly diffTrees update hubot-maps@0.0.3
+432 silly diffTrees update hubot-pugme@0.1.1
+433 silly diffTrees update hubot-redis-brain@1.0.0
+434 silly diffTrees update hubot-rules@1.0.0
+435 silly diffTrees update hubot-scripts@2.17.2
+436 silly diffTrees update hubot-shipit@0.2.1
+437 silly diffTrees update hubot-slack@4.9.0
+438 silly diffTrees add log@1.4.0
+439 silly diffTrees add optparse@1.0.4
+440 silly diffTrees add scoped-http-client@0.11.0
+441 silly diffTrees add hubot@3.3.2
+442 silly decomposeActions action count 242
+443 silly decomposeActions move async@1.5.2
+444 silly decomposeActions build async@1.5.2
+445 silly decomposeActions install async@1.5.2
+446 silly decomposeActions postinstall async@1.5.2
+447 silly decomposeActions refresh-package-json async@1.5.2
+448 silly decomposeActions fetch qs@6.7.0
+449 silly decomposeActions extract qs@6.7.0
+450 silly decomposeActions preinstall qs@6.7.0
+451 silly decomposeActions build qs@6.7.0
+452 silly decomposeActions install qs@6.7.0
+453 silly decomposeActions postinstall qs@6.7.0
+454 silly decomposeActions finalize qs@6.7.0
+455 silly decomposeActions refresh-package-json qs@6.7.0
+456 silly decomposeActions fetch safe-buffer@5.1.2
+457 silly decomposeActions extract safe-buffer@5.1.2
+458 silly decomposeActions preinstall safe-buffer@5.1.2
+459 silly decomposeActions build safe-buffer@5.1.2
+460 silly decomposeActions install safe-buffer@5.1.2
+461 silly decomposeActions postinstall safe-buffer@5.1.2
+462 silly decomposeActions finalize safe-buffer@5.1.2
+463 silly decomposeActions refresh-package-json safe-buffer@5.1.2
+464 silly decomposeActions fetch utils-merge@1.0.1
+465 silly decomposeActions extract utils-merge@1.0.1
+466 silly decomposeActions preinstall utils-merge@1.0.1
+467 silly decomposeActions build utils-merge@1.0.1
+468 silly decomposeActions install utils-merge@1.0.1
+469 silly decomposeActions postinstall utils-merge@1.0.1
+470 silly decomposeActions finalize utils-merge@1.0.1
+471 silly decomposeActions refresh-package-json utils-merge@1.0.1
+472 silly decomposeActions fetch vary@1.1.2
+473 silly decomposeActions extract vary@1.1.2
+474 silly decomposeActions preinstall vary@1.1.2
+475 silly decomposeActions build vary@1.1.2
+476 silly decomposeActions install vary@1.1.2
+477 silly decomposeActions postinstall vary@1.1.2
+478 silly decomposeActions finalize vary@1.1.2
+479 silly decomposeActions refresh-package-json vary@1.1.2
+480 silly decomposeActions move @slack/client@3.16.1-sec.2
+481 silly decomposeActions build @slack/client@3.16.1-sec.2
+482 silly decomposeActions install @slack/client@3.16.1-sec.2
+483 silly decomposeActions postinstall @slack/client@3.16.1-sec.2
+484 silly decomposeActions refresh-package-json @slack/client@3.16.1-sec.2
+485 silly decomposeActions fetch async@0.9.2
+486 silly decomposeActions extract async@0.9.2
+487 silly decomposeActions preinstall async@0.9.2
+488 silly decomposeActions build async@0.9.2
+489 silly decomposeActions install async@0.9.2
+490 silly decomposeActions postinstall async@0.9.2
+491 silly decomposeActions finalize async@0.9.2
+492 silly decomposeActions refresh-package-json async@0.9.2
+493 silly decomposeActions fetch chalk@1.1.3
+494 silly decomposeActions extract chalk@1.1.3
+495 silly decomposeActions preinstall chalk@1.1.3
+496 silly decomposeActions build chalk@1.1.3
+497 silly decomposeActions install chalk@1.1.3
+498 silly decomposeActions postinstall chalk@1.1.3
+499 silly decomposeActions finalize chalk@1.1.3
+500 silly decomposeActions refresh-package-json chalk@1.1.3
+501 silly decomposeActions fetch cline@0.8.2
+502 silly decomposeActions extract cline@0.8.2
+503 silly decomposeActions preinstall cline@0.8.2
+504 silly decomposeActions build cline@0.8.2
+505 silly decomposeActions install cline@0.8.2
+506 silly decomposeActions postinstall cline@0.8.2
+507 silly decomposeActions finalize cline@0.8.2
+508 silly decomposeActions refresh-package-json cline@0.8.2
+509 silly decomposeActions fetch coffeescript@1.6.3
+510 silly decomposeActions extract coffeescript@1.6.3
+511 silly decomposeActions preinstall coffeescript@1.6.3
+512 silly decomposeActions build coffeescript@1.6.3
+513 silly decomposeActions install coffeescript@1.6.3
+514 silly decomposeActions postinstall coffeescript@1.6.3
+515 silly decomposeActions finalize coffeescript@1.6.3
+516 silly decomposeActions refresh-package-json coffeescript@1.6.3
+517 silly decomposeActions fetch connect-multiparty@2.2.0
+518 silly decomposeActions extract connect-multiparty@2.2.0
+519 silly decomposeActions preinstall connect-multiparty@2.2.0
+520 silly decomposeActions build connect-multiparty@2.2.0
+521 silly decomposeActions install connect-multiparty@2.2.0
+522 silly decomposeActions postinstall connect-multiparty@2.2.0
+523 silly decomposeActions finalize connect-multiparty@2.2.0
+524 silly decomposeActions refresh-package-json connect-multiparty@2.2.0
+525 silly decomposeActions fetch express@4.17.1
+526 silly decomposeActions extract express@4.17.1
+527 silly decomposeActions preinstall express@4.17.1
+528 silly decomposeActions build express@4.17.1
+529 silly decomposeActions install express@4.17.1
+530 silly decomposeActions postinstall express@4.17.1
+531 silly decomposeActions finalize express@4.17.1
+532 silly decomposeActions refresh-package-json express@4.17.1
+533 silly decomposeActions unbuild hubot-diagnostics@1.0.0
+534 silly decomposeActions remove hubot-diagnostics@1.0.0
+535 silly decomposeActions fetch hubot-diagnostics@1.0.0
+536 silly decomposeActions extract hubot-diagnostics@1.0.0
+537 silly decomposeActions preinstall hubot-diagnostics@1.0.0
+538 silly decomposeActions build hubot-diagnostics@1.0.0
+539 silly decomposeActions install hubot-diagnostics@1.0.0
+540 silly decomposeActions postinstall hubot-diagnostics@1.0.0
+541 silly decomposeActions finalize hubot-diagnostics@1.0.0
+542 silly decomposeActions refresh-package-json hubot-diagnostics@1.0.0
+543 silly decomposeActions unbuild hubot-google-images@0.2.7
+544 silly decomposeActions remove hubot-google-images@0.2.7
+545 silly decomposeActions fetch hubot-google-images@0.2.7
+546 silly decomposeActions extract hubot-google-images@0.2.7
+547 silly decomposeActions preinstall hubot-google-images@0.2.7
+548 silly decomposeActions build hubot-google-images@0.2.7
+549 silly decomposeActions install hubot-google-images@0.2.7
+550 silly decomposeActions postinstall hubot-google-images@0.2.7
+551 silly decomposeActions finalize hubot-google-images@0.2.7
+552 silly decomposeActions refresh-package-json hubot-google-images@0.2.7
+553 silly decomposeActions unbuild hubot-google-translate@0.2.1
+554 silly decomposeActions remove hubot-google-translate@0.2.1
+555 silly decomposeActions fetch hubot-google-translate@0.2.1
+556 silly decomposeActions extract hubot-google-translate@0.2.1
+557 silly decomposeActions preinstall hubot-google-translate@0.2.1
+558 silly decomposeActions build hubot-google-translate@0.2.1
+559 silly decomposeActions install hubot-google-translate@0.2.1
+560 silly decomposeActions postinstall hubot-google-translate@0.2.1
+561 silly decomposeActions finalize hubot-google-translate@0.2.1
+562 silly decomposeActions refresh-package-json hubot-google-translate@0.2.1
+563 silly decomposeActions unbuild hubot-help@1.0.1
+564 silly decomposeActions remove hubot-help@1.0.1
+565 silly decomposeActions fetch hubot-help@1.0.1
+566 silly decomposeActions extract hubot-help@1.0.1
+567 silly decomposeActions preinstall hubot-help@1.0.1
+568 silly decomposeActions build hubot-help@1.0.1
+569 silly decomposeActions install hubot-help@1.0.1
+570 silly decomposeActions postinstall hubot-help@1.0.1
+571 silly decomposeActions finalize hubot-help@1.0.1
+572 silly decomposeActions refresh-package-json hubot-help@1.0.1
+573 silly decomposeActions unbuild hubot-heroku-keepalive@1.0.3
+574 silly decomposeActions remove hubot-heroku-keepalive@1.0.3
+575 silly decomposeActions fetch hubot-heroku-keepalive@1.0.3
+576 silly decomposeActions extract hubot-heroku-keepalive@1.0.3
+577 silly decomposeActions preinstall hubot-heroku-keepalive@1.0.3
+578 silly decomposeActions build hubot-heroku-keepalive@1.0.3
+579 silly decomposeActions install hubot-heroku-keepalive@1.0.3
+580 silly decomposeActions postinstall hubot-heroku-keepalive@1.0.3
+581 silly decomposeActions finalize hubot-heroku-keepalive@1.0.3
+582 silly decomposeActions refresh-package-json hubot-heroku-keepalive@1.0.3
+583 silly decomposeActions unbuild hubot-maps@0.0.3
+584 silly decomposeActions remove hubot-maps@0.0.3
+585 silly decomposeActions fetch hubot-maps@0.0.3
+586 silly decomposeActions extract hubot-maps@0.0.3
+587 silly decomposeActions preinstall hubot-maps@0.0.3
+588 silly decomposeActions build hubot-maps@0.0.3
+589 silly decomposeActions install hubot-maps@0.0.3
+590 silly decomposeActions postinstall hubot-maps@0.0.3
+591 silly decomposeActions finalize hubot-maps@0.0.3
+592 silly decomposeActions refresh-package-json hubot-maps@0.0.3
+593 silly decomposeActions unbuild hubot-pugme@0.1.1
+594 silly decomposeActions remove hubot-pugme@0.1.1
+595 silly decomposeActions fetch hubot-pugme@0.1.1
+596 silly decomposeActions extract hubot-pugme@0.1.1
+597 silly decomposeActions preinstall hubot-pugme@0.1.1
+598 silly decomposeActions build hubot-pugme@0.1.1
+599 silly decomposeActions install hubot-pugme@0.1.1
+600 silly decomposeActions postinstall hubot-pugme@0.1.1
+601 silly decomposeActions finalize hubot-pugme@0.1.1
+602 silly decomposeActions refresh-package-json hubot-pugme@0.1.1
+603 silly decomposeActions unbuild hubot-redis-brain@1.0.0
+604 silly decomposeActions remove hubot-redis-brain@1.0.0
+605 silly decomposeActions fetch hubot-redis-brain@1.0.0
+606 silly decomposeActions extract hubot-redis-brain@1.0.0
+607 silly decomposeActions preinstall hubot-redis-brain@1.0.0
+608 silly decomposeActions build hubot-redis-brain@1.0.0
+609 silly decomposeActions install hubot-redis-brain@1.0.0
+610 silly decomposeActions postinstall hubot-redis-brain@1.0.0
+611 silly decomposeActions finalize hubot-redis-brain@1.0.0
+612 silly decomposeActions refresh-package-json hubot-redis-brain@1.0.0
+613 silly decomposeActions unbuild hubot-rules@1.0.0
+614 silly decomposeActions remove hubot-rules@1.0.0
+615 silly decomposeActions fetch hubot-rules@1.0.0
+616 silly decomposeActions extract hubot-rules@1.0.0
+617 silly decomposeActions preinstall hubot-rules@1.0.0
+618 silly decomposeActions build hubot-rules@1.0.0
+619 silly decomposeActions install hubot-rules@1.0.0
+620 silly decomposeActions postinstall hubot-rules@1.0.0
+621 silly decomposeActions finalize hubot-rules@1.0.0
+622 silly decomposeActions refresh-package-json hubot-rules@1.0.0
+623 silly decomposeActions unbuild hubot-scripts@2.17.2
+624 silly decomposeActions remove hubot-scripts@2.17.2
+625 silly decomposeActions fetch hubot-scripts@2.17.2
+626 silly decomposeActions extract hubot-scripts@2.17.2
+627 silly decomposeActions preinstall hubot-scripts@2.17.2
+628 silly decomposeActions build hubot-scripts@2.17.2
+629 silly decomposeActions install hubot-scripts@2.17.2
+630 silly decomposeActions postinstall hubot-scripts@2.17.2
+631 silly decomposeActions finalize hubot-scripts@2.17.2
+632 silly decomposeActions refresh-package-json hubot-scripts@2.17.2
+633 silly decomposeActions unbuild hubot-shipit@0.2.1
+634 silly decomposeActions remove hubot-shipit@0.2.1
+635 silly decomposeActions fetch hubot-shipit@0.2.1
+636 silly decomposeActions extract hubot-shipit@0.2.1
+637 silly decomposeActions preinstall hubot-shipit@0.2.1
+638 silly decomposeActions build hubot-shipit@0.2.1
+639 silly decomposeActions install hubot-shipit@0.2.1
+640 silly decomposeActions postinstall hubot-shipit@0.2.1
+641 silly decomposeActions finalize hubot-shipit@0.2.1
+642 silly decomposeActions refresh-package-json hubot-shipit@0.2.1
+643 silly decomposeActions unbuild hubot-slack@4.9.0
+644 silly decomposeActions remove hubot-slack@4.9.0
+645 silly decomposeActions fetch hubot-slack@4.9.0
+646 silly decomposeActions extract hubot-slack@4.9.0
+647 silly decomposeActions preinstall hubot-slack@4.9.0
+648 silly decomposeActions build hubot-slack@4.9.0
+649 silly decomposeActions install hubot-slack@4.9.0
+650 silly decomposeActions postinstall hubot-slack@4.9.0
+651 silly decomposeActions finalize hubot-slack@4.9.0
+652 silly decomposeActions refresh-package-json hubot-slack@4.9.0
+653 silly decomposeActions fetch log@1.4.0
+654 silly decomposeActions extract log@1.4.0
+655 silly decomposeActions preinstall log@1.4.0
+656 silly decomposeActions build log@1.4.0
+657 silly decomposeActions install log@1.4.0
+658 silly decomposeActions postinstall log@1.4.0
+659 silly decomposeActions finalize log@1.4.0
+660 silly decomposeActions refresh-package-json log@1.4.0
+661 silly decomposeActions fetch optparse@1.0.4
+662 silly decomposeActions extract optparse@1.0.4
+663 silly decomposeActions preinstall optparse@1.0.4
+664 silly decomposeActions build optparse@1.0.4
+665 silly decomposeActions install optparse@1.0.4
+666 silly decomposeActions postinstall optparse@1.0.4
+667 silly decomposeActions finalize optparse@1.0.4
+668 silly decomposeActions refresh-package-json optparse@1.0.4
+669 silly decomposeActions fetch scoped-http-client@0.11.0
+670 silly decomposeActions extract scoped-http-client@0.11.0
+671 silly decomposeActions preinstall scoped-http-client@0.11.0
+672 silly decomposeActions build scoped-http-client@0.11.0
+673 silly decomposeActions install scoped-http-client@0.11.0
+674 silly decomposeActions postinstall scoped-http-client@0.11.0
+675 silly decomposeActions finalize scoped-http-client@0.11.0
+676 silly decomposeActions refresh-package-json scoped-http-client@0.11.0
+677 silly decomposeActions fetch hubot@3.3.2
+678 silly decomposeActions extract hubot@3.3.2
+679 silly decomposeActions preinstall hubot@3.3.2
+680 silly decomposeActions build hubot@3.3.2
+681 silly decomposeActions install hubot@3.3.2
+682 silly decomposeActions postinstall hubot@3.3.2
+683 silly decomposeActions finalize hubot@3.3.2
+684 silly decomposeActions refresh-package-json hubot@3.3.2
+685 silly install executeActions
+686 silly doSerial global-install 242
+687 verbose correctMkdir /home/shufflehubot/.npm/_locks correctMkdir not in flight; initializing
+688 verbose lock using /home/shufflehubot/.npm/_locks/staging-d559f62f37b9e887.lock for /home/shufflehubot/node_modules/.staging
+689 silly doParallel extract 26
+690 silly extract qs@6.7.0
+691 silly extract safe-buffer@5.1.2
+692 silly extract utils-merge@1.0.1
+693 silly extract vary@1.1.2
+694 silly extract async@0.9.2
+695 silly extract chalk@1.1.3
+696 silly extract cline@0.8.2
+697 silly extract coffeescript@1.6.3
+698 silly extract connect-multiparty@2.2.0
+699 silly extract express@4.17.1
+700 silly extract hubot-diagnostics@1.0.0
+701 silly extract hubot-google-images@0.2.7
+702 silly extract hubot-google-translate@0.2.1
+703 silly extract hubot-help@1.0.1
+704 silly extract hubot-heroku-keepalive@1.0.3
+705 silly extract hubot-maps@0.0.3
+706 silly extract hubot-pugme@0.1.1
+707 silly extract hubot-redis-brain@1.0.0
+708 silly extract hubot-rules@1.0.0
+709 silly extract hubot-scripts@2.17.2
+710 silly extract hubot-shipit@0.2.1
+711 silly extract hubot-slack@4.9.0
+712 silly extract log@1.4.0
+713 silly extract optparse@1.0.4
+714 silly extract scoped-http-client@0.11.0
+715 silly extract hubot@3.3.2
+716 silly tarball trying safe-buffer@5.1.2 by hash: sha512-Gd2UZBJDkXlY7GbJxfsE8/nvKkUEU1G38c1siN6QP6a9PT9MmHB8GnpscSmMJSoF8LOIrt8ud/wPtojys4G6+g==
+717 silly tarball trying qs@6.7.0 by hash: sha512-VCdBRNFTX1fyE7Nb6FYoURo/SPe62QCaAyzJvUjwRaIsc+NePBEniHlvxFmmX56+HZphIGtV0XeCirBtpDrTyQ==
+718 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+719 silly tarball trying vary@~1.1.2 by hash: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+720 silly tarball trying chalk@^1.0.0 by hash: sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
+721 silly tarball trying cline@^0.8.2 by hash: sha1-6RHnQaCtLiTSnm+rLPifoyLVnHY=
+722 silly tarball trying coffeescript@1.6.3 by hash: sha1-QXSXUMYhplU8fAOBilOEuyTDBUE=
+723 silly tarball trying async@>=0.1.0 <1.0.0 by hash: sha1-rqdNXmHB+JlhO/ZL2mbUx48v0X0=
+724 silly tarball trying express@^4.16.3 by hash: sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
+725 silly tarball trying hubot-google-images@latest by hash: sha1-qKH5CU12gwvxkxdwiI+rDcDBGk0=
+726 silly tarball trying hubot-diagnostics@latest by hash: sha512-4kuR04lULoDDra/Z7B/rgMQMZW531Ve5hwhd8xNOKAl8e1cb5bZNqVpGFYF174eYcN54+RZuWQFHsntjvczyag==
+727 silly tarball trying connect-multiparty@^2.1.1 by hash: sha512-zKcpA7cuXGEhuw9Pz7JmVCFmp85jzGLGm/iiagXTwyEAJp4ypLPtRS/V4IGuGb9KjjrgHBs6P/gDCpZHnFzksA==
+728 silly tarball trying hubot-google-translate@latest by hash: sha1-P0lsfywgmU1ZS0t1GDiY4rYnu34=
+729 silly tarball trying hubot-heroku-keepalive@latest by hash: sha1-KVDigJXuSmrOK3b5DiqRupHmgTw=
+730 silly tarball trying hubot-rules@latest by hash: sha512-IXeTYp6aK25Hgio8ezYr9vruLt1dICL9+kImaXefbfanSjNiNDvltNZfwANqeBx4Zm92A6yi36XxbWR5ZS5kNg==
+731 silly tarball trying hubot-pugme@latest by hash: sha1-u/O5k4MVFsgU9WnPDwUxP7mjFFg=
+732 silly tarball trying hubot-maps@latest by hash: sha1-yPxbA0h1TmJhbVuZsr85BMXuWDw=
+733 silly tarball trying hubot-help@latest by hash: sha512-1gL7ywROwQG6Grom68Bhi8O7YHn/qEkg3tGgap+tFejZGxVnFyJ/LcStBScW/zUj4yf0GlDaExR/vsaTjzBRsA==
+734 silly tarball trying hubot-scripts@latest by hash: sha1-mwjpB9XPq6cteDIEBnp4zp3zriQ=
+735 silly tarball trying hubot-slack@latest by hash: sha512-liNHxyii/XZe2ypXP8IEPas5paJwVVRVZYMcVy3cHlIYzRaY+99ayBptEI+KWfqzhzxnLGV2aGjHUjolBsl0iA==
+736 silly tarball trying hubot-redis-brain@latest by hash: sha512-F3udeIfYZ+49ezeWKQgcI41PblsyRnHvAWrqjJV/HGApPCxX1P0cPiNna3B/ml6V5EOOZLsVeelukwtxDhh09A==
+737 silly tarball trying hubot-shipit@latest by hash: sha1-T7yeFhlTv3kB/cNuKnAsExA/FrI=
+738 silly tarball trying log@1.4.0 by hash: sha1-S6HYkP3iSbAx3KA7w36q8yVlbxw=
+739 silly tarball trying scoped-http-client@0.11.0 by hash: sha1-iH+oKoNg8V1jmlLlBOVjwVfSbXQ=
+740 silly tarball trying optparse@1.0.4 by hash: sha1-wGJXnS0F0kPCIaMEpx4Ml5YjzPE=
+741 silly tarball trying hubot@latest by hash: sha512-+8h/s+t5GirjuDW5K1QjTGBGzOU8ksEi51HeLdFghYOWj40x6ndhAU3C6SRPk/7yHj6luVPuVi/Y8s0P+lqM9Q==
+742 silly extract connect-multiparty@^2.1.1 extracted to /home/shufflehubot/node_modules/.staging/connect-multiparty-53106556 (236ms)
+743 silly extract hubot-help@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-help-e3da3f97 (239ms)
+744 silly extract chalk@^1.0.0 extracted to /home/shufflehubot/node_modules/.staging/chalk-0f0babea (245ms)
+745 silly extract utils-merge@1.0.1 extracted to /home/shufflehubot/node_modules/.staging/utils-merge-73b8cebc (257ms)
+746 silly extract vary@~1.1.2 extracted to /home/shufflehubot/node_modules/.staging/vary-6eec0c9b (258ms)
+747 silly extract safe-buffer@5.1.2 extracted to /home/shufflehubot/node_modules/.staging/safe-buffer-758caee6 (272ms)
+748 silly extract hubot-maps@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-maps-c084b354 (272ms)
+749 silly extract hubot-rules@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-rules-b2eae485 (292ms)
+750 silly extract optparse@1.0.4 extracted to /home/shufflehubot/node_modules/.staging/optparse-3190cf47 (302ms)
+751 silly extract cline@^0.8.2 extracted to /home/shufflehubot/node_modules/.staging/cline-7888319d (305ms)
+752 silly extract hubot-diagnostics@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-diagnostics-172b5dbf (305ms)
+753 silly extract hubot-shipit@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-shipit-e904b885 (307ms)
+754 silly extract hubot-redis-brain@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-redis-brain-2d69ef1c (313ms)
+755 silly extract hubot-google-translate@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-google-translate-dff34fb9 (319ms)
+756 silly extract hubot-pugme@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-pugme-081c65f3 (319ms)
+757 silly extract hubot-google-images@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-google-images-7cc8f42a (324ms)
+758 silly extract log@1.4.0 extracted to /home/shufflehubot/node_modules/.staging/log-63345ae7 (324ms)
+759 silly extract async@>=0.1.0 <1.0.0 extracted to /home/shufflehubot/node_modules/.staging/async-15f3622c (329ms)
+760 silly extract hubot-heroku-keepalive@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-heroku-keepalive-60d712b6 (330ms)
+761 silly extract scoped-http-client@0.11.0 extracted to /home/shufflehubot/node_modules/.staging/scoped-http-client-d5f22a31 (336ms)
+762 silly extract qs@6.7.0 extracted to /home/shufflehubot/node_modules/.staging/qs-d88c85ba (382ms)
+763 silly extract express@^4.16.3 extracted to /home/shufflehubot/node_modules/.staging/express-3c2996a6 (387ms)
+764 silly extract coffeescript@1.6.3 extracted to /home/shufflehubot/node_modules/.staging/coffeescript-7cd16138 (431ms)
+765 silly extract hubot@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-68209d07 (512ms)
+766 silly extract hubot-slack@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-slack-1e5f9770 (527ms)
+767 timing audit submit Completed in 616ms
+768 http fetch POST 200 https://registry.npmjs.org/-/npm/v1/security/audits/quick 616ms
+769 timing audit body Completed in 0ms
+770 silly extract hubot-scripts@latest extracted to /home/shufflehubot/node_modules/.staging/hubot-scripts-5961654e (1105ms)
+771 timing action:extract Completed in 1112ms
+772 silly doReverseSerial unbuild 242
+773 silly unbuild hubot-slack@4.9.0
+774 info lifecycle hubot-slack@4.9.0~preuninstall: hubot-slack@4.9.0
+775 info lifecycle hubot-slack@4.9.0~uninstall: hubot-slack@4.9.0
+776 verbose unbuild rmStuff hubot-slack@4.9.0 from /home/shufflehubot/node_modules
+777 info lifecycle hubot-slack@4.9.0~postuninstall: hubot-slack@4.9.0
+778 silly unbuild hubot-shipit@0.2.1
+779 info lifecycle hubot-shipit@0.2.1~preuninstall: hubot-shipit@0.2.1
+780 info lifecycle hubot-shipit@0.2.1~uninstall: hubot-shipit@0.2.1
+781 verbose unbuild rmStuff hubot-shipit@0.2.1 from /home/shufflehubot/node_modules
+782 info lifecycle hubot-shipit@0.2.1~postuninstall: hubot-shipit@0.2.1
+783 silly unbuild hubot-scripts@2.17.2
+784 info lifecycle hubot-scripts@2.17.2~preuninstall: hubot-scripts@2.17.2
+785 info lifecycle hubot-scripts@2.17.2~uninstall: hubot-scripts@2.17.2
+786 verbose unbuild rmStuff hubot-scripts@2.17.2 from /home/shufflehubot/node_modules
+787 info lifecycle hubot-scripts@2.17.2~postuninstall: hubot-scripts@2.17.2
+788 silly unbuild hubot-rules@1.0.0
+789 info lifecycle hubot-rules@1.0.0~preuninstall: hubot-rules@1.0.0
+790 info lifecycle hubot-rules@1.0.0~uninstall: hubot-rules@1.0.0
+791 verbose unbuild rmStuff hubot-rules@1.0.0 from /home/shufflehubot/node_modules
+792 info lifecycle hubot-rules@1.0.0~postuninstall: hubot-rules@1.0.0
+793 silly unbuild hubot-redis-brain@1.0.0
+794 info lifecycle hubot-redis-brain@1.0.0~preuninstall: hubot-redis-brain@1.0.0
+795 info lifecycle hubot-redis-brain@1.0.0~uninstall: hubot-redis-brain@1.0.0
+796 verbose unbuild rmStuff hubot-redis-brain@1.0.0 from /home/shufflehubot/node_modules
+797 info lifecycle hubot-redis-brain@1.0.0~postuninstall: hubot-redis-brain@1.0.0
+798 silly unbuild hubot-pugme@0.1.1
+799 info lifecycle hubot-pugme@0.1.1~preuninstall: hubot-pugme@0.1.1
+800 info lifecycle hubot-pugme@0.1.1~uninstall: hubot-pugme@0.1.1
+801 verbose unbuild rmStuff hubot-pugme@0.1.1 from /home/shufflehubot/node_modules
+802 info lifecycle hubot-pugme@0.1.1~postuninstall: hubot-pugme@0.1.1
+803 silly unbuild hubot-maps@0.0.3
+804 info lifecycle hubot-maps@0.0.3~preuninstall: hubot-maps@0.0.3
+805 info lifecycle hubot-maps@0.0.3~uninstall: hubot-maps@0.0.3
+806 verbose unbuild rmStuff hubot-maps@0.0.3 from /home/shufflehubot/node_modules
+807 info lifecycle hubot-maps@0.0.3~postuninstall: hubot-maps@0.0.3
+808 silly unbuild hubot-heroku-keepalive@1.0.3
+809 info lifecycle hubot-heroku-keepalive@1.0.3~preuninstall: hubot-heroku-keepalive@1.0.3
+810 info lifecycle hubot-heroku-keepalive@1.0.3~uninstall: hubot-heroku-keepalive@1.0.3
+811 verbose unbuild rmStuff hubot-heroku-keepalive@1.0.3 from /home/shufflehubot/node_modules
+812 info lifecycle hubot-heroku-keepalive@1.0.3~postuninstall: hubot-heroku-keepalive@1.0.3
+813 silly unbuild hubot-help@1.0.1
+814 info lifecycle hubot-help@1.0.1~preuninstall: hubot-help@1.0.1
+815 info lifecycle hubot-help@1.0.1~uninstall: hubot-help@1.0.1
+816 verbose unbuild rmStuff hubot-help@1.0.1 from /home/shufflehubot/node_modules
+817 info lifecycle hubot-help@1.0.1~postuninstall: hubot-help@1.0.1
+818 silly unbuild hubot-google-translate@0.2.1
+819 info lifecycle hubot-google-translate@0.2.1~preuninstall: hubot-google-translate@0.2.1
+820 info lifecycle hubot-google-translate@0.2.1~uninstall: hubot-google-translate@0.2.1
+821 verbose unbuild rmStuff hubot-google-translate@0.2.1 from /home/shufflehubot/node_modules
+822 info lifecycle hubot-google-translate@0.2.1~postuninstall: hubot-google-translate@0.2.1
+823 silly unbuild hubot-google-images@0.2.7
+824 info lifecycle hubot-google-images@0.2.7~preuninstall: hubot-google-images@0.2.7
+825 info lifecycle hubot-google-images@0.2.7~uninstall: hubot-google-images@0.2.7
+826 verbose unbuild rmStuff hubot-google-images@0.2.7 from /home/shufflehubot/node_modules
+827 info lifecycle hubot-google-images@0.2.7~postuninstall: hubot-google-images@0.2.7
+828 silly unbuild hubot-diagnostics@1.0.0
+829 info lifecycle hubot-diagnostics@1.0.0~preuninstall: hubot-diagnostics@1.0.0
+830 info lifecycle hubot-diagnostics@1.0.0~uninstall: hubot-diagnostics@1.0.0
+831 verbose unbuild rmStuff hubot-diagnostics@1.0.0 from /home/shufflehubot/node_modules
+832 info lifecycle hubot-diagnostics@1.0.0~postuninstall: hubot-diagnostics@1.0.0
+833 timing action:unbuild Completed in 6ms
+834 silly doSerial remove 242
+835 silly remove /home/shufflehubot/node_modules/hubot-diagnostics
+836 silly remove /home/shufflehubot/node_modules/hubot-google-images
+837 silly remove /home/shufflehubot/node_modules/hubot-google-translate
+838 silly remove /home/shufflehubot/node_modules/hubot-help
+839 silly remove /home/shufflehubot/node_modules/hubot-heroku-keepalive
+840 silly remove /home/shufflehubot/node_modules/hubot-maps
+841 silly remove /home/shufflehubot/node_modules/hubot-pugme
+842 silly remove /home/shufflehubot/node_modules/hubot-redis-brain
+843 silly remove /home/shufflehubot/node_modules/hubot-rules
+844 silly remove /home/shufflehubot/node_modules/hubot-scripts
+845 silly remove /home/shufflehubot/node_modules/hubot-shipit
+846 silly remove /home/shufflehubot/node_modules/hubot-slack
+847 timing action:remove Completed in 890ms
+848 silly doSerial move 242
+849 silly move /home/shufflehubot/node_modules/hubot-slack/node_modules/async /home/shufflehubot/node_modules/@slack/client/node_modules/async
+850 info lifecycle async@1.5.2~preuninstall: async@1.5.2
+851 info lifecycle async@1.5.2~uninstall: async@1.5.2
+852 verbose unbuild rmStuff async@1.5.2 from /home/shufflehubot/node_modules
+853 verbose unbuild rmStuff in /home/shufflehubot/node_modules/hubot-slack/node_modules
+854 info lifecycle async@1.5.2~postuninstall: async@1.5.2
+855 silly move move existing destination node_modules away /home/shufflehubot/node_modules/@slack/client/node_modules/async/node_modules
+856 silly move remove existing destination /home/shufflehubot/node_modules/@slack/client/node_modules/async
+857 silly move make sure destination parent exists /home/shufflehubot/node_modules/@slack/client/node_modules
+858 silly move move source node_modules away /home/shufflehubot/node_modules/hubot-slack/node_modules/async/node_modules
+859 silly move move module dir to final dest /home/shufflehubot/node_modules/hubot-slack/node_modules/async /home/shufflehubot/node_modules/@slack/client/node_modules/async
+860 info lifecycle async@1.5.2~preinstall: async@1.5.2
+861 silly move /home/shufflehubot/node_modules/hubot-slack/node_modules/@slack/client /home/shufflehubot/node_modules/@slack/client
+862 info lifecycle @slack/client@3.16.1-sec.2~preuninstall: @slack/client@3.16.1-sec.2
+863 info lifecycle @slack/client@3.16.1-sec.2~uninstall: @slack/client@3.16.1-sec.2
+864 verbose unbuild rmStuff @slack/client@3.16.1-sec.2 from /home/shufflehubot/node_modules
+865 verbose unbuild rmStuff in /home/shufflehubot/node_modules/hubot-slack/node_modules
+866 info lifecycle @slack/client@3.16.1-sec.2~postuninstall: @slack/client@3.16.1-sec.2
+867 silly move move existing destination node_modules away /home/shufflehubot/node_modules/@slack/client/node_modules
+868 silly move remove existing destination /home/shufflehubot/node_modules/@slack/client
+869 silly move make sure destination parent exists /home/shufflehubot/node_modules/@slack
+870 silly move move source node_modules away /home/shufflehubot/node_modules/hubot-slack/node_modules/@slack/client/node_modules
+871 silly move move module dir to final dest /home/shufflehubot/node_modules/hubot-slack/node_modules/@slack/client /home/shufflehubot/node_modules/@slack/client
+872 silly move move existing destination node_modules back /home/shufflehubot/node_modules/@slack/client/node_modules
+873 info lifecycle @slack/client@3.16.1-sec.2~preinstall: @slack/client@3.16.1-sec.2
+874 timing action:move Completed in 50ms
+875 silly doSerial finalize 242
+876 silly finalize /home/shufflehubot/node_modules/express/node_modules/qs
+877 silly finalize /home/shufflehubot/node_modules/express/node_modules/safe-buffer
+878 silly finalize /home/shufflehubot/node_modules/utils-merge
+879 silly finalize /home/shufflehubot/node_modules/vary
+880 silly finalize /home/shufflehubot/node_modules/async
+881 silly finalize /home/shufflehubot/node_modules/chalk
+882 silly finalize /home/shufflehubot/node_modules/cline
+883 silly finalize /home/shufflehubot/node_modules/coffeescript
+884 timing action:finalize Completed in 59ms
+885 verbose unlock done using /home/shufflehubot/.npm/_locks/staging-d559f62f37b9e887.lock for /home/shufflehubot/node_modules/.staging
+886 timing stage:rollbackFailedOptional Completed in 1ms
+887 timing stage:runTopLevelLifecycles Completed in 7749ms
+888 silly saveTree shufflehubot@0.0.0
+888 silly saveTree ├── hubot-diagnostics@1.0.0
+888 silly saveTree ├── hubot-google-images@0.2.7
+888 silly saveTree ├── hubot-google-translate@0.2.1
+888 silly saveTree ├── hubot-help@1.0.1
+888 silly saveTree ├── hubot-heroku-keepalive@1.0.3
+888 silly saveTree ├── hubot-maps@0.0.3
+888 silly saveTree ├── hubot-pugme@0.1.1
+888 silly saveTree ├─┬ hubot-redis-brain@1.0.0
+888 silly saveTree │ └─┬ redis@2.8.0
+888 silly saveTree │   ├── double-ended-queue@2.1.0-0
+888 silly saveTree │   ├── redis-commands@1.7.0
+888 silly saveTree │   └── redis-parser@2.6.0
+888 silly saveTree ├── hubot-rules@1.0.0
+888 silly saveTree ├─┬ hubot-scripts@2.17.2
+888 silly saveTree │ └── redis@0.8.4
+888 silly saveTree ├── hubot-shipit@0.2.1
+888 silly saveTree ├─┬ hubot-slack@4.9.0
+888 silly saveTree │ ├─┬ @slack/client@3.16.1-sec.2
+888 silly saveTree │ │ ├── async@1.5.2
+888 silly saveTree │ │ ├── bluebird@3.7.2
+888 silly saveTree │ │ ├── eventemitter3@1.2.0
+888 silly saveTree │ │ ├─┬ https-proxy-agent@2.2.4
+888 silly saveTree │ │ │ ├─┬ agent-base@4.3.0
+888 silly saveTree │ │ │ │ └─┬ es6-promisify@5.0.0
+888 silly saveTree │ │ │ │   └── es6-promise@4.2.8
+888 silly saveTree │ │ │ └─┬ debug@3.2.7
+888 silly saveTree │ │ │   └── ms@2.1.3
+888 silly saveTree │ │ ├── inherits@2.0.4
+888 silly saveTree │ │ ├── lodash@4.17.21
+888 silly saveTree │ │ ├── pkginfo@0.4.1
+888 silly saveTree │ │ ├─┬ request@2.88.2
+888 silly saveTree │ │ │ ├── aws-sign2@0.7.0
+888 silly saveTree │ │ │ ├── aws4@1.11.0
+888 silly saveTree │ │ │ ├── caseless@0.12.0
+888 silly saveTree │ │ │ ├─┬ combined-stream@1.0.8
+888 silly saveTree │ │ │ │ └── delayed-stream@1.0.0
+888 silly saveTree │ │ │ ├── extend@3.0.2
+888 silly saveTree │ │ │ ├── forever-agent@0.6.1
+888 silly saveTree │ │ │ ├─┬ form-data@2.3.3
+888 silly saveTree │ │ │ │ ├── asynckit@0.4.0
+888 silly saveTree │ │ │ │ └─┬ mime-types@2.1.32
+888 silly saveTree │ │ │ │   └── mime-db@1.49.0
+888 silly saveTree │ │ │ ├─┬ har-validator@5.1.5
+888 silly saveTree │ │ │ │ ├─┬ ajv@6.12.6
+888 silly saveTree │ │ │ │ │ ├── fast-deep-equal@3.1.3
+888 silly saveTree │ │ │ │ │ ├── fast-json-stable-stringify@2.1.0
+888 silly saveTree │ │ │ │ │ ├── json-schema-traverse@0.4.1
+888 silly saveTree │ │ │ │ │ └─┬ uri-js@4.4.1
+888 silly saveTree │ │ │ │ │   └── punycode@2.1.1
+888 silly saveTree │ │ │ │ └── har-schema@2.0.0
+888 silly saveTree │ │ │ ├─┬ http-signature@1.2.0
+888 silly saveTree │ │ │ │ ├── assert-plus@1.0.0
+888 silly saveTree │ │ │ │ ├─┬ jsprim@1.4.1
+888 silly saveTree │ │ │ │ │ ├── extsprintf@1.3.0
+888 silly saveTree │ │ │ │ │ ├── json-schema@0.2.3
+888 silly saveTree │ │ │ │ │ └─┬ verror@1.10.0
+888 silly saveTree │ │ │ │ │   └── core-util-is@1.0.2
+888 silly saveTree │ │ │ │ └─┬ sshpk@1.16.1
+888 silly saveTree │ │ │ │   ├─┬ asn1@0.2.4
+888 silly saveTree │ │ │ │   │ └── safer-buffer@2.1.2
+888 silly saveTree │ │ │ │   ├─┬ bcrypt-pbkdf@1.0.2
+888 silly saveTree │ │ │ │   │ └── tweetnacl@0.14.5
+888 silly saveTree │ │ │ │   ├── dashdash@1.14.1
+888 silly saveTree │ │ │ │   ├─┬ ecc-jsbn@0.1.2
+888 silly saveTree │ │ │ │   │ └── jsbn@0.1.1
+888 silly saveTree │ │ │ │   ├── getpass@0.1.7
+888 silly saveTree │ │ │ │   ├── jsbn@0.1.1
+888 silly saveTree │ │ │ │   ├── safer-buffer@2.1.2
+888 silly saveTree │ │ │ │   └── tweetnacl@0.14.5
+888 silly saveTree │ │ │ ├── is-typedarray@1.0.0
+888 silly saveTree │ │ │ ├── isstream@0.1.2
+888 silly saveTree │ │ │ ├── json-stringify-safe@5.0.1
+888 silly saveTree │ │ │ ├── mime-types@2.1.32
+888 silly saveTree │ │ │ ├── oauth-sign@0.9.0
+888 silly saveTree │ │ │ ├── performance-now@2.1.0
+888 silly saveTree │ │ │ ├── qs@6.5.2
+888 silly saveTree │ │ │ ├── safe-buffer@5.2.1
+888 silly saveTree │ │ │ ├─┬ tough-cookie@2.5.0
+888 silly saveTree │ │ │ │ └── psl@1.8.0
+888 silly saveTree │ │ │ ├── tunnel-agent@0.6.0
+888 silly saveTree │ │ │ └── uuid@3.4.0
+888 silly saveTree │ │ ├── retry@0.9.0
+888 silly saveTree │ │ ├── url-join@0.0.1
+888 silly saveTree │ │ ├─┬ winston@2.4.5
+888 silly saveTree │ │ │ ├── async@1.0.0
+888 silly saveTree │ │ │ ├── colors@1.0.3
+888 silly saveTree │ │ │ ├── cycle@1.0.3
+888 silly saveTree │ │ │ ├── eyes@0.1.8
+888 silly saveTree │ │ │ └── stack-trace@0.0.10
+888 silly saveTree │ │ └─┬ ws@1.1.5
+888 silly saveTree │ │   ├── options@0.0.6
+888 silly saveTree │ │   └── ultron@1.0.2
+888 silly saveTree │ ├── bluebird@3.7.2
+888 silly saveTree │ └── lodash@4.17.21
+888 silly saveTree └─┬ hubot@3.3.2
+888 silly saveTree   ├── async@0.9.2
+888 silly saveTree   ├─┬ chalk@1.1.3
+888 silly saveTree   │ ├── ansi-styles@2.2.1
+888 silly saveTree   │ ├── escape-string-regexp@1.0.5
+888 silly saveTree   │ ├─┬ has-ansi@2.0.0
+888 silly saveTree   │ │ └── ansi-regex@2.1.1
+888 silly saveTree   │ ├── strip-ansi@3.0.1
+888 silly saveTree   │ └── supports-color@2.0.0
+888 silly saveTree   ├── cline@0.8.2
+888 silly saveTree   ├── coffeescript@1.6.3
+888 silly saveTree   ├─┬ connect-multiparty@2.2.0
+888 silly saveTree   │ ├─┬ http-errors@1.7.3
+888 silly saveTree   │ │ ├── depd@1.1.2
+888 silly saveTree   │ │ ├── setprototypeof@1.1.1
+888 silly saveTree   │ │ ├── statuses@1.5.0
+888 silly saveTree   │ │ └── toidentifier@1.0.0
+888 silly saveTree   │ ├─┬ multiparty@4.2.2
+888 silly saveTree   │ │ ├─┬ http-errors@1.8.0
+888 silly saveTree   │ │ │ └── setprototypeof@1.2.0
+888 silly saveTree   │ │ └─┬ uid-safe@2.1.5
+888 silly saveTree   │ │   └── random-bytes@1.0.0
+888 silly saveTree   │ ├─┬ on-finished@2.3.0
+888 silly saveTree   │ │ └── ee-first@1.1.1
+888 silly saveTree   │ └─┬ type-is@1.6.18
+888 silly saveTree   │   └── media-typer@0.3.0
+888 silly saveTree   ├─┬ express@4.17.1
+888 silly saveTree   │ ├─┬ accepts@1.3.7
+888 silly saveTree   │ │ └── negotiator@0.6.2
+888 silly saveTree   │ ├── array-flatten@1.1.1
+888 silly saveTree   │ ├─┬ body-parser@1.19.0
+888 silly saveTree   │ │ ├── bytes@3.1.0
+888 silly saveTree   │ │ ├── content-type@1.0.4
+888 silly saveTree   │ │ ├─┬ debug@2.6.9
+888 silly saveTree   │ │ │ └── ms@2.0.0
+888 silly saveTree   │ │ ├─┬ http-errors@1.7.2
+888 silly saveTree   │ │ │ └── inherits@2.0.3
+888 silly saveTree   │ │ ├── iconv-lite@0.4.24
+888 silly saveTree   │ │ ├── qs@6.7.0
+888 silly saveTree   │ │ └─┬ raw-body@2.4.0
+888 silly saveTree   │ │   ├─┬ http-errors@1.7.2
+888 silly saveTree   │ │   │ └── inherits@2.0.3
+888 silly saveTree   │ │   └── unpipe@1.0.0
+888 silly saveTree   │ ├─┬ content-disposition@0.5.3
+888 silly saveTree   │ │ └── safe-buffer@5.1.2
+888 silly saveTree   │ ├── content-type@1.0.4
+888 silly saveTree   │ ├── cookie-signature@1.0.6
+888 silly saveTree   │ ├── cookie@0.4.0
+888 silly saveTree   │ ├── debug@2.6.9
+888 silly saveTree   │ ├── encodeurl@1.0.2
+888 silly saveTree   │ ├── escape-html@1.0.3
+888 silly saveTree   │ ├── etag@1.8.1
+888 silly saveTree   │ ├─┬ finalhandler@1.1.2
+888 silly saveTree   │ │ └── parseurl@1.3.3
+888 silly saveTree   │ ├── fresh@0.5.2
+888 silly saveTree   │ ├── merge-descriptors@1.0.1
+888 silly saveTree   │ ├── methods@1.1.2
+888 silly saveTree   │ ├── parseurl@1.3.3
+888 silly saveTree   │ ├── path-to-regexp@0.1.7
+888 silly saveTree   │ ├─┬ proxy-addr@2.0.7
+888 silly saveTree   │ │ ├── forwarded@0.2.0
+888 silly saveTree   │ │ └── ipaddr.js@1.9.1
+888 silly saveTree   │ ├── qs@6.7.0
+888 silly saveTree   │ ├── range-parser@1.2.1
+888 silly saveTree   │ ├── safe-buffer@5.1.2
+888 silly saveTree   │ ├─┬ send@0.17.1
+888 silly saveTree   │ │ ├── destroy@1.0.4
+888 silly saveTree   │ │ ├── mime@1.6.0
+888 silly saveTree   │ │ └── ms@2.1.1
+888 silly saveTree   │ ├── serve-static@1.14.1
+888 silly saveTree   │ ├── utils-merge@1.0.1
+888 silly saveTree   │ └── vary@1.1.2
+888 silly saveTree   ├── log@1.4.0
+888 silly saveTree   ├── optparse@1.0.4
+888 silly saveTree   └── scoped-http-client@0.11.0
+889 verbose stack Error: ENOENT: no such file or directory, rename '/home/shufflehubot/node_modules/coffeescript' -> '/home/shufflehubot/node_modules/.coffeescript.DELETE'
+890 verbose cwd /home/shufflehubot
+891 verbose Linux 5.4.72-microsoft-standard-WSL2
+892 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install" "hubot" "hubot-scripts" "hubot-diagnostics" "hubot-help" "hubot-heroku-keepalive" "hubot-google-images" "hubot-google-translate" "hubot-pugme" "hubot-maps" "hubot-redis-brain" "hubot-rules" "hubot-shipit" "hubot-slack" "--save"
+893 verbose node v14.15.4
+894 verbose npm  v6.14.10
+895 error code ENOENT
+896 error syscall rename
+897 error path /home/shufflehubot/node_modules/coffeescript
+898 error dest /home/shufflehubot/node_modules/.coffeescript.DELETE
+899 error errno -2
+900 error enoent ENOENT: no such file or directory, rename '/home/shufflehubot/node_modules/coffeescript' -> '/home/shufflehubot/node_modules/.coffeescript.DELETE'
+901 error enoent This is related to npm not being able to find a file.
+902 verbose exit [ -2, true ]

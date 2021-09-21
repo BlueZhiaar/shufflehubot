@@ -1,0 +1,1831 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/local/bin/node', '/usr/local/bin/npm', 'install' ]
+2 info using npm@6.14.10
+3 info using node@v14.15.4
+4 verbose config Skipping project config: /home/shufflehubot/.npmrc. (matches userconfig)
+5 verbose npm-session c2fdad65f749c582
+6 silly install runPreinstallTopLevelLifecycles
+7 silly preinstall shufflehubot@0.0.0
+8 info lifecycle shufflehubot@0.0.0~preinstall: shufflehubot@0.0.0
+9 silly install loadCurrentTree
+10 silly install readLocalPackageData
+11 timing stage:loadCurrentTree Completed in 278ms
+12 silly install loadIdealTree
+13 silly install cloneCurrentTreeToIdealTree
+14 timing stage:loadIdealTree:cloneCurrentTree Completed in 1ms
+15 silly install loadShrinkwrap
+16 timing stage:loadIdealTree:loadShrinkwrap Completed in 102ms
+17 silly install loadAllDepsIntoIdealTree
+18 timing stage:loadIdealTree:loadAllDepsIntoIdealTree Completed in 134ms
+19 timing stage:loadIdealTree Completed in 269ms
+20 silly currentTree shufflehubot@0.0.0
+20 silly currentTree ├─┬ @slack/client
+20 silly currentTree │ └── async@1.5.2
+20 silly currentTree ├── agent-base@4.3.0
+20 silly currentTree ├── ansi-regex@2.1.1
+20 silly currentTree ├── ansi-styles@2.2.1
+20 silly currentTree ├── array-flatten@1.1.1
+20 silly currentTree ├── assert-plus@1.0.0
+20 silly currentTree ├── async@0.9.2
+20 silly currentTree ├── asynckit@0.4.0
+20 silly currentTree ├── aws-sign2@0.7.0
+20 silly currentTree ├── aws4@1.11.0
+20 silly currentTree ├── bluebird@3.7.2
+20 silly currentTree ├─┬ body-parser
+20 silly currentTree │ ├── inherits@2.0.3
+20 silly currentTree │ └── qs@6.7.0
+20 silly currentTree ├── bytes@3.1.0
+20 silly currentTree ├── caseless@0.12.0
+20 silly currentTree ├── cline@0.8.2
+20 silly currentTree ├── coffeescript@1.6.3
+20 silly currentTree ├── colors@1.0.3
+20 silly currentTree ├── combined-stream@1.0.8
+20 silly currentTree ├─┬ content-disposition@0.5.3
+20 silly currentTree │ └── safe-buffer@5.1.2
+20 silly currentTree ├── content-type@1.0.4
+20 silly currentTree ├── cookie-signature@1.0.6
+20 silly currentTree ├── cookie@0.4.0
+20 silly currentTree ├── core-util-is@1.0.2
+20 silly currentTree ├── cycle@1.0.3
+20 silly currentTree ├── dashdash@1.14.1
+20 silly currentTree ├── delayed-stream@1.0.0
+20 silly currentTree ├── depd@1.1.2
+20 silly currentTree ├── destroy@1.0.4
+20 silly currentTree ├── double-ended-queue@2.1.0-0
+20 silly currentTree ├── ee-first@1.1.1
+20 silly currentTree ├── encodeurl@1.0.2
+20 silly currentTree ├── es6-promise@4.2.8
+20 silly currentTree ├── es6-promisify@5.0.0
+20 silly currentTree ├── escape-html@1.0.3
+20 silly currentTree ├── escape-string-regexp@1.0.5
+20 silly currentTree ├── etag@1.8.1
+20 silly currentTree ├── eventemitter3@1.2.0
+20 silly currentTree ├── extend@3.0.2
+20 silly currentTree ├── extsprintf@1.3.0
+20 silly currentTree ├── eyes@0.1.8
+20 silly currentTree ├── fast-deep-equal@3.1.3
+20 silly currentTree ├── fast-json-stable-stringify@2.1.0
+20 silly currentTree ├── forever-agent@0.6.1
+20 silly currentTree ├── forwarded@0.2.0
+20 silly currentTree ├── fresh@0.5.2
+20 silly currentTree ├── getpass@0.1.7
+20 silly currentTree ├── har-schema@2.0.0
+20 silly currentTree ├── has-ansi@2.0.0
+20 silly currentTree ├── http-signature
+20 silly currentTree ├─┬ https-proxy-agent@2.2.4
+20 silly currentTree │ ├── debug@3.2.7
+20 silly currentTree │ └── ms@2.1.3
+20 silly currentTree ├─┬ hubot
+20 silly currentTree │ ├── qs@6.7.0
+20 silly currentTree │ └── safe-buffer@5.1.2
+20 silly currentTree ├── hubot-diagnostics
+20 silly currentTree ├── hubot-google-images
+20 silly currentTree ├── hubot-google-translate
+20 silly currentTree ├── hubot-help
+20 silly currentTree ├── hubot-heroku-keepalive
+20 silly currentTree ├── hubot-maps
+20 silly currentTree ├── hubot-pugme
+20 silly currentTree ├── hubot-redis-brain
+20 silly currentTree ├── hubot-rules
+20 silly currentTree ├─┬ hubot-scripts
+20 silly currentTree │ └── redis@0.8.4
+20 silly currentTree ├── hubot-shipit
+20 silly currentTree ├── hubot-slack
+20 silly currentTree ├── inherits@2.0.4
+20 silly currentTree ├── ipaddr.js@1.9.1
+20 silly currentTree ├── is-typedarray@1.0.0
+20 silly currentTree ├── isstream@0.1.2
+20 silly currentTree ├── jsbn@0.1.1
+20 silly currentTree ├── json-schema-traverse@0.4.1
+20 silly currentTree ├── json-schema@0.2.3
+20 silly currentTree ├── json-stringify-safe@5.0.1
+20 silly currentTree ├── request
+20 silly currentTree └── send
+21 silly idealTree shufflehubot@0.0.0
+21 silly idealTree ├─┬ @slack/client@3.16.1-sec.2
+21 silly idealTree │ └── async@1.5.2
+21 silly idealTree ├── accepts@1.3.7
+21 silly idealTree ├── agent-base@4.3.0
+21 silly idealTree ├── ajv@6.12.6
+21 silly idealTree ├── ansi-regex@2.1.1
+21 silly idealTree ├── ansi-styles@2.2.1
+21 silly idealTree ├── array-flatten@1.1.1
+21 silly idealTree ├── asn1@0.2.4
+21 silly idealTree ├── assert-plus@1.0.0
+21 silly idealTree ├── async@0.9.2
+21 silly idealTree ├── asynckit@0.4.0
+21 silly idealTree ├── aws-sign2@0.7.0
+21 silly idealTree ├── aws4@1.11.0
+21 silly idealTree ├── bcrypt-pbkdf@1.0.2
+21 silly idealTree ├── bluebird@3.7.2
+21 silly idealTree ├─┬ body-parser@1.19.0
+21 silly idealTree │ ├── http-errors@1.7.2
+21 silly idealTree │ ├── inherits@2.0.3
+21 silly idealTree │ └── qs@6.7.0
+21 silly idealTree ├── bytes@3.1.0
+21 silly idealTree ├── caseless@0.12.0
+21 silly idealTree ├── chalk@1.1.3
+21 silly idealTree ├── cline@0.8.2
+21 silly idealTree ├── coffeescript@1.6.3
+21 silly idealTree ├── colors@1.0.3
+21 silly idealTree ├── combined-stream@1.0.8
+21 silly idealTree ├── connect-multiparty@2.2.0
+21 silly idealTree ├─┬ content-disposition@0.5.3
+21 silly idealTree │ └── safe-buffer@5.1.2
+21 silly idealTree ├── content-type@1.0.4
+21 silly idealTree ├── cookie-signature@1.0.6
+21 silly idealTree ├── cookie@0.4.0
+21 silly idealTree ├── core-util-is@1.0.2
+21 silly idealTree ├── cycle@1.0.3
+21 silly idealTree ├── dashdash@1.14.1
+21 silly idealTree ├── debug@2.6.9
+21 silly idealTree ├── delayed-stream@1.0.0
+21 silly idealTree ├── depd@1.1.2
+21 silly idealTree ├── destroy@1.0.4
+21 silly idealTree ├── double-ended-queue@2.1.0-0
+21 silly idealTree ├── ecc-jsbn@0.1.2
+21 silly idealTree ├── ee-first@1.1.1
+21 silly idealTree ├── encodeurl@1.0.2
+21 silly idealTree ├── es6-promise@4.2.8
+21 silly idealTree ├── es6-promisify@5.0.0
+21 silly idealTree ├── escape-html@1.0.3
+21 silly idealTree ├── escape-string-regexp@1.0.5
+21 silly idealTree ├── etag@1.8.1
+21 silly idealTree ├── eventemitter3@1.2.0
+21 silly idealTree ├── extend@3.0.2
+21 silly idealTree ├── extsprintf@1.3.0
+21 silly idealTree ├── eyes@0.1.8
+21 silly idealTree ├── fast-deep-equal@3.1.3
+21 silly idealTree ├── fast-json-stable-stringify@2.1.0
+21 silly idealTree ├── finalhandler@1.1.2
+21 silly idealTree ├── forever-agent@0.6.1
+21 silly idealTree ├── form-data@2.3.3
+21 silly idealTree ├── forwarded@0.2.0
+21 silly idealTree ├── fresh@0.5.2
+21 silly idealTree ├── getpass@0.1.7
+21 silly idealTree ├── har-schema@2.0.0
+21 silly idealTree ├── har-validator@5.1.5
+21 silly idealTree ├── has-ansi@2.0.0
+21 silly idealTree ├── http-errors@1.7.3
+21 silly idealTree ├── http-signature@1.2.0
+21 silly idealTree ├─┬ https-proxy-agent@2.2.4
+21 silly idealTree │ ├── debug@3.2.7
+21 silly idealTree │ └── ms@2.1.3
+21 silly idealTree ├── hubot-diagnostics@1.0.0
+21 silly idealTree ├── hubot-google-images@0.2.7
+21 silly idealTree ├── hubot-google-translate@0.2.1
+21 silly idealTree ├── hubot-help@1.0.1
+21 silly idealTree ├── hubot-heroku-keepalive@1.0.3
+21 silly idealTree ├── hubot-maps@0.0.3
+21 silly idealTree ├── hubot-pugme@0.1.1
+21 silly idealTree ├── hubot-redis-brain@1.0.0
+21 silly idealTree ├── hubot-rules@1.0.0
+21 silly idealTree ├─┬ hubot-scripts@2.17.2
+21 silly idealTree │ └── redis@0.8.4
+21 silly idealTree ├── hubot-shipit@0.2.1
+21 silly idealTree ├── hubot-slack@4.9.0
+21 silly idealTree ├─┬ hubot@3.3.2
+21 silly idealTree │ ├── express@4.17.1
+21 silly idealTree │ ├── qs@6.7.0
+21 silly idealTree │ └── safe-buffer@5.1.2
+21 silly idealTree ├── iconv-lite@0.4.24
+21 silly idealTree ├── inherits@2.0.4
+21 silly idealTree ├── ipaddr.js@1.9.1
+21 silly idealTree ├── is-typedarray@1.0.0
+21 silly idealTree ├── isstream@0.1.2
+21 silly idealTree ├── jsbn@0.1.1
+21 silly idealTree ├── json-schema-traverse@0.4.1
+21 silly idealTree ├── json-schema@0.2.3
+21 silly idealTree ├── json-stringify-safe@5.0.1
+21 silly idealTree ├── jsprim@1.4.1
+21 silly idealTree ├── lodash@4.17.21
+21 silly idealTree ├── log@1.4.0
+21 silly idealTree ├── media-typer@0.3.0
+21 silly idealTree ├── merge-descriptors@1.0.1
+21 silly idealTree ├── methods@1.1.2
+21 silly idealTree ├── mime-db@1.49.0
+21 silly idealTree ├── mime-types@2.1.32
+21 silly idealTree ├── mime@1.6.0
+21 silly idealTree ├── ms@2.0.0
+21 silly idealTree ├─┬ multiparty@4.2.2
+21 silly idealTree │ ├── http-errors@1.8.0
+21 silly idealTree │ └── setprototypeof@1.2.0
+21 silly idealTree ├── negotiator@0.6.2
+21 silly idealTree ├── oauth-sign@0.9.0
+21 silly idealTree ├── on-finished@2.3.0
+21 silly idealTree ├── options@0.0.6
+21 silly idealTree ├── optparse@1.0.4
+21 silly idealTree ├── parseurl@1.3.3
+21 silly idealTree ├── path-to-regexp@0.1.7
+21 silly idealTree ├── performance-now@2.1.0
+21 silly idealTree ├── pkginfo@0.4.1
+21 silly idealTree ├── proxy-addr@2.0.7
+21 silly idealTree ├── psl@1.8.0
+21 silly idealTree ├── punycode@2.1.1
+21 silly idealTree ├── qs@6.5.2
+21 silly idealTree ├── random-bytes@1.0.0
+21 silly idealTree ├── range-parser@1.2.1
+21 silly idealTree ├─┬ raw-body@2.4.0
+21 silly idealTree │ ├── http-errors@1.7.2
+21 silly idealTree │ └── inherits@2.0.3
+21 silly idealTree ├── redis-commands@1.7.0
+21 silly idealTree ├── redis-parser@2.6.0
+21 silly idealTree ├── redis@2.8.0
+21 silly idealTree ├── request@2.88.2
+21 silly idealTree ├── retry@0.9.0
+21 silly idealTree ├── safe-buffer@5.2.1
+21 silly idealTree ├── safer-buffer@2.1.2
+21 silly idealTree ├── scoped-http-client@0.11.0
+21 silly idealTree ├─┬ send@0.17.1
+21 silly idealTree │ └── ms@2.1.1
+21 silly idealTree ├── serve-static@1.14.1
+21 silly idealTree ├── setprototypeof@1.1.1
+21 silly idealTree ├── shuffleApp@file:shuffleApp
+21 silly idealTree ├── sshpk@1.16.1
+21 silly idealTree ├── stack-trace@0.0.10
+21 silly idealTree ├── statuses@1.5.0
+21 silly idealTree ├── strip-ansi@3.0.1
+21 silly idealTree ├── supports-color@2.0.0
+21 silly idealTree ├── toidentifier@1.0.0
+21 silly idealTree ├── tough-cookie@2.5.0
+21 silly idealTree ├── tunnel-agent@0.6.0
+21 silly idealTree ├── tweetnacl@0.14.5
+21 silly idealTree ├── type-is@1.6.18
+21 silly idealTree ├── uid-safe@2.1.5
+21 silly idealTree ├── ultron@1.0.2
+21 silly idealTree ├── unpipe@1.0.0
+21 silly idealTree ├── uri-js@4.4.1
+21 silly idealTree ├── url-join@0.0.1
+21 silly idealTree ├── utils-merge@1.0.1
+21 silly idealTree ├── uuid@3.4.0
+21 silly idealTree ├── vary@1.1.2
+21 silly idealTree ├── verror@1.10.0
+21 silly idealTree ├─┬ winston@2.4.5
+21 silly idealTree │ └── async@1.0.0
+21 silly idealTree └── ws@1.1.5
+22 silly install generateActionsToTake
+23 timing stage:generateActionsToTake Completed in 64ms
+24 silly diffTrees action count 97
+25 silly diffTrees add lodash@4.17.21
+26 silly diffTrees add log@1.4.0
+27 silly diffTrees add media-typer@0.3.0
+28 silly diffTrees add merge-descriptors@1.0.1
+29 silly diffTrees add methods@1.1.2
+30 silly diffTrees add mime@1.6.0
+31 silly diffTrees add mime-db@1.49.0
+32 silly diffTrees add mime-types@2.1.32
+33 silly diffTrees add form-data@2.3.3
+34 silly diffTrees add ms@2.0.0
+35 silly diffTrees add debug@2.6.9
+36 silly diffTrees add setprototypeof@1.2.0
+37 silly diffTrees add negotiator@0.6.2
+38 silly diffTrees add accepts@1.3.7
+39 silly diffTrees add oauth-sign@0.9.0
+40 silly diffTrees add on-finished@2.3.0
+41 silly diffTrees add options@0.0.6
+42 silly diffTrees add optparse@1.0.4
+43 silly diffTrees add parseurl@1.3.3
+44 silly diffTrees add path-to-regexp@0.1.7
+45 silly diffTrees add performance-now@2.1.0
+46 silly diffTrees add pkginfo@0.4.1
+47 silly diffTrees add proxy-addr@2.0.7
+48 silly diffTrees add psl@1.8.0
+49 silly diffTrees add punycode@2.1.1
+50 silly diffTrees add qs@6.5.2
+51 silly diffTrees add random-bytes@1.0.0
+52 silly diffTrees add range-parser@1.2.1
+53 silly diffTrees add inherits@2.0.3
+54 silly diffTrees add redis-commands@1.7.0
+55 silly diffTrees add redis-parser@2.6.0
+56 silly diffTrees add redis@2.8.0
+57 silly diffTrees add retry@0.9.0
+58 silly diffTrees add safe-buffer@5.2.1
+59 silly diffTrees add safer-buffer@2.1.2
+60 silly diffTrees add asn1@0.2.4
+61 silly diffTrees add ecc-jsbn@0.1.2
+62 silly diffTrees add iconv-lite@0.4.24
+63 silly diffTrees add scoped-http-client@0.11.0
+64 silly diffTrees add ms@2.1.1
+65 silly diffTrees add setprototypeof@1.1.1
+66 silly diffTrees add stack-trace@0.0.10
+67 silly diffTrees add statuses@1.5.0
+68 silly diffTrees add strip-ansi@3.0.1
+69 silly diffTrees add supports-color@2.0.0
+70 silly diffTrees add chalk@1.1.3
+71 silly diffTrees add toidentifier@1.0.0
+72 silly diffTrees add http-errors@1.7.2
+73 silly diffTrees add http-errors@1.7.3
+74 silly diffTrees update send@0.17.1
+75 silly diffTrees add serve-static@1.14.1
+76 silly diffTrees add http-errors@1.8.0
+77 silly diffTrees add http-errors@1.7.2
+78 silly diffTrees add tough-cookie@2.5.0
+79 silly diffTrees add tunnel-agent@0.6.0
+80 silly diffTrees add tweetnacl@0.14.5
+81 silly diffTrees add bcrypt-pbkdf@1.0.2
+82 silly diffTrees add sshpk@1.16.1
+83 silly diffTrees add type-is@1.6.18
+84 silly diffTrees add uid-safe@2.1.5
+85 silly diffTrees add multiparty@4.2.2
+86 silly diffTrees add connect-multiparty@2.2.0
+87 silly diffTrees add ultron@1.0.2
+88 silly diffTrees add unpipe@1.0.0
+89 silly diffTrees add finalhandler@1.1.2
+90 silly diffTrees add raw-body@2.4.0
+91 silly diffTrees update body-parser@1.19.0
+92 silly diffTrees add uri-js@4.4.1
+93 silly diffTrees add ajv@6.12.6
+94 silly diffTrees add har-validator@5.1.5
+95 silly diffTrees add url-join@0.0.1
+96 silly diffTrees add utils-merge@1.0.1
+97 silly diffTrees add uuid@3.4.0
+98 silly diffTrees add vary@1.1.2
+99 silly diffTrees add express@4.17.1
+100 silly diffTrees add verror@1.10.0
+101 silly diffTrees add jsprim@1.4.1
+102 silly diffTrees update http-signature@1.2.0
+103 silly diffTrees update request@2.88.2
+104 silly diffTrees add async@1.0.0
+105 silly diffTrees add winston@2.4.5
+106 silly diffTrees add ws@1.1.5
+107 silly diffTrees update @slack/client@3.16.1-sec.2
+108 silly diffTrees update hubot@3.3.2
+109 silly diffTrees update hubot-diagnostics@1.0.0
+110 silly diffTrees update hubot-google-images@0.2.7
+111 silly diffTrees update hubot-google-translate@0.2.1
+112 silly diffTrees update hubot-help@1.0.1
+113 silly diffTrees update hubot-heroku-keepalive@1.0.3
+114 silly diffTrees update hubot-maps@0.0.3
+115 silly diffTrees update hubot-pugme@0.1.1
+116 silly diffTrees update hubot-redis-brain@1.0.0
+117 silly diffTrees update hubot-rules@1.0.0
+118 silly diffTrees update hubot-scripts@2.17.2
+119 silly diffTrees update hubot-shipit@0.2.1
+120 silly diffTrees update hubot-slack@4.9.0
+121 silly diffTrees add shuffleApp@file:shuffleApp
+122 silly decomposeActions action count 810
+123 silly decomposeActions fetch lodash@4.17.21
+124 silly decomposeActions extract lodash@4.17.21
+125 silly decomposeActions preinstall lodash@4.17.21
+126 silly decomposeActions build lodash@4.17.21
+127 silly decomposeActions install lodash@4.17.21
+128 silly decomposeActions postinstall lodash@4.17.21
+129 silly decomposeActions finalize lodash@4.17.21
+130 silly decomposeActions refresh-package-json lodash@4.17.21
+131 silly decomposeActions fetch log@1.4.0
+132 silly decomposeActions extract log@1.4.0
+133 silly decomposeActions preinstall log@1.4.0
+134 silly decomposeActions build log@1.4.0
+135 silly decomposeActions install log@1.4.0
+136 silly decomposeActions postinstall log@1.4.0
+137 silly decomposeActions finalize log@1.4.0
+138 silly decomposeActions refresh-package-json log@1.4.0
+139 silly decomposeActions fetch media-typer@0.3.0
+140 silly decomposeActions extract media-typer@0.3.0
+141 silly decomposeActions preinstall media-typer@0.3.0
+142 silly decomposeActions build media-typer@0.3.0
+143 silly decomposeActions install media-typer@0.3.0
+144 silly decomposeActions postinstall media-typer@0.3.0
+145 silly decomposeActions finalize media-typer@0.3.0
+146 silly decomposeActions refresh-package-json media-typer@0.3.0
+147 silly decomposeActions fetch merge-descriptors@1.0.1
+148 silly decomposeActions extract merge-descriptors@1.0.1
+149 silly decomposeActions preinstall merge-descriptors@1.0.1
+150 silly decomposeActions build merge-descriptors@1.0.1
+151 silly decomposeActions install merge-descriptors@1.0.1
+152 silly decomposeActions postinstall merge-descriptors@1.0.1
+153 silly decomposeActions finalize merge-descriptors@1.0.1
+154 silly decomposeActions refresh-package-json merge-descriptors@1.0.1
+155 silly decomposeActions fetch methods@1.1.2
+156 silly decomposeActions extract methods@1.1.2
+157 silly decomposeActions preinstall methods@1.1.2
+158 silly decomposeActions build methods@1.1.2
+159 silly decomposeActions install methods@1.1.2
+160 silly decomposeActions postinstall methods@1.1.2
+161 silly decomposeActions finalize methods@1.1.2
+162 silly decomposeActions refresh-package-json methods@1.1.2
+163 silly decomposeActions fetch mime@1.6.0
+164 silly decomposeActions extract mime@1.6.0
+165 silly decomposeActions preinstall mime@1.6.0
+166 silly decomposeActions build mime@1.6.0
+167 silly decomposeActions install mime@1.6.0
+168 silly decomposeActions postinstall mime@1.6.0
+169 silly decomposeActions finalize mime@1.6.0
+170 silly decomposeActions refresh-package-json mime@1.6.0
+171 silly decomposeActions fetch mime-db@1.49.0
+172 silly decomposeActions extract mime-db@1.49.0
+173 silly decomposeActions preinstall mime-db@1.49.0
+174 silly decomposeActions build mime-db@1.49.0
+175 silly decomposeActions install mime-db@1.49.0
+176 silly decomposeActions postinstall mime-db@1.49.0
+177 silly decomposeActions finalize mime-db@1.49.0
+178 silly decomposeActions refresh-package-json mime-db@1.49.0
+179 silly decomposeActions fetch mime-types@2.1.32
+180 silly decomposeActions extract mime-types@2.1.32
+181 silly decomposeActions preinstall mime-types@2.1.32
+182 silly decomposeActions build mime-types@2.1.32
+183 silly decomposeActions install mime-types@2.1.32
+184 silly decomposeActions postinstall mime-types@2.1.32
+185 silly decomposeActions finalize mime-types@2.1.32
+186 silly decomposeActions refresh-package-json mime-types@2.1.32
+187 silly decomposeActions fetch form-data@2.3.3
+188 silly decomposeActions extract form-data@2.3.3
+189 silly decomposeActions preinstall form-data@2.3.3
+190 silly decomposeActions build form-data@2.3.3
+191 silly decomposeActions install form-data@2.3.3
+192 silly decomposeActions postinstall form-data@2.3.3
+193 silly decomposeActions finalize form-data@2.3.3
+194 silly decomposeActions refresh-package-json form-data@2.3.3
+195 silly decomposeActions fetch ms@2.0.0
+196 silly decomposeActions extract ms@2.0.0
+197 silly decomposeActions preinstall ms@2.0.0
+198 silly decomposeActions build ms@2.0.0
+199 silly decomposeActions install ms@2.0.0
+200 silly decomposeActions postinstall ms@2.0.0
+201 silly decomposeActions finalize ms@2.0.0
+202 silly decomposeActions refresh-package-json ms@2.0.0
+203 silly decomposeActions fetch debug@2.6.9
+204 silly decomposeActions extract debug@2.6.9
+205 silly decomposeActions preinstall debug@2.6.9
+206 silly decomposeActions build debug@2.6.9
+207 silly decomposeActions install debug@2.6.9
+208 silly decomposeActions postinstall debug@2.6.9
+209 silly decomposeActions finalize debug@2.6.9
+210 silly decomposeActions refresh-package-json debug@2.6.9
+211 silly decomposeActions fetch setprototypeof@1.2.0
+212 silly decomposeActions extract setprototypeof@1.2.0
+213 silly decomposeActions preinstall setprototypeof@1.2.0
+214 silly decomposeActions build setprototypeof@1.2.0
+215 silly decomposeActions install setprototypeof@1.2.0
+216 silly decomposeActions postinstall setprototypeof@1.2.0
+217 silly decomposeActions finalize setprototypeof@1.2.0
+218 silly decomposeActions refresh-package-json setprototypeof@1.2.0
+219 silly decomposeActions fetch negotiator@0.6.2
+220 silly decomposeActions extract negotiator@0.6.2
+221 silly decomposeActions preinstall negotiator@0.6.2
+222 silly decomposeActions build negotiator@0.6.2
+223 silly decomposeActions install negotiator@0.6.2
+224 silly decomposeActions postinstall negotiator@0.6.2
+225 silly decomposeActions finalize negotiator@0.6.2
+226 silly decomposeActions refresh-package-json negotiator@0.6.2
+227 silly decomposeActions fetch accepts@1.3.7
+228 silly decomposeActions extract accepts@1.3.7
+229 silly decomposeActions preinstall accepts@1.3.7
+230 silly decomposeActions build accepts@1.3.7
+231 silly decomposeActions install accepts@1.3.7
+232 silly decomposeActions postinstall accepts@1.3.7
+233 silly decomposeActions finalize accepts@1.3.7
+234 silly decomposeActions refresh-package-json accepts@1.3.7
+235 silly decomposeActions fetch oauth-sign@0.9.0
+236 silly decomposeActions extract oauth-sign@0.9.0
+237 silly decomposeActions preinstall oauth-sign@0.9.0
+238 silly decomposeActions build oauth-sign@0.9.0
+239 silly decomposeActions install oauth-sign@0.9.0
+240 silly decomposeActions postinstall oauth-sign@0.9.0
+241 silly decomposeActions finalize oauth-sign@0.9.0
+242 silly decomposeActions refresh-package-json oauth-sign@0.9.0
+243 silly decomposeActions fetch on-finished@2.3.0
+244 silly decomposeActions extract on-finished@2.3.0
+245 silly decomposeActions preinstall on-finished@2.3.0
+246 silly decomposeActions build on-finished@2.3.0
+247 silly decomposeActions install on-finished@2.3.0
+248 silly decomposeActions postinstall on-finished@2.3.0
+249 silly decomposeActions finalize on-finished@2.3.0
+250 silly decomposeActions refresh-package-json on-finished@2.3.0
+251 silly decomposeActions fetch options@0.0.6
+252 silly decomposeActions extract options@0.0.6
+253 silly decomposeActions preinstall options@0.0.6
+254 silly decomposeActions build options@0.0.6
+255 silly decomposeActions install options@0.0.6
+256 silly decomposeActions postinstall options@0.0.6
+257 silly decomposeActions finalize options@0.0.6
+258 silly decomposeActions refresh-package-json options@0.0.6
+259 silly decomposeActions fetch optparse@1.0.4
+260 silly decomposeActions extract optparse@1.0.4
+261 silly decomposeActions preinstall optparse@1.0.4
+262 silly decomposeActions build optparse@1.0.4
+263 silly decomposeActions install optparse@1.0.4
+264 silly decomposeActions postinstall optparse@1.0.4
+265 silly decomposeActions finalize optparse@1.0.4
+266 silly decomposeActions refresh-package-json optparse@1.0.4
+267 silly decomposeActions fetch parseurl@1.3.3
+268 silly decomposeActions extract parseurl@1.3.3
+269 silly decomposeActions preinstall parseurl@1.3.3
+270 silly decomposeActions build parseurl@1.3.3
+271 silly decomposeActions install parseurl@1.3.3
+272 silly decomposeActions postinstall parseurl@1.3.3
+273 silly decomposeActions finalize parseurl@1.3.3
+274 silly decomposeActions refresh-package-json parseurl@1.3.3
+275 silly decomposeActions fetch path-to-regexp@0.1.7
+276 silly decomposeActions extract path-to-regexp@0.1.7
+277 silly decomposeActions preinstall path-to-regexp@0.1.7
+278 silly decomposeActions build path-to-regexp@0.1.7
+279 silly decomposeActions install path-to-regexp@0.1.7
+280 silly decomposeActions postinstall path-to-regexp@0.1.7
+281 silly decomposeActions finalize path-to-regexp@0.1.7
+282 silly decomposeActions refresh-package-json path-to-regexp@0.1.7
+283 silly decomposeActions fetch performance-now@2.1.0
+284 silly decomposeActions extract performance-now@2.1.0
+285 silly decomposeActions preinstall performance-now@2.1.0
+286 silly decomposeActions build performance-now@2.1.0
+287 silly decomposeActions install performance-now@2.1.0
+288 silly decomposeActions postinstall performance-now@2.1.0
+289 silly decomposeActions finalize performance-now@2.1.0
+290 silly decomposeActions refresh-package-json performance-now@2.1.0
+291 silly decomposeActions fetch pkginfo@0.4.1
+292 silly decomposeActions extract pkginfo@0.4.1
+293 silly decomposeActions preinstall pkginfo@0.4.1
+294 silly decomposeActions build pkginfo@0.4.1
+295 silly decomposeActions install pkginfo@0.4.1
+296 silly decomposeActions postinstall pkginfo@0.4.1
+297 silly decomposeActions finalize pkginfo@0.4.1
+298 silly decomposeActions refresh-package-json pkginfo@0.4.1
+299 silly decomposeActions fetch proxy-addr@2.0.7
+300 silly decomposeActions extract proxy-addr@2.0.7
+301 silly decomposeActions preinstall proxy-addr@2.0.7
+302 silly decomposeActions build proxy-addr@2.0.7
+303 silly decomposeActions install proxy-addr@2.0.7
+304 silly decomposeActions postinstall proxy-addr@2.0.7
+305 silly decomposeActions finalize proxy-addr@2.0.7
+306 silly decomposeActions refresh-package-json proxy-addr@2.0.7
+307 silly decomposeActions fetch psl@1.8.0
+308 silly decomposeActions extract psl@1.8.0
+309 silly decomposeActions preinstall psl@1.8.0
+310 silly decomposeActions build psl@1.8.0
+311 silly decomposeActions install psl@1.8.0
+312 silly decomposeActions postinstall psl@1.8.0
+313 silly decomposeActions finalize psl@1.8.0
+314 silly decomposeActions refresh-package-json psl@1.8.0
+315 silly decomposeActions fetch punycode@2.1.1
+316 silly decomposeActions extract punycode@2.1.1
+317 silly decomposeActions preinstall punycode@2.1.1
+318 silly decomposeActions build punycode@2.1.1
+319 silly decomposeActions install punycode@2.1.1
+320 silly decomposeActions postinstall punycode@2.1.1
+321 silly decomposeActions finalize punycode@2.1.1
+322 silly decomposeActions refresh-package-json punycode@2.1.1
+323 silly decomposeActions fetch qs@6.5.2
+324 silly decomposeActions extract qs@6.5.2
+325 silly decomposeActions preinstall qs@6.5.2
+326 silly decomposeActions build qs@6.5.2
+327 silly decomposeActions install qs@6.5.2
+328 silly decomposeActions postinstall qs@6.5.2
+329 silly decomposeActions finalize qs@6.5.2
+330 silly decomposeActions refresh-package-json qs@6.5.2
+331 silly decomposeActions fetch random-bytes@1.0.0
+332 silly decomposeActions extract random-bytes@1.0.0
+333 silly decomposeActions preinstall random-bytes@1.0.0
+334 silly decomposeActions build random-bytes@1.0.0
+335 silly decomposeActions install random-bytes@1.0.0
+336 silly decomposeActions postinstall random-bytes@1.0.0
+337 silly decomposeActions finalize random-bytes@1.0.0
+338 silly decomposeActions refresh-package-json random-bytes@1.0.0
+339 silly decomposeActions fetch range-parser@1.2.1
+340 silly decomposeActions extract range-parser@1.2.1
+341 silly decomposeActions preinstall range-parser@1.2.1
+342 silly decomposeActions build range-parser@1.2.1
+343 silly decomposeActions install range-parser@1.2.1
+344 silly decomposeActions postinstall range-parser@1.2.1
+345 silly decomposeActions finalize range-parser@1.2.1
+346 silly decomposeActions refresh-package-json range-parser@1.2.1
+347 silly decomposeActions fetch inherits@2.0.3
+348 silly decomposeActions extract inherits@2.0.3
+349 silly decomposeActions preinstall inherits@2.0.3
+350 silly decomposeActions build inherits@2.0.3
+351 silly decomposeActions install inherits@2.0.3
+352 silly decomposeActions postinstall inherits@2.0.3
+353 silly decomposeActions finalize inherits@2.0.3
+354 silly decomposeActions refresh-package-json inherits@2.0.3
+355 silly decomposeActions fetch redis-commands@1.7.0
+356 silly decomposeActions extract redis-commands@1.7.0
+357 silly decomposeActions preinstall redis-commands@1.7.0
+358 silly decomposeActions build redis-commands@1.7.0
+359 silly decomposeActions install redis-commands@1.7.0
+360 silly decomposeActions postinstall redis-commands@1.7.0
+361 silly decomposeActions finalize redis-commands@1.7.0
+362 silly decomposeActions refresh-package-json redis-commands@1.7.0
+363 silly decomposeActions fetch redis-parser@2.6.0
+364 silly decomposeActions extract redis-parser@2.6.0
+365 silly decomposeActions preinstall redis-parser@2.6.0
+366 silly decomposeActions build redis-parser@2.6.0
+367 silly decomposeActions install redis-parser@2.6.0
+368 silly decomposeActions postinstall redis-parser@2.6.0
+369 silly decomposeActions finalize redis-parser@2.6.0
+370 silly decomposeActions refresh-package-json redis-parser@2.6.0
+371 silly decomposeActions fetch redis@2.8.0
+372 silly decomposeActions extract redis@2.8.0
+373 silly decomposeActions preinstall redis@2.8.0
+374 silly decomposeActions build redis@2.8.0
+375 silly decomposeActions install redis@2.8.0
+376 silly decomposeActions postinstall redis@2.8.0
+377 silly decomposeActions finalize redis@2.8.0
+378 silly decomposeActions refresh-package-json redis@2.8.0
+379 silly decomposeActions fetch retry@0.9.0
+380 silly decomposeActions extract retry@0.9.0
+381 silly decomposeActions preinstall retry@0.9.0
+382 silly decomposeActions build retry@0.9.0
+383 silly decomposeActions install retry@0.9.0
+384 silly decomposeActions postinstall retry@0.9.0
+385 silly decomposeActions finalize retry@0.9.0
+386 silly decomposeActions refresh-package-json retry@0.9.0
+387 silly decomposeActions fetch safe-buffer@5.2.1
+388 silly decomposeActions extract safe-buffer@5.2.1
+389 silly decomposeActions preinstall safe-buffer@5.2.1
+390 silly decomposeActions build safe-buffer@5.2.1
+391 silly decomposeActions install safe-buffer@5.2.1
+392 silly decomposeActions postinstall safe-buffer@5.2.1
+393 silly decomposeActions finalize safe-buffer@5.2.1
+394 silly decomposeActions refresh-package-json safe-buffer@5.2.1
+395 silly decomposeActions fetch safer-buffer@2.1.2
+396 silly decomposeActions extract safer-buffer@2.1.2
+397 silly decomposeActions preinstall safer-buffer@2.1.2
+398 silly decomposeActions build safer-buffer@2.1.2
+399 silly decomposeActions install safer-buffer@2.1.2
+400 silly decomposeActions postinstall safer-buffer@2.1.2
+401 silly decomposeActions finalize safer-buffer@2.1.2
+402 silly decomposeActions refresh-package-json safer-buffer@2.1.2
+403 silly decomposeActions fetch asn1@0.2.4
+404 silly decomposeActions extract asn1@0.2.4
+405 silly decomposeActions preinstall asn1@0.2.4
+406 silly decomposeActions build asn1@0.2.4
+407 silly decomposeActions install asn1@0.2.4
+408 silly decomposeActions postinstall asn1@0.2.4
+409 silly decomposeActions finalize asn1@0.2.4
+410 silly decomposeActions refresh-package-json asn1@0.2.4
+411 silly decomposeActions fetch ecc-jsbn@0.1.2
+412 silly decomposeActions extract ecc-jsbn@0.1.2
+413 silly decomposeActions preinstall ecc-jsbn@0.1.2
+414 silly decomposeActions build ecc-jsbn@0.1.2
+415 silly decomposeActions install ecc-jsbn@0.1.2
+416 silly decomposeActions postinstall ecc-jsbn@0.1.2
+417 silly decomposeActions finalize ecc-jsbn@0.1.2
+418 silly decomposeActions refresh-package-json ecc-jsbn@0.1.2
+419 silly decomposeActions fetch iconv-lite@0.4.24
+420 silly decomposeActions extract iconv-lite@0.4.24
+421 silly decomposeActions preinstall iconv-lite@0.4.24
+422 silly decomposeActions build iconv-lite@0.4.24
+423 silly decomposeActions install iconv-lite@0.4.24
+424 silly decomposeActions postinstall iconv-lite@0.4.24
+425 silly decomposeActions finalize iconv-lite@0.4.24
+426 silly decomposeActions refresh-package-json iconv-lite@0.4.24
+427 silly decomposeActions fetch scoped-http-client@0.11.0
+428 silly decomposeActions extract scoped-http-client@0.11.0
+429 silly decomposeActions preinstall scoped-http-client@0.11.0
+430 silly decomposeActions build scoped-http-client@0.11.0
+431 silly decomposeActions install scoped-http-client@0.11.0
+432 silly decomposeActions postinstall scoped-http-client@0.11.0
+433 silly decomposeActions finalize scoped-http-client@0.11.0
+434 silly decomposeActions refresh-package-json scoped-http-client@0.11.0
+435 silly decomposeActions fetch ms@2.1.1
+436 silly decomposeActions extract ms@2.1.1
+437 silly decomposeActions preinstall ms@2.1.1
+438 silly decomposeActions build ms@2.1.1
+439 silly decomposeActions install ms@2.1.1
+440 silly decomposeActions postinstall ms@2.1.1
+441 silly decomposeActions finalize ms@2.1.1
+442 silly decomposeActions refresh-package-json ms@2.1.1
+443 silly decomposeActions fetch setprototypeof@1.1.1
+444 silly decomposeActions extract setprototypeof@1.1.1
+445 silly decomposeActions preinstall setprototypeof@1.1.1
+446 silly decomposeActions build setprototypeof@1.1.1
+447 silly decomposeActions install setprototypeof@1.1.1
+448 silly decomposeActions postinstall setprototypeof@1.1.1
+449 silly decomposeActions finalize setprototypeof@1.1.1
+450 silly decomposeActions refresh-package-json setprototypeof@1.1.1
+451 silly decomposeActions fetch stack-trace@0.0.10
+452 silly decomposeActions extract stack-trace@0.0.10
+453 silly decomposeActions preinstall stack-trace@0.0.10
+454 silly decomposeActions build stack-trace@0.0.10
+455 silly decomposeActions install stack-trace@0.0.10
+456 silly decomposeActions postinstall stack-trace@0.0.10
+457 silly decomposeActions finalize stack-trace@0.0.10
+458 silly decomposeActions refresh-package-json stack-trace@0.0.10
+459 silly decomposeActions fetch statuses@1.5.0
+460 silly decomposeActions extract statuses@1.5.0
+461 silly decomposeActions preinstall statuses@1.5.0
+462 silly decomposeActions build statuses@1.5.0
+463 silly decomposeActions install statuses@1.5.0
+464 silly decomposeActions postinstall statuses@1.5.0
+465 silly decomposeActions finalize statuses@1.5.0
+466 silly decomposeActions refresh-package-json statuses@1.5.0
+467 silly decomposeActions fetch strip-ansi@3.0.1
+468 silly decomposeActions extract strip-ansi@3.0.1
+469 silly decomposeActions preinstall strip-ansi@3.0.1
+470 silly decomposeActions build strip-ansi@3.0.1
+471 silly decomposeActions install strip-ansi@3.0.1
+472 silly decomposeActions postinstall strip-ansi@3.0.1
+473 silly decomposeActions finalize strip-ansi@3.0.1
+474 silly decomposeActions refresh-package-json strip-ansi@3.0.1
+475 silly decomposeActions fetch supports-color@2.0.0
+476 silly decomposeActions extract supports-color@2.0.0
+477 silly decomposeActions preinstall supports-color@2.0.0
+478 silly decomposeActions build supports-color@2.0.0
+479 silly decomposeActions install supports-color@2.0.0
+480 silly decomposeActions postinstall supports-color@2.0.0
+481 silly decomposeActions finalize supports-color@2.0.0
+482 silly decomposeActions refresh-package-json supports-color@2.0.0
+483 silly decomposeActions fetch chalk@1.1.3
+484 silly decomposeActions extract chalk@1.1.3
+485 silly decomposeActions preinstall chalk@1.1.3
+486 silly decomposeActions build chalk@1.1.3
+487 silly decomposeActions install chalk@1.1.3
+488 silly decomposeActions postinstall chalk@1.1.3
+489 silly decomposeActions finalize chalk@1.1.3
+490 silly decomposeActions refresh-package-json chalk@1.1.3
+491 silly decomposeActions fetch toidentifier@1.0.0
+492 silly decomposeActions extract toidentifier@1.0.0
+493 silly decomposeActions preinstall toidentifier@1.0.0
+494 silly decomposeActions build toidentifier@1.0.0
+495 silly decomposeActions install toidentifier@1.0.0
+496 silly decomposeActions postinstall toidentifier@1.0.0
+497 silly decomposeActions finalize toidentifier@1.0.0
+498 silly decomposeActions refresh-package-json toidentifier@1.0.0
+499 silly decomposeActions fetch http-errors@1.7.2
+500 silly decomposeActions extract http-errors@1.7.2
+501 silly decomposeActions preinstall http-errors@1.7.2
+502 silly decomposeActions build http-errors@1.7.2
+503 silly decomposeActions install http-errors@1.7.2
+504 silly decomposeActions postinstall http-errors@1.7.2
+505 silly decomposeActions finalize http-errors@1.7.2
+506 silly decomposeActions refresh-package-json http-errors@1.7.2
+507 silly decomposeActions fetch http-errors@1.7.3
+508 silly decomposeActions extract http-errors@1.7.3
+509 silly decomposeActions preinstall http-errors@1.7.3
+510 silly decomposeActions build http-errors@1.7.3
+511 silly decomposeActions install http-errors@1.7.3
+512 silly decomposeActions postinstall http-errors@1.7.3
+513 silly decomposeActions finalize http-errors@1.7.3
+514 silly decomposeActions refresh-package-json http-errors@1.7.3
+515 silly decomposeActions unbuild send
+516 silly decomposeActions remove send
+517 silly decomposeActions fetch send@0.17.1
+518 silly decomposeActions extract send@0.17.1
+519 silly decomposeActions preinstall send@0.17.1
+520 silly decomposeActions build send@0.17.1
+521 silly decomposeActions install send@0.17.1
+522 silly decomposeActions postinstall send@0.17.1
+523 silly decomposeActions finalize send@0.17.1
+524 silly decomposeActions refresh-package-json send@0.17.1
+525 silly decomposeActions fetch serve-static@1.14.1
+526 silly decomposeActions extract serve-static@1.14.1
+527 silly decomposeActions preinstall serve-static@1.14.1
+528 silly decomposeActions build serve-static@1.14.1
+529 silly decomposeActions install serve-static@1.14.1
+530 silly decomposeActions postinstall serve-static@1.14.1
+531 silly decomposeActions finalize serve-static@1.14.1
+532 silly decomposeActions refresh-package-json serve-static@1.14.1
+533 silly decomposeActions fetch http-errors@1.8.0
+534 silly decomposeActions extract http-errors@1.8.0
+535 silly decomposeActions preinstall http-errors@1.8.0
+536 silly decomposeActions build http-errors@1.8.0
+537 silly decomposeActions install http-errors@1.8.0
+538 silly decomposeActions postinstall http-errors@1.8.0
+539 silly decomposeActions finalize http-errors@1.8.0
+540 silly decomposeActions refresh-package-json http-errors@1.8.0
+541 silly decomposeActions fetch http-errors@1.7.2
+542 silly decomposeActions extract http-errors@1.7.2
+543 silly decomposeActions preinstall http-errors@1.7.2
+544 silly decomposeActions build http-errors@1.7.2
+545 silly decomposeActions install http-errors@1.7.2
+546 silly decomposeActions postinstall http-errors@1.7.2
+547 silly decomposeActions finalize http-errors@1.7.2
+548 silly decomposeActions refresh-package-json http-errors@1.7.2
+549 silly decomposeActions fetch tough-cookie@2.5.0
+550 silly decomposeActions extract tough-cookie@2.5.0
+551 silly decomposeActions preinstall tough-cookie@2.5.0
+552 silly decomposeActions build tough-cookie@2.5.0
+553 silly decomposeActions install tough-cookie@2.5.0
+554 silly decomposeActions postinstall tough-cookie@2.5.0
+555 silly decomposeActions finalize tough-cookie@2.5.0
+556 silly decomposeActions refresh-package-json tough-cookie@2.5.0
+557 silly decomposeActions fetch tunnel-agent@0.6.0
+558 silly decomposeActions extract tunnel-agent@0.6.0
+559 silly decomposeActions preinstall tunnel-agent@0.6.0
+560 silly decomposeActions build tunnel-agent@0.6.0
+561 silly decomposeActions install tunnel-agent@0.6.0
+562 silly decomposeActions postinstall tunnel-agent@0.6.0
+563 silly decomposeActions finalize tunnel-agent@0.6.0
+564 silly decomposeActions refresh-package-json tunnel-agent@0.6.0
+565 silly decomposeActions fetch tweetnacl@0.14.5
+566 silly decomposeActions extract tweetnacl@0.14.5
+567 silly decomposeActions preinstall tweetnacl@0.14.5
+568 silly decomposeActions build tweetnacl@0.14.5
+569 silly decomposeActions install tweetnacl@0.14.5
+570 silly decomposeActions postinstall tweetnacl@0.14.5
+571 silly decomposeActions finalize tweetnacl@0.14.5
+572 silly decomposeActions refresh-package-json tweetnacl@0.14.5
+573 silly decomposeActions fetch bcrypt-pbkdf@1.0.2
+574 silly decomposeActions extract bcrypt-pbkdf@1.0.2
+575 silly decomposeActions preinstall bcrypt-pbkdf@1.0.2
+576 silly decomposeActions build bcrypt-pbkdf@1.0.2
+577 silly decomposeActions install bcrypt-pbkdf@1.0.2
+578 silly decomposeActions postinstall bcrypt-pbkdf@1.0.2
+579 silly decomposeActions finalize bcrypt-pbkdf@1.0.2
+580 silly decomposeActions refresh-package-json bcrypt-pbkdf@1.0.2
+581 silly decomposeActions fetch sshpk@1.16.1
+582 silly decomposeActions extract sshpk@1.16.1
+583 silly decomposeActions preinstall sshpk@1.16.1
+584 silly decomposeActions build sshpk@1.16.1
+585 silly decomposeActions install sshpk@1.16.1
+586 silly decomposeActions postinstall sshpk@1.16.1
+587 silly decomposeActions finalize sshpk@1.16.1
+588 silly decomposeActions refresh-package-json sshpk@1.16.1
+589 silly decomposeActions fetch type-is@1.6.18
+590 silly decomposeActions extract type-is@1.6.18
+591 silly decomposeActions preinstall type-is@1.6.18
+592 silly decomposeActions build type-is@1.6.18
+593 silly decomposeActions install type-is@1.6.18
+594 silly decomposeActions postinstall type-is@1.6.18
+595 silly decomposeActions finalize type-is@1.6.18
+596 silly decomposeActions refresh-package-json type-is@1.6.18
+597 silly decomposeActions fetch uid-safe@2.1.5
+598 silly decomposeActions extract uid-safe@2.1.5
+599 silly decomposeActions preinstall uid-safe@2.1.5
+600 silly decomposeActions build uid-safe@2.1.5
+601 silly decomposeActions install uid-safe@2.1.5
+602 silly decomposeActions postinstall uid-safe@2.1.5
+603 silly decomposeActions finalize uid-safe@2.1.5
+604 silly decomposeActions refresh-package-json uid-safe@2.1.5
+605 silly decomposeActions fetch multiparty@4.2.2
+606 silly decomposeActions extract multiparty@4.2.2
+607 silly decomposeActions preinstall multiparty@4.2.2
+608 silly decomposeActions build multiparty@4.2.2
+609 silly decomposeActions install multiparty@4.2.2
+610 silly decomposeActions postinstall multiparty@4.2.2
+611 silly decomposeActions finalize multiparty@4.2.2
+612 silly decomposeActions refresh-package-json multiparty@4.2.2
+613 silly decomposeActions fetch connect-multiparty@2.2.0
+614 silly decomposeActions extract connect-multiparty@2.2.0
+615 silly decomposeActions preinstall connect-multiparty@2.2.0
+616 silly decomposeActions build connect-multiparty@2.2.0
+617 silly decomposeActions install connect-multiparty@2.2.0
+618 silly decomposeActions postinstall connect-multiparty@2.2.0
+619 silly decomposeActions finalize connect-multiparty@2.2.0
+620 silly decomposeActions refresh-package-json connect-multiparty@2.2.0
+621 silly decomposeActions fetch ultron@1.0.2
+622 silly decomposeActions extract ultron@1.0.2
+623 silly decomposeActions preinstall ultron@1.0.2
+624 silly decomposeActions build ultron@1.0.2
+625 silly decomposeActions install ultron@1.0.2
+626 silly decomposeActions postinstall ultron@1.0.2
+627 silly decomposeActions finalize ultron@1.0.2
+628 silly decomposeActions refresh-package-json ultron@1.0.2
+629 silly decomposeActions fetch unpipe@1.0.0
+630 silly decomposeActions extract unpipe@1.0.0
+631 silly decomposeActions preinstall unpipe@1.0.0
+632 silly decomposeActions build unpipe@1.0.0
+633 silly decomposeActions install unpipe@1.0.0
+634 silly decomposeActions postinstall unpipe@1.0.0
+635 silly decomposeActions finalize unpipe@1.0.0
+636 silly decomposeActions refresh-package-json unpipe@1.0.0
+637 silly decomposeActions fetch finalhandler@1.1.2
+638 silly decomposeActions extract finalhandler@1.1.2
+639 silly decomposeActions preinstall finalhandler@1.1.2
+640 silly decomposeActions build finalhandler@1.1.2
+641 silly decomposeActions install finalhandler@1.1.2
+642 silly decomposeActions postinstall finalhandler@1.1.2
+643 silly decomposeActions finalize finalhandler@1.1.2
+644 silly decomposeActions refresh-package-json finalhandler@1.1.2
+645 silly decomposeActions fetch raw-body@2.4.0
+646 silly decomposeActions extract raw-body@2.4.0
+647 silly decomposeActions preinstall raw-body@2.4.0
+648 silly decomposeActions build raw-body@2.4.0
+649 silly decomposeActions install raw-body@2.4.0
+650 silly decomposeActions postinstall raw-body@2.4.0
+651 silly decomposeActions finalize raw-body@2.4.0
+652 silly decomposeActions refresh-package-json raw-body@2.4.0
+653 silly decomposeActions unbuild body-parser
+654 silly decomposeActions remove body-parser
+655 silly decomposeActions fetch body-parser@1.19.0
+656 silly decomposeActions extract body-parser@1.19.0
+657 silly decomposeActions preinstall body-parser@1.19.0
+658 silly decomposeActions build body-parser@1.19.0
+659 silly decomposeActions install body-parser@1.19.0
+660 silly decomposeActions postinstall body-parser@1.19.0
+661 silly decomposeActions finalize body-parser@1.19.0
+662 silly decomposeActions refresh-package-json body-parser@1.19.0
+663 silly decomposeActions fetch uri-js@4.4.1
+664 silly decomposeActions extract uri-js@4.4.1
+665 silly decomposeActions preinstall uri-js@4.4.1
+666 silly decomposeActions build uri-js@4.4.1
+667 silly decomposeActions install uri-js@4.4.1
+668 silly decomposeActions postinstall uri-js@4.4.1
+669 silly decomposeActions finalize uri-js@4.4.1
+670 silly decomposeActions refresh-package-json uri-js@4.4.1
+671 silly decomposeActions fetch ajv@6.12.6
+672 silly decomposeActions extract ajv@6.12.6
+673 silly decomposeActions preinstall ajv@6.12.6
+674 silly decomposeActions build ajv@6.12.6
+675 silly decomposeActions install ajv@6.12.6
+676 silly decomposeActions postinstall ajv@6.12.6
+677 silly decomposeActions finalize ajv@6.12.6
+678 silly decomposeActions refresh-package-json ajv@6.12.6
+679 silly decomposeActions fetch har-validator@5.1.5
+680 silly decomposeActions extract har-validator@5.1.5
+681 silly decomposeActions preinstall har-validator@5.1.5
+682 silly decomposeActions build har-validator@5.1.5
+683 silly decomposeActions install har-validator@5.1.5
+684 silly decomposeActions postinstall har-validator@5.1.5
+685 silly decomposeActions finalize har-validator@5.1.5
+686 silly decomposeActions refresh-package-json har-validator@5.1.5
+687 silly decomposeActions fetch url-join@0.0.1
+688 silly decomposeActions extract url-join@0.0.1
+689 silly decomposeActions preinstall url-join@0.0.1
+690 silly decomposeActions build url-join@0.0.1
+691 silly decomposeActions install url-join@0.0.1
+692 silly decomposeActions postinstall url-join@0.0.1
+693 silly decomposeActions finalize url-join@0.0.1
+694 silly decomposeActions refresh-package-json url-join@0.0.1
+695 silly decomposeActions fetch utils-merge@1.0.1
+696 silly decomposeActions extract utils-merge@1.0.1
+697 silly decomposeActions preinstall utils-merge@1.0.1
+698 silly decomposeActions build utils-merge@1.0.1
+699 silly decomposeActions install utils-merge@1.0.1
+700 silly decomposeActions postinstall utils-merge@1.0.1
+701 silly decomposeActions finalize utils-merge@1.0.1
+702 silly decomposeActions refresh-package-json utils-merge@1.0.1
+703 silly decomposeActions fetch uuid@3.4.0
+704 silly decomposeActions extract uuid@3.4.0
+705 silly decomposeActions preinstall uuid@3.4.0
+706 silly decomposeActions build uuid@3.4.0
+707 silly decomposeActions install uuid@3.4.0
+708 silly decomposeActions postinstall uuid@3.4.0
+709 silly decomposeActions finalize uuid@3.4.0
+710 silly decomposeActions refresh-package-json uuid@3.4.0
+711 silly decomposeActions fetch vary@1.1.2
+712 silly decomposeActions extract vary@1.1.2
+713 silly decomposeActions preinstall vary@1.1.2
+714 silly decomposeActions build vary@1.1.2
+715 silly decomposeActions install vary@1.1.2
+716 silly decomposeActions postinstall vary@1.1.2
+717 silly decomposeActions finalize vary@1.1.2
+718 silly decomposeActions refresh-package-json vary@1.1.2
+719 silly decomposeActions fetch express@4.17.1
+720 silly decomposeActions extract express@4.17.1
+721 silly decomposeActions preinstall express@4.17.1
+722 silly decomposeActions build express@4.17.1
+723 silly decomposeActions install express@4.17.1
+724 silly decomposeActions postinstall express@4.17.1
+725 silly decomposeActions finalize express@4.17.1
+726 silly decomposeActions refresh-package-json express@4.17.1
+727 silly decomposeActions fetch verror@1.10.0
+728 silly decomposeActions extract verror@1.10.0
+729 silly decomposeActions preinstall verror@1.10.0
+730 silly decomposeActions build verror@1.10.0
+731 silly decomposeActions install verror@1.10.0
+732 silly decomposeActions postinstall verror@1.10.0
+733 silly decomposeActions finalize verror@1.10.0
+734 silly decomposeActions refresh-package-json verror@1.10.0
+735 silly decomposeActions fetch jsprim@1.4.1
+736 silly decomposeActions extract jsprim@1.4.1
+737 silly decomposeActions preinstall jsprim@1.4.1
+738 silly decomposeActions build jsprim@1.4.1
+739 silly decomposeActions install jsprim@1.4.1
+740 silly decomposeActions postinstall jsprim@1.4.1
+741 silly decomposeActions finalize jsprim@1.4.1
+742 silly decomposeActions refresh-package-json jsprim@1.4.1
+743 silly decomposeActions unbuild http-signature
+744 silly decomposeActions remove http-signature
+745 silly decomposeActions fetch http-signature@1.2.0
+746 silly decomposeActions extract http-signature@1.2.0
+747 silly decomposeActions preinstall http-signature@1.2.0
+748 silly decomposeActions build http-signature@1.2.0
+749 silly decomposeActions install http-signature@1.2.0
+750 silly decomposeActions postinstall http-signature@1.2.0
+751 silly decomposeActions finalize http-signature@1.2.0
+752 silly decomposeActions refresh-package-json http-signature@1.2.0
+753 silly decomposeActions unbuild request
+754 silly decomposeActions remove request
+755 silly decomposeActions fetch request@2.88.2
+756 silly decomposeActions extract request@2.88.2
+757 silly decomposeActions preinstall request@2.88.2
+758 silly decomposeActions build request@2.88.2
+759 silly decomposeActions install request@2.88.2
+760 silly decomposeActions postinstall request@2.88.2
+761 silly decomposeActions finalize request@2.88.2
+762 silly decomposeActions refresh-package-json request@2.88.2
+763 silly decomposeActions fetch async@1.0.0
+764 silly decomposeActions extract async@1.0.0
+765 silly decomposeActions preinstall async@1.0.0
+766 silly decomposeActions build async@1.0.0
+767 silly decomposeActions install async@1.0.0
+768 silly decomposeActions postinstall async@1.0.0
+769 silly decomposeActions finalize async@1.0.0
+770 silly decomposeActions refresh-package-json async@1.0.0
+771 silly decomposeActions fetch winston@2.4.5
+772 silly decomposeActions extract winston@2.4.5
+773 silly decomposeActions preinstall winston@2.4.5
+774 silly decomposeActions build winston@2.4.5
+775 silly decomposeActions install winston@2.4.5
+776 silly decomposeActions postinstall winston@2.4.5
+777 silly decomposeActions finalize winston@2.4.5
+778 silly decomposeActions refresh-package-json winston@2.4.5
+779 silly decomposeActions fetch ws@1.1.5
+780 silly decomposeActions extract ws@1.1.5
+781 silly decomposeActions preinstall ws@1.1.5
+782 silly decomposeActions build ws@1.1.5
+783 silly decomposeActions install ws@1.1.5
+784 silly decomposeActions postinstall ws@1.1.5
+785 silly decomposeActions finalize ws@1.1.5
+786 silly decomposeActions refresh-package-json ws@1.1.5
+787 silly decomposeActions unbuild @slack/client
+788 silly decomposeActions remove @slack/client
+789 silly decomposeActions fetch @slack/client@3.16.1-sec.2
+790 silly decomposeActions extract @slack/client@3.16.1-sec.2
+791 silly decomposeActions preinstall @slack/client@3.16.1-sec.2
+792 silly decomposeActions build @slack/client@3.16.1-sec.2
+793 silly decomposeActions install @slack/client@3.16.1-sec.2
+794 silly decomposeActions postinstall @slack/client@3.16.1-sec.2
+795 silly decomposeActions finalize @slack/client@3.16.1-sec.2
+796 silly decomposeActions refresh-package-json @slack/client@3.16.1-sec.2
+797 silly decomposeActions unbuild hubot
+798 silly decomposeActions remove hubot
+799 silly decomposeActions fetch hubot@3.3.2
+800 silly decomposeActions extract hubot@3.3.2
+801 silly decomposeActions preinstall hubot@3.3.2
+802 silly decomposeActions build hubot@3.3.2
+803 silly decomposeActions install hubot@3.3.2
+804 silly decomposeActions postinstall hubot@3.3.2
+805 silly decomposeActions finalize hubot@3.3.2
+806 silly decomposeActions refresh-package-json hubot@3.3.2
+807 silly decomposeActions unbuild hubot-diagnostics
+808 silly decomposeActions remove hubot-diagnostics
+809 silly decomposeActions fetch hubot-diagnostics@1.0.0
+810 silly decomposeActions extract hubot-diagnostics@1.0.0
+811 silly decomposeActions preinstall hubot-diagnostics@1.0.0
+812 silly decomposeActions build hubot-diagnostics@1.0.0
+813 silly decomposeActions install hubot-diagnostics@1.0.0
+814 silly decomposeActions postinstall hubot-diagnostics@1.0.0
+815 silly decomposeActions finalize hubot-diagnostics@1.0.0
+816 silly decomposeActions refresh-package-json hubot-diagnostics@1.0.0
+817 silly decomposeActions unbuild hubot-google-images
+818 silly decomposeActions remove hubot-google-images
+819 silly decomposeActions fetch hubot-google-images@0.2.7
+820 silly decomposeActions extract hubot-google-images@0.2.7
+821 silly decomposeActions preinstall hubot-google-images@0.2.7
+822 silly decomposeActions build hubot-google-images@0.2.7
+823 silly decomposeActions install hubot-google-images@0.2.7
+824 silly decomposeActions postinstall hubot-google-images@0.2.7
+825 silly decomposeActions finalize hubot-google-images@0.2.7
+826 silly decomposeActions refresh-package-json hubot-google-images@0.2.7
+827 silly decomposeActions unbuild hubot-google-translate
+828 silly decomposeActions remove hubot-google-translate
+829 silly decomposeActions fetch hubot-google-translate@0.2.1
+830 silly decomposeActions extract hubot-google-translate@0.2.1
+831 silly decomposeActions preinstall hubot-google-translate@0.2.1
+832 silly decomposeActions build hubot-google-translate@0.2.1
+833 silly decomposeActions install hubot-google-translate@0.2.1
+834 silly decomposeActions postinstall hubot-google-translate@0.2.1
+835 silly decomposeActions finalize hubot-google-translate@0.2.1
+836 silly decomposeActions refresh-package-json hubot-google-translate@0.2.1
+837 silly decomposeActions unbuild hubot-help
+838 silly decomposeActions remove hubot-help
+839 silly decomposeActions fetch hubot-help@1.0.1
+840 silly decomposeActions extract hubot-help@1.0.1
+841 silly decomposeActions preinstall hubot-help@1.0.1
+842 silly decomposeActions build hubot-help@1.0.1
+843 silly decomposeActions install hubot-help@1.0.1
+844 silly decomposeActions postinstall hubot-help@1.0.1
+845 silly decomposeActions finalize hubot-help@1.0.1
+846 silly decomposeActions refresh-package-json hubot-help@1.0.1
+847 silly decomposeActions unbuild hubot-heroku-keepalive
+848 silly decomposeActions remove hubot-heroku-keepalive
+849 silly decomposeActions fetch hubot-heroku-keepalive@1.0.3
+850 silly decomposeActions extract hubot-heroku-keepalive@1.0.3
+851 silly decomposeActions preinstall hubot-heroku-keepalive@1.0.3
+852 silly decomposeActions build hubot-heroku-keepalive@1.0.3
+853 silly decomposeActions install hubot-heroku-keepalive@1.0.3
+854 silly decomposeActions postinstall hubot-heroku-keepalive@1.0.3
+855 silly decomposeActions finalize hubot-heroku-keepalive@1.0.3
+856 silly decomposeActions refresh-package-json hubot-heroku-keepalive@1.0.3
+857 silly decomposeActions unbuild hubot-maps
+858 silly decomposeActions remove hubot-maps
+859 silly decomposeActions fetch hubot-maps@0.0.3
+860 silly decomposeActions extract hubot-maps@0.0.3
+861 silly decomposeActions preinstall hubot-maps@0.0.3
+862 silly decomposeActions build hubot-maps@0.0.3
+863 silly decomposeActions install hubot-maps@0.0.3
+864 silly decomposeActions postinstall hubot-maps@0.0.3
+865 silly decomposeActions finalize hubot-maps@0.0.3
+866 silly decomposeActions refresh-package-json hubot-maps@0.0.3
+867 silly decomposeActions unbuild hubot-pugme
+868 silly decomposeActions remove hubot-pugme
+869 silly decomposeActions fetch hubot-pugme@0.1.1
+870 silly decomposeActions extract hubot-pugme@0.1.1
+871 silly decomposeActions preinstall hubot-pugme@0.1.1
+872 silly decomposeActions build hubot-pugme@0.1.1
+873 silly decomposeActions install hubot-pugme@0.1.1
+874 silly decomposeActions postinstall hubot-pugme@0.1.1
+875 silly decomposeActions finalize hubot-pugme@0.1.1
+876 silly decomposeActions refresh-package-json hubot-pugme@0.1.1
+877 silly decomposeActions unbuild hubot-redis-brain
+878 silly decomposeActions remove hubot-redis-brain
+879 silly decomposeActions fetch hubot-redis-brain@1.0.0
+880 silly decomposeActions extract hubot-redis-brain@1.0.0
+881 silly decomposeActions preinstall hubot-redis-brain@1.0.0
+882 silly decomposeActions build hubot-redis-brain@1.0.0
+883 silly decomposeActions install hubot-redis-brain@1.0.0
+884 silly decomposeActions postinstall hubot-redis-brain@1.0.0
+885 silly decomposeActions finalize hubot-redis-brain@1.0.0
+886 silly decomposeActions refresh-package-json hubot-redis-brain@1.0.0
+887 silly decomposeActions unbuild hubot-rules
+888 silly decomposeActions remove hubot-rules
+889 silly decomposeActions fetch hubot-rules@1.0.0
+890 silly decomposeActions extract hubot-rules@1.0.0
+891 silly decomposeActions preinstall hubot-rules@1.0.0
+892 silly decomposeActions build hubot-rules@1.0.0
+893 silly decomposeActions install hubot-rules@1.0.0
+894 silly decomposeActions postinstall hubot-rules@1.0.0
+895 silly decomposeActions finalize hubot-rules@1.0.0
+896 silly decomposeActions refresh-package-json hubot-rules@1.0.0
+897 silly decomposeActions unbuild hubot-scripts
+898 silly decomposeActions remove hubot-scripts
+899 silly decomposeActions fetch hubot-scripts@2.17.2
+900 silly decomposeActions extract hubot-scripts@2.17.2
+901 silly decomposeActions preinstall hubot-scripts@2.17.2
+902 silly decomposeActions build hubot-scripts@2.17.2
+903 silly decomposeActions install hubot-scripts@2.17.2
+904 silly decomposeActions postinstall hubot-scripts@2.17.2
+905 silly decomposeActions finalize hubot-scripts@2.17.2
+906 silly decomposeActions refresh-package-json hubot-scripts@2.17.2
+907 silly decomposeActions unbuild hubot-shipit
+908 silly decomposeActions remove hubot-shipit
+909 silly decomposeActions fetch hubot-shipit@0.2.1
+910 silly decomposeActions extract hubot-shipit@0.2.1
+911 silly decomposeActions preinstall hubot-shipit@0.2.1
+912 silly decomposeActions build hubot-shipit@0.2.1
+913 silly decomposeActions install hubot-shipit@0.2.1
+914 silly decomposeActions postinstall hubot-shipit@0.2.1
+915 silly decomposeActions finalize hubot-shipit@0.2.1
+916 silly decomposeActions refresh-package-json hubot-shipit@0.2.1
+917 silly decomposeActions unbuild hubot-slack
+918 silly decomposeActions remove hubot-slack
+919 silly decomposeActions fetch hubot-slack@4.9.0
+920 silly decomposeActions extract hubot-slack@4.9.0
+921 silly decomposeActions preinstall hubot-slack@4.9.0
+922 silly decomposeActions build hubot-slack@4.9.0
+923 silly decomposeActions install hubot-slack@4.9.0
+924 silly decomposeActions postinstall hubot-slack@4.9.0
+925 silly decomposeActions finalize hubot-slack@4.9.0
+926 silly decomposeActions refresh-package-json hubot-slack@4.9.0
+927 silly decomposeActions preinstall shuffleApp@file:shuffleApp
+928 silly decomposeActions build shuffleApp@file:shuffleApp
+929 silly decomposeActions install shuffleApp@file:shuffleApp
+930 silly decomposeActions postinstall shuffleApp@file:shuffleApp
+931 silly decomposeActions finalize shuffleApp@file:shuffleApp
+932 silly decomposeActions refresh-package-json shuffleApp@file:shuffleApp
+933 silly install executeActions
+934 silly doSerial global-install 810
+935 verbose correctMkdir /home/shufflehubot/.npm/_locks correctMkdir not in flight; initializing
+936 verbose lock using /home/shufflehubot/.npm/_locks/staging-d559f62f37b9e887.lock for /home/shufflehubot/node_modules/.staging
+937 silly doParallel extract 96
+938 silly extract lodash@4.17.21
+939 silly extract log@1.4.0
+940 silly extract media-typer@0.3.0
+941 silly extract merge-descriptors@1.0.1
+942 silly extract methods@1.1.2
+943 silly extract mime@1.6.0
+944 silly extract mime-db@1.49.0
+945 silly extract mime-types@2.1.32
+946 silly extract form-data@2.3.3
+947 silly extract ms@2.0.0
+948 silly extract debug@2.6.9
+949 silly extract setprototypeof@1.2.0
+950 silly extract negotiator@0.6.2
+951 silly extract accepts@1.3.7
+952 silly extract oauth-sign@0.9.0
+953 silly extract on-finished@2.3.0
+954 silly extract options@0.0.6
+955 silly extract optparse@1.0.4
+956 silly extract parseurl@1.3.3
+957 silly extract path-to-regexp@0.1.7
+958 silly extract performance-now@2.1.0
+959 silly extract pkginfo@0.4.1
+960 silly extract proxy-addr@2.0.7
+961 silly extract psl@1.8.0
+962 silly extract punycode@2.1.1
+963 silly extract qs@6.5.2
+964 silly extract random-bytes@1.0.0
+965 silly extract range-parser@1.2.1
+966 silly extract inherits@2.0.3
+967 silly extract redis-commands@1.7.0
+968 silly extract redis-parser@2.6.0
+969 silly extract redis@2.8.0
+970 silly extract retry@0.9.0
+971 silly extract safe-buffer@5.2.1
+972 silly extract safer-buffer@2.1.2
+973 silly extract asn1@0.2.4
+974 silly extract ecc-jsbn@0.1.2
+975 silly extract iconv-lite@0.4.24
+976 silly extract scoped-http-client@0.11.0
+977 silly extract ms@2.1.1
+978 silly extract setprototypeof@1.1.1
+979 silly extract stack-trace@0.0.10
+980 silly extract statuses@1.5.0
+981 silly extract strip-ansi@3.0.1
+982 silly extract supports-color@2.0.0
+983 silly extract chalk@1.1.3
+984 silly extract toidentifier@1.0.0
+985 silly extract http-errors@1.7.2
+986 silly extract http-errors@1.7.3
+987 silly extract send@0.17.1
+988 silly tarball trying lodash@4.17.21 by hash: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+989 silly tarball trying send@0.17.1 by hash: sha512-BsVKsiGcQMFwT8UxypobUKyv7irCNRHk1T0G680vk88yf6LBByGcZJOTJCrTP2xVN6yI+XjPJcNuE3V4fT9sAg==
+990 silly tarball trying http-errors@1.7.3 by hash: sha512-ZTTX0MWrsQ2ZAhA1cejAwDLycFsd7I7nVtnkT3Ol0aqodaKW+0CTZDQ1uBv5whptCnc8e8HeRRJxRs0kmm/Qfw==
+991 silly tarball trying log@1.4.0 by hash: sha1-S6HYkP3iSbAx3KA7w36q8yVlbxw=
+992 silly tarball trying media-typer@0.3.0 by hash: sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g=
+993 silly tarball trying merge-descriptors@1.0.1 by hash: sha1-sAqqVW3YtEVoFQ7J0blT8/kMu2E=
+994 silly tarball trying methods@1.1.2 by hash: sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4=
+995 silly tarball trying mime-db@1.49.0 by hash: sha512-CIc8j9URtOVApSFCQIF+VBkX1RwXp/oMMOrqdyXSBXq5RWNEsRfyj1kiRnQgmNXmHxPoFIxOroKA3zcU9P+nAA==
+996 silly tarball trying mime@1.6.0 by hash: sha512-x0Vn8spI+wuJ1O6S7gnbaQg8Pxh4NNHb7KSINmEWKiPE4RKOplvijn+NkmYmmRgP68mc70j2EbeTFRsrswaQeg==
+997 silly tarball trying form-data@2.3.3 by hash: sha512-1lLKB2Mu3aGP1Q/2eCOx0fNbRMe7XdwktwOruhfqqd0rIJWwN4Dh+E3hrPSlDCXnSR7UtZ1N38rVXm+6+MEhJQ==
+998 silly tarball trying mime-types@2.1.32 by hash: sha512-hJGaVS4G4c9TSMYh2n6SQAGrC4RnfU+daP8G7cSCmaqNjiOoUY0VHCMS42pxnQmVF1GWwFhbHWn3RIxCqTmZ9A==
+999 silly tarball trying ms@2.0.0 by hash: sha1-VgiurfwAvmwpAd9fmGF4jeDVl8g=
+1000 silly tarball trying debug@2.6.9 by hash: sha512-bC7ElrdJaJnPbAP+1EotYvqZsb3ecl5wi6Bfi6BJTUcNowp6cvspg0jXznRTKDjm/E7AdgFBVeAPVMNcKGsHMA==
+1001 silly tarball trying negotiator@0.6.2 by hash: sha512-hZXc7K2e+PgeI1eDBe/10Ard4ekbfrrqG8Ep+8Jmf4JID2bNg7NvCPOZN+kfF574pFQI7mum2AUqDidoKqcTOw==
+1002 silly tarball trying setprototypeof@1.2.0 by hash: sha512-E5LDX7Wrp85Kil5bhZv46j8jOeboKq5JMmYM3gVGdGH8xFpPWXUMsNrlODCrkoxMEeNi/XZIwuRvY4XNwYMJpw==
+1003 silly tarball trying accepts@1.3.7 by hash: sha512-Il80Qs2WjYlJIBNzNkK6KYqlVMTbZLXgHx2oT0pU/fjRHyEp+PEfEPY0R3WCwAGVOtauxh1hOxNgIf5bv7dQpA==
+1004 silly tarball trying oauth-sign@0.9.0 by hash: sha512-fexhUFFPTGV8ybAtSIGbV6gOkSv8UtRbDBnAyLQw4QPKkgNlsH2ByPGtMUqdWkos6YCRmAqViwgZrJc/mRDzZQ==
+1005 silly tarball trying options@0.0.6 by hash: sha1-7CLTEoBrtT5zF3Pnza788cZDEo8=
+1006 silly tarball trying on-finished@2.3.0 by hash: sha1-IPEzZIGwg811M3mSoWlxqi2QaUc=
+1007 silly tarball trying optparse@1.0.4 by hash: sha1-wGJXnS0F0kPCIaMEpx4Ml5YjzPE=
+1008 silly tarball trying path-to-regexp@0.1.7 by hash: sha1-32BBeABfUi8V60SQ5yR6G/qmf4w=
+1009 silly tarball trying parseurl@1.3.3 by hash: sha512-CiyeOxFT/JZyN5m0z9PfXw4SCBJ6Sygz1Dpl0wqjlhDEGGBP1GnsUVEL0p63hoG1fcj3fHynXi9NYO4nWOL+qQ==
+1010 silly tarball trying performance-now@2.1.0 by hash: sha1-Ywn04OX6kT7BxpMHrjZLSzd8nns=
+1011 silly tarball trying pkginfo@0.4.1 by hash: sha1-tUGO8EOd5UJfxJlQQtztFPsqhP8=
+1012 silly tarball trying psl@1.8.0 by hash: sha512-RIdOzyoavK+hA18OGGWDqUTsCLhtA7IcZ/6NCs4fFJaHBDab+pDDmDIByWFRQJq2Cd7r1OoQxBGKOaztq+hjIQ==
+1013 silly tarball trying proxy-addr@2.0.7 by hash: sha512-llQsMLSUDUPT44jdrU/O37qlnifitDP+ZwrmmZcoSKyLKvtZxpyV0n2/bD/N4tBAAZ/gJEdZU7KMraoK1+XYAg==
+1014 silly tarball trying punycode@2.1.1 by hash: sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
+1015 silly tarball trying qs@6.5.2 by hash: sha512-N5ZAX4/LxJmF+7wN74pUD6qAh9/wnvdQcjq9TZjevvXzSUo7bfmw91saqMjzGS2xq91/odN2dW/WOl7qQHNDGA==
+1016 silly tarball trying range-parser@1.2.1 by hash: sha512-Hrgsx+orqoygnmhFbKaHE6c296J+HTAQXoxEF6gNupROmmGJRoyzfG3ccAveqCBrwr/2yxQ5BVd/GTl5agOwSg==
+1017 silly tarball trying random-bytes@1.0.0 by hash: sha1-T2ih3Arli9P7lYSMMDJNt11kNgs=
+1018 silly tarball trying inherits@2.0.3 by hash: sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4=
+1019 silly tarball trying redis-parser@2.6.0 by hash: sha1-Uu0J2srBCPGmMcB+m2mUHnoZUEs=
+1020 silly tarball trying redis@2.8.0 by hash: sha512-M1OkonEQwtRmZv4tEWF2VgpG0JWJ8Fv1PhlgT5+B+uNq2cA3Rt1Yt/ryoR+vQNOQcIEgdCdfH0jr3bDpihAw1A==
+1021 silly tarball trying redis-commands@1.7.0 by hash: sha512-nJWqw3bTFy21hX/CPKHth6sfhZbdiHP6bTawSgQBlKOVRG7EZkfHbbHwQJnrE4vsQf0CMNE+3gJ4Fmm16vdVlQ==
+1022 silly tarball trying retry@0.9.0 by hash: sha1-b2l+UKDk3cjI9/tUeptg3q1DZ40=
+1023 silly tarball trying safer-buffer@2.1.2 by hash: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==
+1024 silly tarball trying asn1@0.2.4 by hash: sha512-jxwzQpLQjSmWXgwaCZE9Nz+glAG01yF1QnWgbhGwHI5A6FRIEY6IVqtHhIepHqI7/kyEyQEagBC5mBEFlIYvdg==
+1025 silly tarball trying safe-buffer@5.2.1 by hash: sha512-rp3So07KcdmmKbGvgaNxQSJr7bGVSVk5S9Eq1F+ppbRo70+YeaDxkw5Dd8NPN+GD6bjnYm2VuPuCXmpuYvmCXQ==
+1026 silly tarball trying ecc-jsbn@0.1.2 by hash: sha1-OoOpBOVDUyh4dMVkt1SThoSamMk=
+1027 silly tarball trying scoped-http-client@0.11.0 by hash: sha1-iH+oKoNg8V1jmlLlBOVjwVfSbXQ=
+1028 silly tarball trying ms@2.1.1 by hash: sha512-tgp+dl5cGk28utYktBsrFqA7HKgrhgPsg6Z/EfhWI4gl1Hwq8B/GmY/0oXZ6nF8hDVesS/FpnYaD/kOWhYQvyg==
+1029 silly tarball trying iconv-lite@0.4.24 by hash: sha512-v3MXnZAcvnywkTUEZomIActle7RXXeedOR31wwl7VlyoXO4Qi9arvSenNQWne1TcRwhCL1HwLI21bEqdpj8/rA==
+1030 silly tarball trying setprototypeof@1.1.1 by hash: sha512-JvdAWfbXeIGaZ9cILp38HntZSFSo3mWg6xGcJJsd+d4aRMOqauag1C63dJfDw7OaMYwEbHMOxEZ1lqVRYP2OAw==
+1031 silly tarball trying stack-trace@0.0.10 by hash: sha1-VHxws0fo0ytOEI6hoqFZ5f3eGcA=
+1032 silly tarball trying statuses@1.5.0 by hash: sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow=
+1033 silly tarball trying strip-ansi@3.0.1 by hash: sha1-ajhfuIU9lS1f8F0Oiq+UJ43GPc8=
+1034 silly tarball trying chalk@1.1.3 by hash: sha1-qBFcVeSnAv5NFQq9OHKCKn4J/Jg=
+1035 silly tarball trying toidentifier@1.0.0 by hash: sha512-yaOH/Pk/VEhBWWTlhI+qXxDFXlejDGcQipMlyxda9nthulaxLZUNcUqFxokp0vcYnvteJln5FNQDRrxj3YcbVw==
+1036 silly tarball trying supports-color@2.0.0 by hash: sha1-U10EXOa2Nj+kARcIRimZXp3zJMc=
+1037 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
+1038 silly extract ms@2.1.1 extracted to /home/shufflehubot/node_modules/.staging/ms-a6bd377b (416ms)
+1039 silly extract strip-ansi@3.0.1 extracted to /home/shufflehubot/node_modules/.staging/strip-ansi-18b0ff61 (419ms)
+1040 silly extract chalk@1.1.3 extracted to /home/shufflehubot/node_modules/.staging/chalk-0f0babea (419ms)
+1041 silly extract toidentifier@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/toidentifier-fcdbab89 (418ms)
+1042 silly extract supports-color@2.0.0 extracted to /home/shufflehubot/node_modules/.staging/supports-color-aa231fe3 (420ms)
+1043 silly extract inherits@2.0.3 extracted to /home/shufflehubot/node_modules/.staging/inherits-ad9e0009 (435ms)
+1044 silly extract hubot-slack@4.9.0
+1045 silly extract hubot-shipit@0.2.1
+1046 silly extract hubot-scripts@2.17.2
+1047 silly extract hubot-rules@1.0.0
+1048 silly extract hubot-redis-brain@1.0.0
+1049 silly extract ms@2.0.0 extracted to /home/shufflehubot/node_modules/.staging/ms-12828299 (448ms)
+1050 silly extract oauth-sign@0.9.0 extracted to /home/shufflehubot/node_modules/.staging/oauth-sign-fed4d265 (447ms)
+1051 silly extract media-typer@0.3.0 extracted to /home/shufflehubot/node_modules/.staging/media-typer-30d66a64 (459ms)
+1052 silly extract merge-descriptors@1.0.1 extracted to /home/shufflehubot/node_modules/.staging/merge-descriptors-0e209118 (459ms)
+1053 silly extract hubot-pugme@0.1.1
+1054 silly extract methods@1.1.2 extracted to /home/shufflehubot/node_modules/.staging/methods-642094d7 (461ms)
+1055 silly tarball trying hubot-slack@4.9.0 by hash: sha512-liNHxyii/XZe2ypXP8IEPas5paJwVVRVZYMcVy3cHlIYzRaY+99ayBptEI+KWfqzhzxnLGV2aGjHUjolBsl0iA==
+1056 silly tarball trying hubot-shipit@0.2.1 by hash: sha1-T7yeFhlTv3kB/cNuKnAsExA/FrI=
+1057 silly tarball trying hubot-scripts@2.17.2 by hash: sha1-mwjpB9XPq6cteDIEBnp4zp3zriQ=
+1058 silly tarball trying hubot-rules@1.0.0 by hash: sha512-IXeTYp6aK25Hgio8ezYr9vruLt1dICL9+kImaXefbfanSjNiNDvltNZfwANqeBx4Zm92A6yi36XxbWR5ZS5kNg==
+1059 silly extract http-errors@1.7.2 extracted to /home/shufflehubot/node_modules/.staging/http-errors-7db29575 (461ms)
+1060 silly tarball trying hubot-redis-brain@1.0.0 by hash: sha512-F3udeIfYZ+49ezeWKQgcI41PblsyRnHvAWrqjJV/HGApPCxX1P0cPiNna3B/ml6V5EOOZLsVeelukwtxDhh09A==
+1061 silly extract hubot-maps@0.0.3
+1062 silly extract hubot-heroku-keepalive@1.0.3
+1063 silly extract accepts@1.3.7 extracted to /home/shufflehubot/node_modules/.staging/accepts-04b483bf (468ms)
+1064 silly extract on-finished@2.3.0 extracted to /home/shufflehubot/node_modules/.staging/on-finished-c007e7ce (469ms)
+1065 silly extract parseurl@1.3.3 extracted to /home/shufflehubot/node_modules/.staging/parseurl-ec00c143 (469ms)
+1066 silly extract path-to-regexp@0.1.7 extracted to /home/shufflehubot/node_modules/.staging/path-to-regexp-ef981376 (469ms)
+1067 silly extract range-parser@1.2.1 extracted to /home/shufflehubot/node_modules/.staging/range-parser-0493b8a8 (470ms)
+1068 silly extract http-errors@1.7.3 extracted to /home/shufflehubot/node_modules/.staging/http-errors-0019d07e (469ms)
+1069 silly extract random-bytes@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/random-bytes-6e8801cb (473ms)
+1070 silly extract hubot-help@1.0.1
+1071 silly tarball trying hubot-pugme@0.1.1 by hash: sha1-u/O5k4MVFsgU9WnPDwUxP7mjFFg=
+1072 silly extract hubot-google-translate@0.2.1
+1073 silly extract hubot-google-images@0.2.7
+1074 silly extract setprototypeof@1.1.1 extracted to /home/shufflehubot/node_modules/.staging/setprototypeof-b8daf183 (480ms)
+1075 silly extract stack-trace@0.0.10 extracted to /home/shufflehubot/node_modules/.staging/stack-trace-abc31593 (480ms)
+1076 silly extract hubot-diagnostics@1.0.0
+1077 silly tarball trying hubot-maps@0.0.3 by hash: sha1-yPxbA0h1TmJhbVuZsr85BMXuWDw=
+1078 silly tarball trying hubot-heroku-keepalive@1.0.3 by hash: sha1-KVDigJXuSmrOK3b5DiqRupHmgTw=
+1079 silly extract hubot@3.3.2
+1080 silly extract @slack/client@3.16.1-sec.2
+1081 silly extract ws@1.1.5
+1082 silly extract winston@2.4.5
+1083 silly extract options@0.0.6 extracted to /home/shufflehubot/node_modules/.staging/options-64f94bb1 (492ms)
+1084 silly extract proxy-addr@2.0.7 extracted to /home/shufflehubot/node_modules/.staging/proxy-addr-87c04d23 (492ms)
+1085 silly extract async@1.0.0
+1086 silly extract request@2.88.2
+1087 silly tarball trying hubot-help@1.0.1 by hash: sha512-1gL7ywROwQG6Grom68Bhi8O7YHn/qEkg3tGgap+tFejZGxVnFyJ/LcStBScW/zUj4yf0GlDaExR/vsaTjzBRsA==
+1088 silly extract http-signature@1.2.0
+1089 silly tarball trying hubot-google-translate@0.2.1 by hash: sha1-P0lsfywgmU1ZS0t1GDiY4rYnu34=
+1090 silly tarball trying hubot-google-images@0.2.7 by hash: sha1-qKH5CU12gwvxkxdwiI+rDcDBGk0=
+1091 silly extract safe-buffer@5.2.1 extracted to /home/shufflehubot/node_modules/.staging/safe-buffer-1c915ab6 (498ms)
+1092 silly extract jsprim@1.4.1
+1093 silly extract verror@1.10.0
+1094 silly extract mime-types@2.1.32 extracted to /home/shufflehubot/node_modules/.staging/mime-types-8870804a (512ms)
+1095 silly tarball trying hubot-diagnostics@1.0.0 by hash: sha512-4kuR04lULoDDra/Z7B/rgMQMZW531Ve5hwhd8xNOKAl8e1cb5bZNqVpGFYF174eYcN54+RZuWQFHsntjvczyag==
+1096 silly extract setprototypeof@1.2.0 extracted to /home/shufflehubot/node_modules/.staging/setprototypeof-3f0b6535 (515ms)
+1097 silly tarball trying hubot@3.3.2 by hash: sha512-+8h/s+t5GirjuDW5K1QjTGBGzOU8ksEi51HeLdFghYOWj40x6ndhAU3C6SRPk/7yHj6luVPuVi/Y8s0P+lqM9Q==
+1098 silly tarball trying ws@1.1.5 by hash: sha512-o3KqipXNUdS7wpQzBHSe180lBGO60SoK0yVo3CYJgb2MkobuWuBX6dhkYP5ORCLd55y+SaflMOV5fqAB53ux4w==
+1099 silly tarball trying winston@2.4.5 by hash: sha512-TWoamHt5yYvsMarGlGEQE59SbJHqGsZV8/lwC+iCcGeAe0vUaOh+Lv6SYM17ouzC/a/LB1/hz/7sxFBtlu1l4A==
+1100 silly extract express@4.17.1
+1101 silly extract vary@1.1.2
+1102 silly tarball trying async@1.0.0 by hash: sha1-+PwEyjoTeErenhZBr5hXjPvWR6k=
+1103 silly tarball trying request@2.88.2 by hash: sha512-MsvtOrfG9ZcrOwAW+Qi+F6HbD0CWXEh9ou77uOb7FM2WPhwT7smM833PzanhJLsgXjN89Ir6V2PczXNnMpwKhw==
+1104 silly extract send@0.17.1 extracted to /home/shufflehubot/node_modules/.staging/send-c14dfc30 (515ms)
+1105 silly tarball trying http-signature@1.2.0 by hash: sha1-muzZJRFHcvPZW2WmCruPfBj7rOE=
+1106 silly extract uuid@3.4.0
+1107 silly extract statuses@1.5.0 extracted to /home/shufflehubot/node_modules/.staging/statuses-28dc779b (527ms)
+1108 silly tarball trying jsprim@1.4.1 by hash: sha1-MT5mvB5cwG5Di8G3SZwuXFastqI=
+1109 silly tarball trying verror@1.10.0 by hash: sha1-OhBcoXBTr1XW4nDB+CiGguGNpAA=
+1110 silly extract utils-merge@1.0.1
+1111 silly tarball trying @slack/client@3.16.1-sec.2 by hash: sha512-FAERJJAurczrvgShW+9V95NdVYgf8FdIexUqfBgNuToRrLRDRcWNf0nGyfKAvl2RH1ncppzJp3iXgMNJFnJXhQ==
+1112 silly extract url-join@0.0.1
+1113 silly tarball trying express@4.17.1 by hash: sha512-mHJ9O79RqluphRrcw2X/GTh3k9tVv8YcoyY4Kkh4WDMUYKRZUq0h1o0w2rrrxBqM7VoeUVqgb27xlEMXTnYt4g==
+1114 silly tarball trying vary@1.1.2 by hash: sha1-IpnwLG3tMNSllhsLn3RSShj2NPw=
+1115 silly extract punycode@2.1.1 extracted to /home/shufflehubot/node_modules/.staging/punycode-caf48bbb (543ms)
+1116 silly extract har-validator@5.1.5
+1117 silly extract safer-buffer@2.1.2 extracted to /home/shufflehubot/node_modules/.staging/safer-buffer-bec02fdb (550ms)
+1118 silly tarball trying uuid@3.4.0 by hash: sha512-HjSDRw6gZE5JMggctHBcjVak08+KEVhSIiDzFnT9S9aegmp85S/bReBVTb4QTFaRNptJ9kuYaNhnbNEOkbKb/A==
+1119 silly extract ajv@6.12.6
+1120 silly tarball trying utils-merge@1.0.1 by hash: sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM=
+1121 silly tarball trying url-join@0.0.1 by hash: sha1-HbSK1CLTQCRpqH99l73r/k+x48g=
+1122 silly extract uri-js@4.4.1
+1123 silly tarball trying har-validator@5.1.5 by hash: sha512-nmT2T0lljbxdQZfspsno9hgrG3Uir6Ks5afism62poxqBM6sDnMEuPmzTq8XN0OEwqKLLdh1jQI3qyE66Nzb3w==
+1124 silly extract redis-commands@1.7.0 extracted to /home/shufflehubot/node_modules/.staging/redis-commands-5589e5aa (578ms)
+1125 silly extract body-parser@1.19.0
+1126 silly tarball trying ajv@6.12.6 by hash: sha512-j3fVLgvTo527anyYyJOGTYJbG+vnnQYvE0m5mmkc1TK+nxAppkCLMIL0aZ4dblVCNoGShhm+kzE4ZUykBoMg4g==
+1127 silly tarball trying uri-js@4.4.1 by hash: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==
+1128 silly tarball trying body-parser@1.19.0 by hash: sha512-dhEPs72UPbDnAQJ9ZKMNTP6ptJaionhP5cBb541nXPlW60Jepo9RV/a4fX4XWW9CuFNK22krhrj1+rgzifNCsw==
+1129 silly extract raw-body@2.4.0
+1130 silly extract optparse@1.0.4 extracted to /home/shufflehubot/node_modules/.staging/optparse-3190cf47 (622ms)
+1131 silly extract negotiator@0.6.2 extracted to /home/shufflehubot/node_modules/.staging/negotiator-d8e78e41 (623ms)
+1132 silly tarball trying raw-body@2.4.0 by hash: sha512-4Oz8DUIwdvoa5qMJelxipzi/iJIi40O5cGV1wNYp5hvZP8ZN0T+jiNkL0QepXs+EsQ9XJ8ipEDoiH70ySUJP3Q==
+1133 silly extract asn1@0.2.4 extracted to /home/shufflehubot/node_modules/.staging/asn1-c17bffe8 (633ms)
+1134 silly extract finalhandler@1.1.2
+1135 silly extract unpipe@1.0.0
+1136 silly extract ultron@1.0.2
+1137 silly tarball trying finalhandler@1.1.2 by hash: sha512-aAWcW57uxVNrQZqFXjITpW3sIUQmHGG3qSb9mUah9MgMC4NeWhNOlNjXEYq3HjRAvL6arUviZGGJsBg6z0zsWA==
+1138 silly tarball trying unpipe@1.0.0 by hash: sha1-sr9O6FFKrmFltIF4KdIbLvSZBOw=
+1139 silly tarball trying ultron@1.0.2 by hash: sha1-rOEWq1V80Zc4ak6I9GhTeMiy5Po=
+1140 silly extract log@1.4.0 extracted to /home/shufflehubot/node_modules/.staging/log-63345ae7 (722ms)
+1141 silly extract redis-parser@2.6.0 extracted to /home/shufflehubot/node_modules/.staging/redis-parser-d2214820 (725ms)
+1142 silly extract mime@1.6.0 extracted to /home/shufflehubot/node_modules/.staging/mime-e99fa1d9 (740ms)
+1143 silly extract connect-multiparty@2.2.0
+1144 silly extract multiparty@4.2.2
+1145 silly extract uid-safe@2.1.5
+1146 silly tarball trying connect-multiparty@2.2.0 by hash: sha512-zKcpA7cuXGEhuw9Pz7JmVCFmp85jzGLGm/iiagXTwyEAJp4ypLPtRS/V4IGuGb9KjjrgHBs6P/gDCpZHnFzksA==
+1147 silly tarball trying multiparty@4.2.2 by hash: sha512-NtZLjlvsjcoGrzojtwQwn/Tm90aWJ6XXtPppYF4WmOk/6ncdwMMKggFY2NlRRN9yiCEIVxpOfPWahVEG2HAG8Q==
+1148 silly extract ecc-jsbn@0.1.2 extracted to /home/shufflehubot/node_modules/.staging/ecc-jsbn-b75052f9 (795ms)
+1149 silly extract scoped-http-client@0.11.0 extracted to /home/shufflehubot/node_modules/.staging/scoped-http-client-d5f22a31 (797ms)
+1150 silly tarball trying uid-safe@2.1.5 by hash: sha512-KPHm4VL5dDXKz01UuEd88Df+KzynaohSL9fBh096KWAxSKZQDI2uBrVqtvRM4rwrIrRRKsdLNML/lnaaVSRioA==
+1151 silly extract type-is@1.6.18
+1152 silly extract sshpk@1.16.1
+1153 silly extract pkginfo@0.4.1 extracted to /home/shufflehubot/node_modules/.staging/pkginfo-4ab650ca (850ms)
+1154 silly tarball trying type-is@1.6.18 by hash: sha512-TkRKr9sUTxEH8MdfuCSP7VizJyzRNMjj2J2do2Jr3Kym598JVdEksuzPQCnlFPW4ky9Q+iA+ma9BGm06XQBy8g==
+1155 silly tarball trying sshpk@1.16.1 by hash: sha512-HXXqVUq7+pcKeLqqZj6mHFUMvXtOJt1uoUx09pFW6011inTMxqI8BA8PM95myrIyyKwdnzjdFjLiE6KBPVtJIg==
+1156 silly extract form-data@2.3.3 extracted to /home/shufflehubot/node_modules/.staging/form-data-db2ffbb1 (869ms)
+1157 silly extract mime-db@1.49.0 extracted to /home/shufflehubot/node_modules/.staging/mime-db-6c772b89 (882ms)
+1158 silly extract bcrypt-pbkdf@1.0.2
+1159 silly extract hubot-help@1.0.1 extracted to /home/shufflehubot/node_modules/.staging/hubot-help-e3da3f97 (409ms)
+1160 silly extract retry@0.9.0 extracted to /home/shufflehubot/node_modules/.staging/retry-eea9e5ee (891ms)
+1161 silly extract tweetnacl@0.14.5
+1162 silly extract tunnel-agent@0.6.0
+1163 silly tarball trying bcrypt-pbkdf@1.0.2 by hash: sha1-pDAdOJtqQ/m2f/PKEaP2Y342Dp4=
+1164 silly extract tough-cookie@2.5.0
+1165 silly extract http-errors@1.7.2
+1166 silly tarball trying tweetnacl@0.14.5 by hash: sha1-WuaBd/GS1EViadEIr6k/+HQ/T2Q=
+1167 silly extract vary@1.1.2 extracted to /home/shufflehubot/node_modules/.staging/vary-6eec0c9b (420ms)
+1168 silly tarball trying tunnel-agent@0.6.0 by hash: sha1-J6XeoGs2sEoKmWZ3SykIaPD8QP0=
+1169 silly extract performance-now@2.1.0 extracted to /home/shufflehubot/node_modules/.staging/performance-now-bbb09b03 (940ms)
+1170 silly tarball trying tough-cookie@2.5.0 by hash: sha512-nlLsUzgm1kfLXSXfRZMc1KLAugd4hqJHDTvc2hDIwS3mZAfMEuMbc03SujMF+GEcpaX/qboeycw6iO8JwVv2+g==
+1171 silly tarball trying http-errors@1.7.2 by hash: sha512-uUQBt3H/cSIVfch6i1EuPNy/YsRSOUBXTVfZ+yR7Zjez3qjBz6i9+i4zjNaoqcoFVI4lQJ5plg63TvGfRSDCRg==
+1172 silly extract utils-merge@1.0.1 extracted to /home/shufflehubot/node_modules/.staging/utils-merge-73b8cebc (422ms)
+1173 silly extract hubot-maps@0.0.3 extracted to /home/shufflehubot/node_modules/.staging/hubot-maps-c084b354 (493ms)
+1174 silly extract debug@2.6.9 extracted to /home/shufflehubot/node_modules/.staging/debug-5262d70b (967ms)
+1175 silly extract http-errors@1.8.0
+1176 silly extract serve-static@1.14.1
+1177 silly extract hubot-rules@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/hubot-rules-b2eae485 (545ms)
+1178 silly tarball trying http-errors@1.8.0 by hash: sha512-4I8r0C5JDhT5VkvI47QktDW75rNlGVsUf/8hzjCC/wkWI/jdTRmBb9aI7erSG82r1bjKY3F6k28WnsVxB1C73A==
+1179 silly tarball trying serve-static@1.14.1 by hash: sha512-JMrvUwE54emCYWlTI+hGrGv5I8dEwmco/00EvkzIIsR7MqrHonbD9pO2MOfFnpFntl7ecpZs+3mW+XbQZu9QCg==
+1180 silly extract jsprim@1.4.1 extracted to /home/shufflehubot/node_modules/.staging/jsprim-795404ba (507ms)
+1181 silly extract url-join@0.0.1 extracted to /home/shufflehubot/node_modules/.staging/url-join-9ec1c994 (486ms)
+1182 silly extract har-validator@5.1.5 extracted to /home/shufflehubot/node_modules/.staging/har-validator-6abf88f4 (483ms)
+1183 silly extract hubot-shipit@0.2.1 extracted to /home/shufflehubot/node_modules/.staging/hubot-shipit-e904b885 (593ms)
+1184 silly extract hubot-redis-brain@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/hubot-redis-brain-2d69ef1c (634ms)
+1185 silly extract finalhandler@1.1.2 extracted to /home/shufflehubot/node_modules/.staging/finalhandler-6fc2ce26 (431ms)
+1186 silly extract unpipe@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/unpipe-b4143c7f (432ms)
+1187 silly extract verror@1.10.0 extracted to /home/shufflehubot/node_modules/.staging/verror-4a288433 (598ms)
+1188 silly extract hubot-diagnostics@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/hubot-diagnostics-172b5dbf (620ms)
+1189 silly extract raw-body@2.4.0 extracted to /home/shufflehubot/node_modules/.staging/raw-body-9753a941 (516ms)
+1190 silly extract hubot-pugme@0.1.1 extracted to /home/shufflehubot/node_modules/.staging/hubot-pugme-081c65f3 (665ms)
+1191 silly extract hubot-google-translate@0.2.1 extracted to /home/shufflehubot/node_modules/.staging/hubot-google-translate-dff34fb9 (666ms)
+1192 silly extract connect-multiparty@2.2.0 extracted to /home/shufflehubot/node_modules/.staging/connect-multiparty-53106556 (404ms)
+1193 silly extract hubot-google-images@0.2.7 extracted to /home/shufflehubot/node_modules/.staging/hubot-google-images-7cc8f42a (686ms)
+1194 silly extract uid-safe@2.1.5 extracted to /home/shufflehubot/node_modules/.staging/uid-safe-bc1f8296 (398ms)
+1195 silly extract hubot-heroku-keepalive@1.0.3 extracted to /home/shufflehubot/node_modules/.staging/hubot-heroku-keepalive-60d712b6 (706ms)
+1196 silly extract ultron@1.0.2 extracted to /home/shufflehubot/node_modules/.staging/ultron-454ef828 (515ms)
+1197 silly extract type-is@1.6.18 extracted to /home/shufflehubot/node_modules/.staging/type-is-8966dd73 (367ms)
+1198 silly extract qs@6.5.2 extracted to /home/shufflehubot/node_modules/.staging/qs-436ecd8c (1224ms)
+1199 silly extract multiparty@4.2.2 extracted to /home/shufflehubot/node_modules/.staging/multiparty-09ad0497 (468ms)
+1200 silly extract redis@2.8.0 extracted to /home/shufflehubot/node_modules/.staging/redis-efdbf5f5 (1230ms)
+1201 silly extract tunnel-agent@0.6.0 extracted to /home/shufflehubot/node_modules/.staging/tunnel-agent-bc3824a2 (331ms)
+1202 silly extract http-signature@1.2.0 extracted to /home/shufflehubot/node_modules/.staging/http-signature-79c85018 (747ms)
+1203 silly extract async@1.0.0 extracted to /home/shufflehubot/node_modules/.staging/async-33482568 (761ms)
+1204 silly extract bcrypt-pbkdf@1.0.2 extracted to /home/shufflehubot/node_modules/.staging/bcrypt-pbkdf-a2d594ae (374ms)
+1205 silly extract psl@1.8.0 extracted to /home/shufflehubot/node_modules/.staging/psl-90ee757a (1260ms)
+1206 silly extract body-parser@1.19.0 extracted to /home/shufflehubot/node_modules/.staging/body-parser-799915f4 (692ms)
+1207 silly extract http-errors@1.7.2 extracted to /home/shufflehubot/node_modules/.staging/http-errors-b64a6fe3 (348ms)
+1208 silly extract http-errors@1.8.0 extracted to /home/shufflehubot/node_modules/.staging/http-errors-1ebd0a9d (310ms)
+1209 silly extract serve-static@1.14.1 extracted to /home/shufflehubot/node_modules/.staging/serve-static-06b443a7 (318ms)
+1210 silly extract uuid@3.4.0 extracted to /home/shufflehubot/node_modules/.staging/uuid-3a310e76 (785ms)
+1211 silly extract ws@1.1.5 extracted to /home/shufflehubot/node_modules/.staging/ws-29a8f280 (846ms)
+1212 silly extract tough-cookie@2.5.0 extracted to /home/shufflehubot/node_modules/.staging/tough-cookie-5241207c (451ms)
+1213 silly extract iconv-lite@0.4.24 extracted to /home/shufflehubot/node_modules/.staging/iconv-lite-4a46b1c0 (1371ms)
+1214 silly extract express@4.17.1 extracted to /home/shufflehubot/node_modules/.staging/express-2da06092 (882ms)
+1215 silly extract request@2.88.2 extracted to /home/shufflehubot/node_modules/.staging/request-29e7e84a (906ms)
+1216 silly extract tweetnacl@0.14.5 extracted to /home/shufflehubot/node_modules/.staging/tweetnacl-9b8e30cb (513ms)
+1217 silly extract winston@2.4.5 extracted to /home/shufflehubot/node_modules/.staging/winston-7eeb0b25 (1079ms)
+1218 silly extract sshpk@1.16.1 extracted to /home/shufflehubot/node_modules/.staging/sshpk-19041610 (816ms)
+1219 silly extract uri-js@4.4.1 extracted to /home/shufflehubot/node_modules/.staging/uri-js-1784e16d (1149ms)
+1220 silly extract hubot@3.3.2 extracted to /home/shufflehubot/node_modules/.staging/hubot-68209d07 (1266ms)
+1221 silly extract hubot-slack@4.9.0 extracted to /home/shufflehubot/node_modules/.staging/hubot-slack-1e5f9770 (1336ms)
+1222 silly extract ajv@6.12.6 extracted to /home/shufflehubot/node_modules/.staging/ajv-f98016fc (1482ms)
+1223 silly extract @slack/client@3.16.1-sec.2 extracted to /home/shufflehubot/node_modules/.staging/@slack/client-214bee40 (1996ms)
+1224 silly extract hubot-scripts@2.17.2 extracted to /home/shufflehubot/node_modules/.staging/hubot-scripts-5961654e (2441ms)
+1225 silly extract lodash@4.17.21 extracted to /home/shufflehubot/node_modules/.staging/lodash-40661e49 (3394ms)
+1226 timing action:extract Completed in 3397ms
+1227 silly doReverseSerial unbuild 810
+1228 silly unbuild hubot-slack
+1229 info lifecycle undefined~preuninstall: undefined
+1230 info lifecycle undefined~uninstall: undefined
+1231 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1232 info lifecycle undefined~postuninstall: undefined
+1233 silly unbuild hubot-shipit
+1234 info lifecycle undefined~preuninstall: undefined
+1235 info lifecycle undefined~uninstall: undefined
+1236 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1237 info lifecycle undefined~postuninstall: undefined
+1238 silly unbuild hubot-scripts
+1239 info lifecycle undefined~preuninstall: undefined
+1240 info lifecycle undefined~uninstall: undefined
+1241 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1242 info lifecycle undefined~postuninstall: undefined
+1243 silly unbuild hubot-rules
+1244 info lifecycle undefined~preuninstall: undefined
+1245 info lifecycle undefined~uninstall: undefined
+1246 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1247 info lifecycle undefined~postuninstall: undefined
+1248 silly unbuild hubot-redis-brain
+1249 info lifecycle undefined~preuninstall: undefined
+1250 info lifecycle undefined~uninstall: undefined
+1251 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1252 info lifecycle undefined~postuninstall: undefined
+1253 silly unbuild hubot-pugme
+1254 info lifecycle undefined~preuninstall: undefined
+1255 info lifecycle undefined~uninstall: undefined
+1256 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1257 info lifecycle undefined~postuninstall: undefined
+1258 silly unbuild hubot-maps
+1259 info lifecycle undefined~preuninstall: undefined
+1260 info lifecycle undefined~uninstall: undefined
+1261 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1262 info lifecycle undefined~postuninstall: undefined
+1263 silly unbuild hubot-heroku-keepalive
+1264 info lifecycle undefined~preuninstall: undefined
+1265 info lifecycle undefined~uninstall: undefined
+1266 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1267 info lifecycle undefined~postuninstall: undefined
+1268 silly unbuild hubot-help
+1269 info lifecycle undefined~preuninstall: undefined
+1270 info lifecycle undefined~uninstall: undefined
+1271 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1272 info lifecycle undefined~postuninstall: undefined
+1273 silly unbuild hubot-google-translate
+1274 info lifecycle undefined~preuninstall: undefined
+1275 info lifecycle undefined~uninstall: undefined
+1276 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1277 info lifecycle undefined~postuninstall: undefined
+1278 silly unbuild hubot-google-images
+1279 info lifecycle undefined~preuninstall: undefined
+1280 info lifecycle undefined~uninstall: undefined
+1281 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1282 info lifecycle undefined~postuninstall: undefined
+1283 silly unbuild hubot-diagnostics
+1284 info lifecycle undefined~preuninstall: undefined
+1285 info lifecycle undefined~uninstall: undefined
+1286 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1287 info lifecycle undefined~postuninstall: undefined
+1288 silly unbuild hubot
+1289 info lifecycle undefined~preuninstall: undefined
+1290 info lifecycle undefined~uninstall: undefined
+1291 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1292 info lifecycle undefined~postuninstall: undefined
+1293 silly unbuild @slack/client
+1294 info lifecycle undefined~preuninstall: undefined
+1295 info lifecycle undefined~uninstall: undefined
+1296 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1297 info lifecycle undefined~postuninstall: undefined
+1298 silly unbuild request
+1299 info lifecycle undefined~preuninstall: undefined
+1300 info lifecycle undefined~uninstall: undefined
+1301 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1302 info lifecycle undefined~postuninstall: undefined
+1303 silly unbuild http-signature
+1304 info lifecycle undefined~preuninstall: undefined
+1305 info lifecycle undefined~uninstall: undefined
+1306 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1307 info lifecycle undefined~postuninstall: undefined
+1308 silly unbuild body-parser
+1309 info lifecycle undefined~preuninstall: undefined
+1310 info lifecycle undefined~uninstall: undefined
+1311 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1312 info lifecycle undefined~postuninstall: undefined
+1313 silly unbuild send
+1314 info lifecycle undefined~preuninstall: undefined
+1315 info lifecycle undefined~uninstall: undefined
+1316 verbose unbuild rmStuff undefined from /home/shufflehubot/node_modules
+1317 info lifecycle undefined~postuninstall: undefined
+1318 timing action:unbuild Completed in 7ms
+1319 silly doSerial remove 810
+1320 silly remove /home/shufflehubot/node_modules/send
+1321 silly remove /home/shufflehubot/node_modules/body-parser
+1322 silly remove /home/shufflehubot/node_modules/http-signature
+1323 silly remove /home/shufflehubot/node_modules/request
+1324 silly remove /home/shufflehubot/node_modules/@slack/client
+1325 silly remove /home/shufflehubot/node_modules/hubot
+1326 silly remove /home/shufflehubot/node_modules/hubot-diagnostics
+1327 silly remove /home/shufflehubot/node_modules/hubot-google-images
+1328 silly remove /home/shufflehubot/node_modules/hubot-google-translate
+1329 silly remove /home/shufflehubot/node_modules/hubot-help
+1330 silly remove /home/shufflehubot/node_modules/hubot-heroku-keepalive
+1331 silly remove /home/shufflehubot/node_modules/hubot-maps
+1332 silly remove /home/shufflehubot/node_modules/hubot-pugme
+1333 silly remove /home/shufflehubot/node_modules/hubot-redis-brain
+1334 silly remove /home/shufflehubot/node_modules/hubot-rules
+1335 silly remove /home/shufflehubot/node_modules/hubot-scripts
+1336 silly remove /home/shufflehubot/node_modules/hubot-shipit
+1337 silly remove /home/shufflehubot/node_modules/hubot-slack
+1338 timing action:remove Completed in 353ms
+1339 silly doSerial move 810
+1340 silly doSerial finalize 810
+1341 silly finalize /home/shufflehubot/node_modules/lodash
+1342 silly finalize /home/shufflehubot/node_modules/log
+1343 silly finalize /home/shufflehubot/node_modules/media-typer
+1344 silly finalize /home/shufflehubot/node_modules/merge-descriptors
+1345 silly finalize /home/shufflehubot/node_modules/methods
+1346 silly finalize /home/shufflehubot/node_modules/mime
+1347 silly finalize /home/shufflehubot/node_modules/mime-db
+1348 silly finalize /home/shufflehubot/node_modules/mime-types
+1349 silly finalize /home/shufflehubot/node_modules/form-data
+1350 silly finalize /home/shufflehubot/node_modules/ms
+1351 silly finalize /home/shufflehubot/node_modules/debug
+1352 silly finalize /home/shufflehubot/node_modules/multiparty/node_modules/setprototypeof
+1353 silly finalize /home/shufflehubot/node_modules/negotiator
+1354 silly finalize /home/shufflehubot/node_modules/accepts
+1355 silly finalize /home/shufflehubot/node_modules/oauth-sign
+1356 silly finalize /home/shufflehubot/node_modules/on-finished
+1357 silly finalize /home/shufflehubot/node_modules/options
+1358 silly finalize /home/shufflehubot/node_modules/optparse
+1359 silly finalize /home/shufflehubot/node_modules/parseurl
+1360 silly finalize /home/shufflehubot/node_modules/path-to-regexp
+1361 silly finalize /home/shufflehubot/node_modules/performance-now
+1362 silly finalize /home/shufflehubot/node_modules/pkginfo
+1363 silly finalize /home/shufflehubot/node_modules/proxy-addr
+1364 silly finalize /home/shufflehubot/node_modules/psl
+1365 silly finalize /home/shufflehubot/node_modules/punycode
+1366 silly finalize /home/shufflehubot/node_modules/qs
+1367 silly finalize /home/shufflehubot/node_modules/random-bytes
+1368 silly finalize /home/shufflehubot/node_modules/range-parser
+1369 silly finalize /home/shufflehubot/node_modules/raw-body/node_modules/inherits
+1370 silly finalize /home/shufflehubot/node_modules/redis-commands
+1371 silly finalize /home/shufflehubot/node_modules/redis-parser
+1372 silly finalize /home/shufflehubot/node_modules/redis
+1373 silly finalize /home/shufflehubot/node_modules/retry
+1374 silly finalize /home/shufflehubot/node_modules/safe-buffer
+1375 silly finalize /home/shufflehubot/node_modules/safer-buffer
+1376 silly finalize /home/shufflehubot/node_modules/asn1
+1377 silly finalize /home/shufflehubot/node_modules/ecc-jsbn
+1378 silly finalize /home/shufflehubot/node_modules/iconv-lite
+1379 silly finalize /home/shufflehubot/node_modules/scoped-http-client
+1380 silly finalize /home/shufflehubot/node_modules/send/node_modules/ms
+1381 silly finalize /home/shufflehubot/node_modules/setprototypeof
+1382 silly finalize /home/shufflehubot/node_modules/stack-trace
+1383 silly finalize /home/shufflehubot/node_modules/statuses
+1384 silly finalize /home/shufflehubot/node_modules/strip-ansi
+1385 silly finalize /home/shufflehubot/node_modules/supports-color
+1386 silly finalize /home/shufflehubot/node_modules/chalk
+1387 silly finalize /home/shufflehubot/node_modules/toidentifier
+1388 silly finalize /home/shufflehubot/node_modules/body-parser/node_modules/http-errors
+1389 silly finalize /home/shufflehubot/node_modules/http-errors
+1390 silly finalize /home/shufflehubot/node_modules/send
+1391 silly finalize /home/shufflehubot/node_modules/serve-static
+1392 silly finalize /home/shufflehubot/node_modules/multiparty/node_modules/http-errors
+1393 silly finalize /home/shufflehubot/node_modules/raw-body/node_modules/http-errors
+1394 silly finalize /home/shufflehubot/node_modules/tough-cookie
+1395 silly finalize /home/shufflehubot/node_modules/tunnel-agent
+1396 silly finalize /home/shufflehubot/node_modules/tweetnacl
+1397 silly finalize /home/shufflehubot/node_modules/bcrypt-pbkdf
+1398 silly finalize /home/shufflehubot/node_modules/sshpk
+1399 timing action:finalize Completed in 449ms
+1400 verbose unlock done using /home/shufflehubot/.npm/_locks/staging-d559f62f37b9e887.lock for /home/shufflehubot/node_modules/.staging
+1401 timing stage:rollbackFailedOptional Completed in 62ms
+1402 timing stage:runTopLevelLifecycles Completed in 6651ms
+1403 silly saveTree shufflehubot@0.0.0
+1403 silly saveTree ├── hubot-diagnostics@1.0.0
+1403 silly saveTree ├── hubot-google-images@0.2.7
+1403 silly saveTree ├── hubot-google-translate@0.2.1
+1403 silly saveTree ├── hubot-help@1.0.1
+1403 silly saveTree ├── hubot-heroku-keepalive@1.0.3
+1403 silly saveTree ├── hubot-maps@0.0.3
+1403 silly saveTree ├── hubot-pugme@0.1.1
+1403 silly saveTree ├─┬ hubot-redis-brain@1.0.0
+1403 silly saveTree │ └─┬ redis@2.8.0
+1403 silly saveTree │   ├── double-ended-queue@2.1.0-0
+1403 silly saveTree │   ├── redis-commands@1.7.0
+1403 silly saveTree │   └── redis-parser@2.6.0
+1403 silly saveTree ├── hubot-rules@1.0.0
+1403 silly saveTree ├─┬ hubot-scripts@2.17.2
+1403 silly saveTree │ └── redis@0.8.4
+1403 silly saveTree ├── hubot-shipit@0.2.1
+1403 silly saveTree ├─┬ hubot-slack@4.9.0
+1403 silly saveTree │ ├─┬ @slack/client@3.16.1-sec.2
+1403 silly saveTree │ │ ├── async@1.5.2
+1403 silly saveTree │ │ ├── bluebird@3.7.2
+1403 silly saveTree │ │ ├── eventemitter3@1.2.0
+1403 silly saveTree │ │ ├─┬ https-proxy-agent@2.2.4
+1403 silly saveTree │ │ │ ├─┬ agent-base@4.3.0
+1403 silly saveTree │ │ │ │ └─┬ es6-promisify@5.0.0
+1403 silly saveTree │ │ │ │   └── es6-promise@4.2.8
+1403 silly saveTree │ │ │ └─┬ debug@3.2.7
+1403 silly saveTree │ │ │   └── ms@2.1.3
+1403 silly saveTree │ │ ├── inherits@2.0.4
+1403 silly saveTree │ │ ├── lodash@4.17.21
+1403 silly saveTree │ │ ├── pkginfo@0.4.1
+1403 silly saveTree │ │ ├─┬ request@2.88.2
+1403 silly saveTree │ │ │ ├── aws-sign2@0.7.0
+1403 silly saveTree │ │ │ ├── aws4@1.11.0
+1403 silly saveTree │ │ │ ├── caseless@0.12.0
+1403 silly saveTree │ │ │ ├─┬ combined-stream@1.0.8
+1403 silly saveTree │ │ │ │ └── delayed-stream@1.0.0
+1403 silly saveTree │ │ │ ├── extend@3.0.2
+1403 silly saveTree │ │ │ ├── forever-agent@0.6.1
+1403 silly saveTree │ │ │ ├─┬ form-data@2.3.3
+1403 silly saveTree │ │ │ │ ├── asynckit@0.4.0
+1403 silly saveTree │ │ │ │ └─┬ mime-types@2.1.32
+1403 silly saveTree │ │ │ │   └── mime-db@1.49.0
+1403 silly saveTree │ │ │ ├─┬ har-validator@5.1.5
+1403 silly saveTree │ │ │ │ ├─┬ ajv@6.12.6
+1403 silly saveTree │ │ │ │ │ ├── fast-deep-equal@3.1.3
+1403 silly saveTree │ │ │ │ │ ├── fast-json-stable-stringify@2.1.0
+1403 silly saveTree │ │ │ │ │ ├── json-schema-traverse@0.4.1
+1403 silly saveTree │ │ │ │ │ └─┬ uri-js@4.4.1
+1403 silly saveTree │ │ │ │ │   └── punycode@2.1.1
+1403 silly saveTree │ │ │ │ └── har-schema@2.0.0
+1403 silly saveTree │ │ │ ├─┬ http-signature@1.2.0
+1403 silly saveTree │ │ │ │ ├── assert-plus@1.0.0
+1403 silly saveTree │ │ │ │ ├─┬ jsprim@1.4.1
+1403 silly saveTree │ │ │ │ │ ├── extsprintf@1.3.0
+1403 silly saveTree │ │ │ │ │ ├── json-schema@0.2.3
+1403 silly saveTree │ │ │ │ │ └─┬ verror@1.10.0
+1403 silly saveTree │ │ │ │ │   └── core-util-is@1.0.2
+1403 silly saveTree │ │ │ │ └─┬ sshpk@1.16.1
+1403 silly saveTree │ │ │ │   ├─┬ asn1@0.2.4
+1403 silly saveTree │ │ │ │   │ └── safer-buffer@2.1.2
+1403 silly saveTree │ │ │ │   ├─┬ bcrypt-pbkdf@1.0.2
+1403 silly saveTree │ │ │ │   │ └── tweetnacl@0.14.5
+1403 silly saveTree │ │ │ │   ├── dashdash@1.14.1
+1403 silly saveTree │ │ │ │   ├─┬ ecc-jsbn@0.1.2
+1403 silly saveTree │ │ │ │   │ └── jsbn@0.1.1
+1403 silly saveTree │ │ │ │   ├── getpass@0.1.7
+1403 silly saveTree │ │ │ │   ├── jsbn@0.1.1
+1403 silly saveTree │ │ │ │   ├── safer-buffer@2.1.2
+1403 silly saveTree │ │ │ │   └── tweetnacl@0.14.5
+1403 silly saveTree │ │ │ ├── is-typedarray@1.0.0
+1403 silly saveTree │ │ │ ├── isstream@0.1.2
+1403 silly saveTree │ │ │ ├── json-stringify-safe@5.0.1
+1403 silly saveTree │ │ │ ├── mime-types@2.1.32
+1403 silly saveTree │ │ │ ├── oauth-sign@0.9.0
+1403 silly saveTree │ │ │ ├── performance-now@2.1.0
+1403 silly saveTree │ │ │ ├── qs@6.5.2
+1403 silly saveTree │ │ │ ├── safe-buffer@5.2.1
+1403 silly saveTree │ │ │ ├─┬ tough-cookie@2.5.0
+1403 silly saveTree │ │ │ │ └── psl@1.8.0
+1403 silly saveTree │ │ │ ├── tunnel-agent@0.6.0
+1403 silly saveTree │ │ │ └── uuid@3.4.0
+1403 silly saveTree │ │ ├── retry@0.9.0
+1403 silly saveTree │ │ ├── url-join@0.0.1
+1403 silly saveTree │ │ ├─┬ winston@2.4.5
+1403 silly saveTree │ │ │ ├── async@1.0.0
+1403 silly saveTree │ │ │ ├── colors@1.0.3
+1403 silly saveTree │ │ │ ├── cycle@1.0.3
+1403 silly saveTree │ │ │ ├── eyes@0.1.8
+1403 silly saveTree │ │ │ └── stack-trace@0.0.10
+1403 silly saveTree │ │ └─┬ ws@1.1.5
+1403 silly saveTree │ │   ├── options@0.0.6
+1403 silly saveTree │ │   └── ultron@1.0.2
+1403 silly saveTree │ ├── bluebird@3.7.2
+1403 silly saveTree │ └── lodash@4.17.21
+1403 silly saveTree ├─┬ hubot@3.3.2
+1403 silly saveTree │ ├── async@0.9.2
+1403 silly saveTree │ ├─┬ chalk@1.1.3
+1403 silly saveTree │ │ ├── ansi-styles@2.2.1
+1403 silly saveTree │ │ ├── escape-string-regexp@1.0.5
+1403 silly saveTree │ │ ├─┬ has-ansi@2.0.0
+1403 silly saveTree │ │ │ └── ansi-regex@2.1.1
+1403 silly saveTree │ │ ├── strip-ansi@3.0.1
+1403 silly saveTree │ │ └── supports-color@2.0.0
+1403 silly saveTree │ ├── cline@0.8.2
+1403 silly saveTree │ ├── coffeescript@1.6.3
+1403 silly saveTree │ ├─┬ connect-multiparty@2.2.0
+1403 silly saveTree │ │ ├─┬ http-errors@1.7.3
+1403 silly saveTree │ │ │ ├── depd@1.1.2
+1403 silly saveTree │ │ │ ├── setprototypeof@1.1.1
+1403 silly saveTree │ │ │ ├── statuses@1.5.0
+1403 silly saveTree │ │ │ └── toidentifier@1.0.0
+1403 silly saveTree │ │ ├─┬ multiparty@4.2.2
+1403 silly saveTree │ │ │ ├─┬ http-errors@1.8.0
+1403 silly saveTree │ │ │ │ └── setprototypeof@1.2.0
+1403 silly saveTree │ │ │ └─┬ uid-safe@2.1.5
+1403 silly saveTree │ │ │   └── random-bytes@1.0.0
+1403 silly saveTree │ │ ├─┬ on-finished@2.3.0
+1403 silly saveTree │ │ │ └── ee-first@1.1.1
+1403 silly saveTree │ │ └─┬ type-is@1.6.18
+1403 silly saveTree │ │   └── media-typer@0.3.0
+1403 silly saveTree │ ├─┬ express@4.17.1
+1403 silly saveTree │ │ ├─┬ accepts@1.3.7
+1403 silly saveTree │ │ │ └── negotiator@0.6.2
+1403 silly saveTree │ │ ├── array-flatten@1.1.1
+1403 silly saveTree │ │ ├─┬ body-parser@1.19.0
+1403 silly saveTree │ │ │ ├── bytes@3.1.0
+1403 silly saveTree │ │ │ ├── content-type@1.0.4
+1403 silly saveTree │ │ │ ├─┬ debug@2.6.9
+1403 silly saveTree │ │ │ │ └── ms@2.0.0
+1403 silly saveTree │ │ │ ├─┬ http-errors@1.7.2
+1403 silly saveTree │ │ │ │ └── inherits@2.0.3
+1403 silly saveTree │ │ │ ├── iconv-lite@0.4.24
+1403 silly saveTree │ │ │ ├── qs@6.7.0
+1403 silly saveTree │ │ │ └─┬ raw-body@2.4.0
+1403 silly saveTree │ │ │   ├─┬ http-errors@1.7.2
+1403 silly saveTree │ │ │   │ └── inherits@2.0.3
+1403 silly saveTree │ │ │   └── unpipe@1.0.0
+1403 silly saveTree │ │ ├─┬ content-disposition@0.5.3
+1403 silly saveTree │ │ │ └── safe-buffer@5.1.2
+1403 silly saveTree │ │ ├── content-type@1.0.4
+1403 silly saveTree │ │ ├── cookie-signature@1.0.6
+1403 silly saveTree │ │ ├── cookie@0.4.0
+1403 silly saveTree │ │ ├── debug@2.6.9
+1403 silly saveTree │ │ ├── encodeurl@1.0.2
+1403 silly saveTree │ │ ├── escape-html@1.0.3
+1403 silly saveTree │ │ ├── etag@1.8.1
+1403 silly saveTree │ │ ├─┬ finalhandler@1.1.2
+1403 silly saveTree │ │ │ └── parseurl@1.3.3
+1403 silly saveTree │ │ ├── fresh@0.5.2
+1403 silly saveTree │ │ ├── merge-descriptors@1.0.1
+1403 silly saveTree │ │ ├── methods@1.1.2
+1403 silly saveTree │ │ ├── parseurl@1.3.3
+1403 silly saveTree │ │ ├── path-to-regexp@0.1.7
+1403 silly saveTree │ │ ├─┬ proxy-addr@2.0.7
+1403 silly saveTree │ │ │ ├── forwarded@0.2.0
+1403 silly saveTree │ │ │ └── ipaddr.js@1.9.1
+1403 silly saveTree │ │ ├── qs@6.7.0
+1403 silly saveTree │ │ ├── range-parser@1.2.1
+1403 silly saveTree │ │ ├── safe-buffer@5.1.2
+1403 silly saveTree │ │ ├─┬ send@0.17.1
+1403 silly saveTree │ │ │ ├── destroy@1.0.4
+1403 silly saveTree │ │ │ ├── mime@1.6.0
+1403 silly saveTree │ │ │ └── ms@2.1.1
+1403 silly saveTree │ │ ├── serve-static@1.14.1
+1403 silly saveTree │ │ ├── utils-merge@1.0.1
+1403 silly saveTree │ │ └── vary@1.1.2
+1403 silly saveTree │ ├── log@1.4.0
+1403 silly saveTree │ ├── optparse@1.0.4
+1403 silly saveTree │ └── scoped-http-client@0.11.0
+1403 silly saveTree └── shuffleApp@file:shuffleApp
+1404 verbose stack Error: ENOENT: no such file or directory, rename '/home/shufflehubot/node_modules/sshpk' -> '/home/shufflehubot/node_modules/.sshpk.DELETE'
+1405 verbose cwd /home/shufflehubot
+1406 verbose Linux 5.4.72-microsoft-standard-WSL2
+1407 verbose argv "/usr/local/bin/node" "/usr/local/bin/npm" "install"
+1408 verbose node v14.15.4
+1409 verbose npm  v6.14.10
+1410 error code ENOENT
+1411 error syscall rename
+1412 error path /home/shufflehubot/node_modules/sshpk
+1413 error dest /home/shufflehubot/node_modules/.sshpk.DELETE
+1414 error errno -2
+1415 error enoent ENOENT: no such file or directory, rename '/home/shufflehubot/node_modules/sshpk' -> '/home/shufflehubot/node_modules/.sshpk.DELETE'
+1416 error enoent This is related to npm not being able to find a file.
+1417 verbose exit [ -2, true ]
