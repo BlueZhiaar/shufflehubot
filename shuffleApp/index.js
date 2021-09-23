@@ -1,18 +1,40 @@
 'use strict';
 let listsMap = new Map();
 let activeListName;
+const fs = require('fs');
+const fileName = './listsAndItems.json';
 //listMap = {サイコロ: [1,2,3,4,5,6] , 献立:['卵焼き','親子丼']}
 
 //listsMap['サイコロ'] = [1,2,3,4,5,6];
 //listsMap['献立'] = ['卵焼き','親子丼'];
+
+//同期的にファイルから復元
+try {
+    const data = fs.readFileSync(fileName, 'utf8');
+    listsMap = new Map(JSON.parse(data));
+} catch(ignore) {
+    console.log(fileName + 'から復元できませんでした')
+}
+
+
+/**
+ * タスクをファイルに保存する 
+ */
+
+function saveListsAndItems() {
+    fs.writeFileSync(fileName, JSON.stringify(Array.from(listsMap.entries())), 'utf8');
+}
+
+
+
 
 /**
  * リスト名の追加
  * @param {string} リスト名
  */
 function addlist(listname){
-    activeListName = listname;
     listsMap.set(listname,[]);
+    saveListsAndItems();
 }
 
 /**
@@ -63,6 +85,8 @@ function nowlist(){
  */
 function dellist(listname){
     listsMap.delete(listname);
+
+    saveListsAndItems();
 }
 
 
@@ -74,6 +98,8 @@ function dellist(listname){
  */
 function additem(itemname){
     listsMap.get(activeListName).push(itemname);
+
+    saveListsAndItems();
 }
 
 /**
@@ -93,8 +119,8 @@ function delitem(itemname){
     let result;
     result = listsMap.get(activeListName).filter(item => item !== itemname);
     listsMap.set(activeListName,result);
-
-
+    
+    saveListsAndItems();
 }
 
 /**
@@ -109,6 +135,24 @@ function ran(){
     return result;
 }
 
+/*
+
+addlist('サイコロ');
+addlist('献立')
+console.log(listsMap.entries().next().value[0]);
+//output サイコロ
+console.log(listsMap.entries().next().value);
+//output [ 'サイコロ', [] ]
+
+
+addlist('サイコロ');
+addlist('献立');
+addlist('十八番');
+console.log(listsMap.entries());
+console.log(iterator.next().value);
+console.log(iterator.next().value);
+*/
+
 
 module.exports = {
    addlist,
@@ -119,5 +163,5 @@ module.exports = {
    showitem,
    delitem,
    ran,
-   nowlist
+   nowlist,
 };
