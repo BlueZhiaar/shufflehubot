@@ -3,3 +3,4 @@ node_modules
 .hubot_history
 .bash_history
 listsAndItems.json
+.node_repl_history
