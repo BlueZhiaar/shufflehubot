@@ -1,6 +1,7 @@
 // Description:
 //   あらゆるリストをシャッフルできるボットです
 // Commands:
+//　　ボット名 help -操作説明を表示
 //   ボット名 addlist リスト名      - リストを作成
 //   ボット名 selectlist     - 作成済みのリストを選択
 //   ボット名 dellist リスト名      - リストを消す
@@ -56,5 +57,8 @@ module.exports = robot => {
         const list = msg.match[1].trim();
         shuffle.dellist(list);
         msg.send(`${list}リストを削除しました`);
+    })
+    robot.respond(/hp/i, msg => {
+        msg.send(shuffle.returnHelp());
     })
 };

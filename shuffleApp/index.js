@@ -135,6 +135,25 @@ function ran(){
     return result;
 }
 
+/**
+ * ヘルプを返す
+ * @return {string} help
+ */
+function returnHelp(){
+   return 'あらゆるリストをシャッフルできるボットです。\n' + 
+   'ボット名 hp -操作説明を表示\n' + 
+   'ボット名 addlist リスト名      - リストを作成　\n' + 
+   'ボット名 selectlist     - 作成済みのリストを選択\n' + 
+   'ボット名 dellist リスト名      - リストを消す\n' + 
+   'ボット名 showlist     - リスト の一覧表示 \n' + 
+   'ボット名 nowlist - 現在選択中のリスト\n' + 
+   'ボット名 additem アイテム名-現在選択中のリストにアイテムを追加する\n' + 
+   'ボット名 delitem アイテム名-アイテムを削除する\n' + 
+   'ボット名 ran -リスト内のアイテムをランダムに表示する\n' + 
+   'ボット名 showitem -リストの中のアイテム一覧を表示する';
+}
+
+
 /*
 
 addlist('サイコロ');
@@ -164,4 +183,5 @@ module.exports = {
    delitem,
    ran,
    nowlist,
+   returnHelp
 };
