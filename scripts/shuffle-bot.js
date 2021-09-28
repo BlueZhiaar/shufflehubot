@@ -19,8 +19,12 @@ const { selectlist } = require('../shuffleApp');
 module.exports = robot => {
     robot.respond(/addlist (.+)/i, msg => {
         const list = msg.match[1].trim();
-        shuffle.addlist(list);
-        msg.send(`リストを追加しました: ${list}`);
+        if (!shuffle.isListExist(list)) {
+            shuffle.addlist(list);
+            msg.send(`リストを追加しました: ${list}`);
+        }else{
+            msg.send(`そのリストはすでに存在します。`);
+        }
     });
     robot.respond(/showlist/i, msg => {
         msg.send(`現在のリスト一覧: ` + shuffle.showlist());
@@ -39,8 +43,12 @@ module.exports = robot => {
     });
     robot.respond(/additem (.+)/i, msg => {
         const item = msg.match[1].trim();
-        shuffle.additem(item);
-        msg.send(`アイテムを追加しました: ${item}`);
+        if (!shuffle.isItemExist(item)) {
+            shuffle.additem(item);
+            msg.send(`アイテムを追加しました: ${item}`);
+        } else {
+            msg.send(`そのアイテムはすでに存在します`);
+        }
     });
     robot.respond(/delitem (.+)/i, msg => {
         const item = msg.match[1].trim();
